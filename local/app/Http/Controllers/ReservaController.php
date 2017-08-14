@@ -339,7 +339,6 @@ return response()->json($lista_reserva);
   public function reporte_reserva(){
     $fecha_inicio=DB::select("SELECT curdate()as fecha");
     $fecha_fin=DB::select("SELECT curdate()as fecha");
-    $aux=DB::select("SET lc_time_names = 'es_MX'");
     $lista=DB::select("SELECT CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(reserva.fecha,'%d/%M/%Y %H:%i:%s') AS fecha ,DATE_FORMAT((DATE_SUB(reserva.fecha, INTERVAL -7 DAY)),'%d/%M/%Y') as vencimiento,detallereserva.estado FROM proyecto,preciocategoria,categorialote,lote,reserva,detallereserva,cliente,empleado WHERE proyecto.id=categorialote.idProyecto AND categorialote.id=preciocategoria.idCategoria AND lote.idCategoriaLote=categorialote.id AND reserva.idCliente=cliente.id and reserva.idEmpleado=empleado.id AND reserva.id=detallereserva.idReserva AND detallereserva.idLote=lote.id AND preciocategoria.deleted_at IS NULL AND reserva.fecha BETWEEN '".$fecha_inicio[0]->fecha."' AND DATE_SUB('".$fecha_fin[0]->fecha."',INTERVAL -1 DAY) ORDER BY empleado.nombre,reserva.fecha");
     return view('reportes.reportevista.reporte_reserva',compact('lista','fecha_inicio','fecha_fin'));
   }
@@ -347,13 +346,12 @@ return response()->json($lista_reserva);
   public function reporte_reserva_busqueda(Request $request){
     $fecha_inicio=DB::select("SELECT '".$request['fecha_inicio']."'as fecha");
     $fecha_fin=DB::select("SELECT '".$request['fecha_fin']."'as fecha");
-    $aux=DB::select("SET lc_time_names = 'es_MX'");    
     $lista=DB::select("SELECT CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(reserva.fecha,'%d/%M/%Y %H:%i:%s') AS fecha ,DATE_FORMAT((DATE_SUB(reserva.fecha, INTERVAL -7 DAY)),'%d/%M/%Y') as vencimiento,detallereserva.estado FROM proyecto,preciocategoria,categorialote,lote,reserva,detallereserva,cliente,empleado WHERE proyecto.id=categorialote.idProyecto AND categorialote.id=preciocategoria.idCategoria AND lote.idCategoriaLote=categorialote.id AND reserva.idCliente=cliente.id and reserva.idEmpleado=empleado.id AND reserva.id=detallereserva.idReserva AND detallereserva.idLote=lote.id AND preciocategoria.deleted_at IS NULL AND reserva.fecha BETWEEN '".$request['fecha_inicio']."' AND DATE_SUB('".$request['fecha_fin']."',INTERVAL -1 DAY) ORDER BY empleado.nombre,reserva.fecha");
     return view('reportes.reportevista.reporte_reserva',compact('lista','fecha_inicio','fecha_fin'));    
   }  
 
   public function ReporteReservaPDF($fecha_inicio, $fecha_fin){
-    $aux=DB::select("SET lc_time_names = 'es_MX'");    
+      
     $fecha_inicio_aux=DB::select("SELECT DATE_FORMAT('".$fecha_inicio."','%d/%M/%Y') as fecha");
     $fecha_fin_aux=DB::select("SELECT DATE_FORMAT('".$fecha_fin."','%d/%M/%Y')as fecha");
     $lista=DB::select("SELECT CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(reserva.fecha,'%d/%M/%Y %H:%i:%s') AS fecha ,DATE_FORMAT((DATE_SUB(reserva.fecha, INTERVAL -7 DAY)),'%d/%M/%Y') as vencimiento,detallereserva.estado FROM proyecto,preciocategoria,categorialote,lote,reserva,detallereserva,cliente,empleado WHERE proyecto.id=categorialote.idProyecto AND categorialote.id=preciocategoria.idCategoria AND lote.idCategoriaLote=categorialote.id AND reserva.idCliente=cliente.id and reserva.idEmpleado=empleado.id AND reserva.id=detallereserva.idReserva AND detallereserva.idLote=lote.id AND preciocategoria.deleted_at IS NULL AND reserva.fecha BETWEEN '".$fecha_inicio."' AND DATE_SUB('".$fecha_fin."',INTERVAL -1 DAY) ORDER BY empleado.nombre,reserva.fecha");

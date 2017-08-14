@@ -15,10 +15,12 @@
         
        <li onclick="cambiomapa(3)" class=" pull-right"><a href="#">FASE 3</a></li>
             <li onclick="cambiomapa(2)" class=" pull-right"><a href="#">FASE 2</a></li>
+              <li  onclick="cambiomapa(4)"class=" pull-right"><a href="#">FASE 1-B</a></li>
                
             <li  onclick="cambiomapa(1)"class=" pull-right"><a href="#">FASE 1</a></li>
   <input type="hidden" value="{!!URL::to('seccion2/1')!!}" id="mapa2">
   <input type="hidden" value="{!!URL::to('seccion3/1')!!}" id="mapa3">
+  <input type="hidden" value="{!!URL::to('seccion1b/2')!!}" id="mapa1b">
 
   <input type="hidden" value="{!!URL::to('seccion1/1')!!}" id="mapa1">
         </ul>

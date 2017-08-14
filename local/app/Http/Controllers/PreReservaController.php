@@ -200,7 +200,7 @@ public function seccion3($opcion){
 }
 public function seccion1b($opcion){
 
- $Categoria=Categoria::lists('categoria','id');
+ $Categoria=Categoria::where('idProyecto',Session::get('idProyecto'))->lists('categoria','id');
    return view('mapas.seccion1-b',['opcion'=>$opcion,'categoria'=>$Categoria,'fase'=>1]) ;
 }
 }

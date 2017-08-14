@@ -292,7 +292,7 @@ estado=$('select[name=estadoLote]').val();
    $('input[name=nroLote]').val("");
 
   $('input[name=manzano]').val();
-  $('input[name=superficie]').val("");
+ 
  $('input[name=matricula]').val('0');
   $('input[name=norte]').val('0');
   $('input[name=medida_norte]').val('0');
