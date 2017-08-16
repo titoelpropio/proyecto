@@ -41,10 +41,10 @@
       <?php 
       switch ($list->estado) {
           case 'c':
-              echo "<td>CONTADO</td>";                
+              echo "<td>PLAZO</td>";                
               break;
           case 'p':
-              echo "<td>PLAZO</td>";                                 
+              echo "<td>CONTADO</td>";                                 
               break;
       }         
       ?>

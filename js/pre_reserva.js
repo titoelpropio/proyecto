@@ -26,10 +26,9 @@ function agregar(){
         <td> <input name="id_lote[]" id="id_lote'+cont+'" type="hidden"> <select class="form-control" name=id_fase[] id=id_fase'+cont+' onchange=BuscarManzano(this,'+cont+') ></select></td>\n\
         <td><select class="form-control" name=nro_manzano[] id=nro_manzano'+cont+' onchange=BuscarLoteReserva(this,'+cont+') ></select></td>\n\
         <td align=left><select class="form-control" name="nro_lote[]" id="nro_lote'+cont+'" onchange=Buscar_Lote(this,'+cont+') ></select></td>\n\
-        <td align=left> Nro. Lote: <font color="red" id="lote'+cont+'" size="3"> </font><br>\n\
-        Nro. Manzano: <font color="red" id="manzano'+cont+'" size="3"> </font><br>  Precio: <font color="red" id="precio'+cont+'" size="3"> </font><br>  Descuento : <font color="red" id="porcentaje'+cont+'" size="3"> </font><br>  Precio Contado: <font color="red" id="descuento'+cont+'" size="3"> </font><br>\n\
-        Superficie: <font color="red" id="superficie'+cont+'" size="3"> </font><br>\n\
-        Proyecto: <font color="red" id="proyecto'+cont+'" size="3"> </font> </td>\n\
+        <td align=left> Proyecto: <font color="red" id="proyecto'+cont+'" size="3"> </font> <br>Fase: <font color="red" id="fase'+cont+'" size="3"> </font><br>Nro. Manzano: <font color="red" id="manzano'+cont+'" size="3"> </font><br> Nro. Lote: <font color="red" id="lote'+cont+'" size="3"> </font><br>\n\
+          Superficie: <font color="red" id="superficie'+cont+'" size="3"> </font> <br>Precio a plazo: <font color="red" id="precio'+cont+'" size="3"> </font><br>  Precio al Contado: <font color="red" id="descuento'+cont+'" size="3"> </font><br>\n\
+             </td>\n\
        <td> <button type="button" id="btn_eli'+cont+'" class="btn-sm btn-danger" title=Eliminar onclick="Eliminar_lista(' + cont + ')"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td></tr>';            
     $('#body_busqueda').append(fila);
     BuscarProyecto(cont);
@@ -212,11 +211,11 @@ function Buscar_Lote(select,id){
       $("#id_lote"+id).val(response[0].id_lote);            
       $("#lote"+id).text(response[0].nroLote);            
       $("#manzano"+id).text(response[0].manzano);            
-      $("#precio"+id).text(precio.toFixed(2) +" $u$");            
+      $("#precio"+id).text(precio.toFixed(0) +" $u$");            
       $("#porcentaje"+id).text(response[0].porcentaje +" %");            
       $("#categoria"+id).text(response[0].categoria);            
       $("#descuento"+id).text(response[0].descuento +" $u$");            
-      $("#superficie"+id).text(response[0].superficie +" Mt²");            
+      $("#superficie"+id).text(response[0].superficie +" M²");            
       $("#proyecto"+id).text(response[0].nombre);
       if (response[0].estado == 0) {
         $("#btn_agregar").show(); 
