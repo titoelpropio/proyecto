@@ -314,7 +314,7 @@ $lote=DB::select('SELECT id, lote.nroLote from lote where lote.manzano='.$manzan
 });
 
 Route::get('BuscarLoteId/{idLote}/{proyecto}',function($idLote,$proyecto){
-	 $result=DB::select("SELECT lote.id as id_lote,lote.nroLote,lote.manzano,lote.superficie,lote.uv,lote.matricula,lote.estado,lote.point,(lote.superficie * preciocategoria.precio)as precio,preciocategoria.precio as precio_x_metro, categorialote.categoria, proyecto.id as id_proyecto,proyecto.nombre, descuentoventa.porcentaje,ROUND( ((lote.superficie * preciocategoria.precio)-((lote.superficie * preciocategoria.precio)*descuentoventa.porcentaje/100)),2 )as descuento
+	 $result=DB::select("SELECT lote.fase, lote.id as id_lote,lote.nroLote,lote.manzano,lote.superficie,lote.uv,lote.matricula,lote.estado,lote.point,(lote.superficie * preciocategoria.precio)as precio,preciocategoria.precio as precio_x_metro, categorialote.categoria, proyecto.id as id_proyecto,proyecto.nombre, descuentoventa.porcentaje,ROUND( ((lote.superficie * preciocategoria.precio)-((lote.superficie * preciocategoria.precio)*descuentoventa.porcentaje/100)),2 )as descuento
 FROM lote,categorialote,preciocategoria,proyecto,descuentoventa
 WHERE lote.idCategoriaLote=categorialote.id AND categorialote.id=preciocategoria.idCategoria AND proyecto.id=lote.idProyecto AND descuentoventa.idProyecto=proyecto.id AND lote.idProyecto=".$proyecto." AND lote.id=".$idLote."  AND preciocategoria.deleted_at IS NULL"); 
 	 return response()->json($result);

@@ -86,7 +86,7 @@
                 </select>
             </div>        
             <div class="form-group">
-                {!!Form::label('nombre','Nombre:')!!}
+                {!!Form::label('nombre','Nombres:')!!}
                 <input  class="form-control" name="nombre" type="text" value="" style="text-transform:uppercase;" >
                 
             </div>

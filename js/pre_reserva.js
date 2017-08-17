@@ -208,13 +208,15 @@ function Buscar_Lote(select,id){
       }
 
       precio = parseFloat(response[0].precio);
+      precioplazo=parseFloat(response[0].descuento);
       $("#id_lote"+id).val(response[0].id_lote);            
       $("#lote"+id).text(response[0].nroLote);            
       $("#manzano"+id).text(response[0].manzano);            
       $("#precio"+id).text(precio.toFixed(0) +" $u$");            
       $("#porcentaje"+id).text(response[0].porcentaje +" %");            
       $("#categoria"+id).text(response[0].categoria);            
-      $("#descuento"+id).text(response[0].descuento +" $u$");            
+      $("#fase"+id).text(response[0].fase);            
+      $("#descuento"+id).text(precioplazo.toFixed(0) +" $u$");            
       $("#superficie"+id).text(response[0].superficie +" M²");            
       $("#proyecto"+id).text(response[0].nombre);
       if (response[0].estado == 0) {

@@ -50,7 +50,7 @@
                     <td align=center>{{$lis->empleado}}</td-->
                     <td align=center>{{$lis->fecha}}</td>
                     <td align=center>{!!link_to_route('PlanPago.show', $title='PAGAR', $parameters=$lis->id, $attributes=['class'=>'btn-sm btn-success'])!!}
-                    {!!link_to_route('Pago.show', $title='LISTA PAGOS', $parameters=$lis->id, $attributes=['class'=>'btn-sm btn-info'])!!}</td>                    
+                    </td>                    
                 </TR>
                 @endforeach 
             </table>

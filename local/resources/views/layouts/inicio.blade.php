@@ -17,6 +17,8 @@
              folder instead of downloading all of them to reduce the load. -->
         {!!Html::style('css/plugins/_all-skins.min.css')!!}
         {!!Html::style('css/bootstrap/bootstrap-select.min.css')!!}
+        {!!Html::style('css/bootstrap/datepicker3.css')!!}
+
         {!!Html::style('css/plugins/toastr.css')!!}
         {!!Html::script('js/plugins/jquery.min.js')!!}
         {!!Html::style('css/cargando.css')!!}
@@ -28,7 +30,7 @@
     </head>
 
     <!-- <body class="hold-transition skin-blue sidebar-mini"> -->
-    <body class="hold-transition skin-blue sidebar-mini">
+    <body id="bodyPrincipal" class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper"> 
 
             <header class="main-header" >
@@ -136,17 +138,30 @@
                         <li class="treeview">
                             <a href="#"> 
                                 <i class="fa fa-calculator" aria-hidden="true"></i>
-                                <span>VENTAS Y RESERVAS</span>
+                                <span>RESERVAS</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul id="listacategoria1" class="treeview-menu">
+                            
+                                <li><a href="{!!URL::to('Reserva')!!}"><i class="fa fa-tasks"></i>Reservar</a></li>
+                                
+                               
+                                 <li><a href="{!!URL::to('ListaReserva')!!}"><i class="fa fa-circle-o"> </i>LISTA Reserva</a></li>
+                                  <li><a href="{!!URL::to('ListaPreReserva')!!}"><i class="fa fa-circle-o"></i>LISTA Pre-Reserva</a></li>
+                            </ul>
+                        </li>
+                           <li class="treeview">
+                            <a href="#"> 
+                                <i class="fa fa-calculator" aria-hidden="true"></i>
+                                <span>VENTAS</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul id="listacategoria1" class="treeview-menu">
                             <li><a href="{!!URL::to('Venta')!!}"><i class="fa fa-handshake-o" aria-hidden="true""></i>Vender</a></li>
-                                <li><a href="{!!URL::to('Reserva')!!}"><i class="fa fa-tasks"></i>Reservar</a></li>
-                                <li><a href="{!!URL::to('PagoVenta')!!}"><i class="fa fa-tasks"></i>Ventas a Plazo</a></li>
+                                <li><a href="{!!URL::to('PagoVenta')!!}"><i class="fa fa-tasks"></i>GESTION DE COBRANZA</a></li>
                                   
                                 <li><a href="{!!URL::to('ListaVenta')!!}"><i class="fa fa-tasks"></i>LISTA VENTAS</a></li>
-                                 <li><a href="{!!URL::to('ListaReserva')!!}"><i class="fa fa-circle-o"> </i>LISTA Reserva</a></li>
-                                  <li><a href="{!!URL::to('ListaPreReserva')!!}"><i class="fa fa-circle-o"></i>LISTA Pre- Reserva</a></li>
+                               
                             </ul>
                         </li>
 <?php } ?>
@@ -330,7 +345,12 @@
         <!-- Bootstrap 3.3.5 -->
         {!!Html::script('js/bootstrap/bootstrap.min.js')!!}
         {!!Html::script('js/bootstrap/bootstrap-select.min.js')!!}
-
+        {!!Html::script('js/bootstrap/bootstrap-datepicker.js')!!}
+<script type="text/javascript">
+      $('#datepicker').datepicker({
+      autoclose: true
+    });
+</script>
         <!-- AdminLTE App -->
         <script src="{{asset('js/plugins/app.js')}}"></script>
         {!!Html::script('js/herramientas.js')!!}

@@ -70,8 +70,18 @@ codigo vendedor
           </div>     
           <div class="col-sm-3 ">
           <div class="form-group">
-          <label for="fechaNacimiento">Fecha Nac. *</label>
-          <input  type="date"  class="form-control" name="fechaNacimiento" placeholder="" >  
+         
+           <div class="form-group">
+                <label>Fecha Nac. *</label>
+
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input type="text" name="fechaNacimiento" class="form-control pull-right" id="datepicker">
+                </div>
+                <!-- /.input group -->
+              </div>
           </div>        
           </div>
           
@@ -497,6 +507,13 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
 <label id="cambiarDolar">0 Bs.</label>
 
 </div>
+<script type="text/javascript">
+  $('#bodyPrincipal').removeClass();
+  $('#bodyPrincipal').addClass('hold-transition skin-blue sidebar-collapse sidebar-mini');
+   //Date picker
+  
+
+</script>
 {!!Html::script('js/venta2.js')!!}
 
    <!-- {!!Html::script('js/venta.js')!!} -->
