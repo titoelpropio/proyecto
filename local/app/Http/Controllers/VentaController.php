@@ -486,7 +486,7 @@ $pdf=\PDF::loadView('pdf.gestorvendedor',compact('vendedor'));
   public function ReporteVentasSearch(Request $request){
     $fecha_inicio=DB::select("SELECT '".$request['fecha_inicio']."'as fecha");
     $fecha_fin=DB::select("SELECT '".$request['fecha_fin']."'as fecha");
-    $aux=DB::select("SET lc_time_names = 'es_MX'");    
+  
     $lista=DB::select("SELECT cliente.id as idCliente,CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(venta.fecha,'%d/%M/%Y %H:%i:%s') AS fecha,venta.cuotaInicial,venta.estado from venta,empleado,cliente,lote,categorialote,preciocategoria,proyecto WHERE  cliente.idEmpleado=empleado.id  AND venta.idCliente=cliente.id AND venta.idLote=lote.id AND categorialote.id=lote.idCategoriaLote AND categorialote.id=preciocategoria.idCategoria AND categorialote.idProyecto=proyecto.id AND preciocategoria.deleted_at IS NULL AND venta.fecha BETWEEN '".$request['fecha_inicio']."' AND DATE_SUB('".$request['fecha_fin']."',INTERVAL -1 DAY) ORDER BY empleado.nombre,venta.fecha");
     return view('reportes.reportevista.reporte_venta',compact('lista','fecha_inicio','fecha_fin'));    
   }  

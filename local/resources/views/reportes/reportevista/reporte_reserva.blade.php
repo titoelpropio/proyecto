@@ -7,12 +7,45 @@
 		<div class="table-responsive">
 		{!! Form::open(['route' => 'ReporteReservaSearch', 'method' => 'post','onKeypress'=>'if(event.keyCode == 13) event.returnValue = false;','onsubmit'=>'javascript: return Validar_Reporte_Reserva()']) !!}
 			<div class="pull-left"><font size=6>REPORTE DE RESERVAS</font></div>
-			<div class="pull-right">
-				<b>FECHA INICIO:</b> <input type="date" name="fecha_inicio" id="fecha_inicio" value="{{$fecha_inicio[0]->fecha}}">
-				<b>FECHA FIN:</b> <input type="date" name="fecha_fin" id="fecha_fin" value="{{$fecha_fin[0]->fecha}}">
-				<button type="submit" class="btn btn-primary" title="BUSCAR"><i class="fa fa-search" aria-hidden="true"></i></button>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="form-group">
+				<b>FECHA INICIO:</b> 
+
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+
+                  <input type="text" name="fecha_inicio" class="form-control pull-right" id="datepicker" value="{{$fecha_inicio[0]->fecha}}">
+                </div>
+                </div>
+                <!-- /.input group -->
+              </div>
+
+
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="form-group">
+				<b>FECHA FIN:</b> 
+				
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+
+                  <input type="text" name="fecha_fin" class="form-control pull-right" id="datepicker1" value="{{$fecha_fin[0]->fecha}}" >
+                  <span class="input-group-btn">
+				<button type="submit" class="btn btn-info btn-flat" title="BUSCAR"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  	
+                  </span>
+                  <span class="input-group-btn">
 				<button type="button" class="btn btn-success" title="PDF" onclick="ReporteReserva()"><i class="fa fa-file-text-o" aria-hidden="true"></i></button>
-			</div>
+                  	
+                  </span>
+                </div>
+                </div>
+                <!-- /.input group -->
+              </div>
+				
 		{!!Form::close()!!}
 			<table class="table table-striped table-bordered table-condensed table-hover">
 				<thead>
