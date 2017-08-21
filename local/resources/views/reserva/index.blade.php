@@ -68,12 +68,17 @@
 
 
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="div_crear_1">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+
             <div class="form-group">
             <!-- este tipo reserva es para especificar en estoy en el formulario de reserva -->
             <input type="hidden" name="tipoReserva" value="0">
                 {!!Form::label('ci','Carnet:')!!}
                 {!!Form::text('ci',null,['class'=>'form-control ','placeholder'=>'Carnet','onchange'=>'BuscarCliente()','onkeypress'=>'return bloqueo_de_punto(event)'])!!}
+            </div>  
             </div>     
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
                 {!!Form::label('expedido','Expedido:')!!}
                 <select name="expedido" class="form-control">
@@ -90,20 +95,38 @@
                       <option value="EX">[EX] EXTRANJERO</option>
                 </select>
             </div>       
+            </div>       
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group">
-                {!!Form::label('nombre','Nombre:')!!}
+                <label>
+                 <input type="radio" name="genero" id="m" value="m" checked="" class="minimal"> Masculino 
+                 </label>
+                 <label> 
+                 <input type="radio" name="genero" id="f" value="f" class="minimal"> Femenino 
+                 </label>
+                
+            </div>
+
+            </div>
+            </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="div_crear_1">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+            <div class="form-group">
+                {!!Form::label('nombre','Nombres:')!!}
                 <input  class="form-control" name="nombre" type="text" value="" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
             </div>
+            </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
                 {!!Form::label('apellidos','Apellidos:')!!}
                  <input  class="form-control" name="apellidos" type="text" value="" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
             </div>
-            <div class="form-group">
-                {!!Form::label('fechaNacimiento','Fecha Nacimiento:')!!}
-                {!!Form::date('fechaNacimiento',null,['class'=>'form-control ','placeholder'=>'Fecha Nacimiento'])!!}
             </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
-                {!!Form::label('nacionalidad','Nacionalidad:')!!}
+                {!!Form::label('nacionalidad','Pais de origen:')!!}
                 <select name="nacionalidad" class="form-control" onchange="cargarCiudad()">
                     <option>Seleccione un pais</option>
                     <?php foreach ($nacionalidad as $key => $value) {
@@ -111,50 +134,72 @@
                     } ?>
                 </select>
             </div>
+            </div>
+             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+            <div class="form-group">
+                {!!Form::label('apellidos','Lugar de Nacimiento(ciudad-provincia):')!!}
+                 <input  class="form-control" name="apellidos" type="text" value="" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+            </div>
+            </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+            <div class="form-group">
+                {!!Form::label('fechaNacimiento','Fecha Nacimiento:')!!}
+                {!!Form::date('fechaNacimiento',null,['class'=>'form-control ','placeholder'=>'Fecha Nacimiento'])!!}
+            </div>
+            </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+            <div class="form-group">
+                {!!Form::label('estadoCivil','Estado Civil:')!!}
+                {!!Form::select('estadoCivil', array('s' => 'SOLTERO(A)', 'c' => 'CASADO(A)', 'v' => 'VIUDO(A)', 'd' => 'DIVORCIADO(A)'),null,array('id'=>'estado','class'=>'form-control'))!!}
+            </div>  
+            </div> 
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+      
             <div class="form-group">
                 {!!Form::label('lugarProcedencia','Ciudad de Procedencia:')!!}
                 {!!Form::text('lugarProcedencia',null,['class'=>'form-control ','placeholder'=>'Lugar Procedencia'])!!}
             </div>
+            </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
              <div class="form-group">
                 {!!Form::label('ocupacion','Ocupacion:')!!}
                 {!!Form::text('ocupacion',null,['class'=>'form-control ','placeholder'=>'Ocupacion'])!!}
             </div>
-      </div> 
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="div_crear_2">
-            <div class="form-group">
-                {!!Form::label('genero','Genero:')!!} <br>
-                <label> <input type="radio" name="genero" id="m" value="m" checked=""> Masculino </label>
-                 <label> <input type="radio" name="genero" id="f" value="f"> Femenino </label>
             </div>
 
+    
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
 
             <div class="form-group">
                 {!!Form::label('celular','Celular:')!!}
                 {!!Form::text('celular',null,['class'=>'form-control ','placeholder'=>'Celular','onkeypress'=>'return bloqueo_de_punto(event)'])!!}
             </div>  
+            </div>  
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
                 {!!Form::label('celular_ref','Celular Referencia:')!!}
                 {!!Form::text('celular_ref',null,['class'=>'form-control ','placeholder'=>'Celular Referencia','onkeypress'=>'return bloqueo_de_punto(event)'])!!}
             </div>   
-            <div class="form-group">
-                {!!Form::label('estadoCivil','Estado Civil:')!!}
-                {!!Form::select('estadoCivil', array('s' => 'SOLTERO', 'c' => 'CASADO', 'v' => 'VIUDO', 'd' => 'DIVORCIADO'),null,array('id'=>'estado','class'=>'form-control'))!!}
-            </div>  
+            </div>   
+     
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
                 {!!Form::label('domicilio','Domicilio:')!!}
                 {!!Form::text('domicilio',null,['class'=>'form-control ','placeholder'=>'Domicilio'])!!}
             </div>  
+            </div>  
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div class="form-group">
                 {!!Form::label('nit','NIT:')!!}
                 {!!Form::text('nit',null,['class'=>'form-control ','placeholder'=>'NIT','onkeypress'=>'return bloqueo_de_punto(event)'])!!}
+            </div>    
             </div>    
             <div class="pull-right">
                 {!!Form::submit('RESERVAR',['class'=>'btn btn-primary','id'=>'btn_registrar','onclick'=>'btn_esconder()'])!!}
                 <a href="{!!URL::to('Reserva')!!}" class="btn btn-danger">CANCELAR</a>
             </div>                                                                                                             
       </div> 
-    </div>
 
 {!!Form::close()!!}
 

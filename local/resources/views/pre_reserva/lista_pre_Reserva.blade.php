@@ -26,28 +26,28 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="table-responsive">
             <table class="table table-striped table-bordered table-condensed table-hover">
-                <thead>
-                <th><CENTER>CARNET</CENTER></th>
-                <th><CENTER>CLIENTE</CENTER></th>                
-                <th><CENTER>PROYECTO</CENTER></th>
+                <thead style="text-align: center">
+                <th><CENTER>URBANIZACION</CENTER></th>
                 <th><CENTER>FASE</CENTER></th>
-                <th><CENTER>CATEGORIA</CENTER></th>
-                <th><CENTER>NRO LOTE</CENTER></th>
                 <th><CENTER>MANZANO</CENTER></th>
-                <th><CENTER>FECHA</CENTER></th>
+                <th><CENTER>LOTE</CENTER></th>
+
+                <th><CENTER>DATOS DEL CLIENTE</CENTER></th>
+                <th><CENTER>REGISTRO</CENTER></th>
+                <th><CENTER>VENCIMIENTO</CENTER></th>
                 <th><CENTER>EMPLEADO</CENTER></th>
                 <th><center>OPCION</center></th>
                 </thead>
                 @foreach ($lista as $lis)
                 <TR>
-                    <td align=center>{{$lis->ci_cliente}}</td>
-                    <td align=center>{{$lis->cliente}}</td>                
                     <td align=center>{{$lis->nombre}}</td>
                     <td align=center>{{$lis->fase}}</td>
-                    <td align=center>{{$lis->categoria}}</td>
-                    <td align=center>{{$lis->nroLote}}</td>
                     <td align=center>{{$lis->manzano}}</td>
+                    <td align=center>{{$lis->nroLote}}</td>
+
+                    <td ><span style="font-weight: bold">NOMBRE: </span>{{$lis->cliente}}. <br><span style="font-weight: bold">CI: </span>{{$lis->ci_cliente}} {{$lis->expedido}}.</td>
                     <td align=center>{{$lis->fecha}}</td>
+                    <td align=center>{{$lis->vencimiento}}:00</td>
                     <td align=center>{{$lis->empleado}}</td>
                     <td><a class="btn btn-primary" href=<?php echo "VentaPreReserva/".$lis->idDetalle; ?>>Vender</a>
                     <button class="btn btn-warning" data-toggle="modal" data-target="#ModalReserva" onclick="cargarDatos({{$lis->idDetalle}},{{$lis->idCliente}},{{$lis->idLote}})">Reservar</button></td>

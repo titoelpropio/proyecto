@@ -106,9 +106,10 @@ class PreReservaController extends Controller {
             return redirect('PreReserva')->with("message-error","ERROR INTENTE NUEVAMENTE");      
         }   
     }
+
     function ListaPreReserva(Request $request){
             $fecha=DB::select("SELECT curdate()as fecha");
-        $lista=DB::select("SELECT cliente.id as idCliente,detalleprereserva.id as idDetalle,lote.id as idLote,prereserva.id,DATE_FORMAT(prereserva.fecha,'%d/%M/%Y %H:%i:%s') AS fecha ,DATE_FORMAT((DATE_SUB(prereserva.fecha, INTERVAL -1 DAY)),'%d/%M/%Y') as vencimiento,proyecto.nombre, categorialote.categoria,lote.nroLote,lote.manzano,lote.fase,lote.superficie, ROUND((preciocategoria.precio * lote.superficie),2)as precio_superficie,preciocategoria.precio, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente, cliente.ci as ci_cliente, CONCAT(empleado.nombre,' ',empleado.apellido)as empleado, empleado.ci as ci_empleado
+        $lista=DB::select("SELECT DATE_FORMAT((DATE_SUB(prereserva.fecha, INTERVAL -1 DAY)),'%d/%m/%Y %H') as vencimiento,cliente.expedido,cliente.id as idCliente,detalleprereserva.id as idDetalle,lote.id as idLote,prereserva.id,DATE_FORMAT(prereserva.fecha,'%d/%mm/%Y %H:%i:%s') AS fecha ,proyecto.nombre, categorialote.categoria,lote.nroLote,lote.manzano,lote.fase,lote.superficie, ROUND((preciocategoria.precio * lote.superficie),2)as precio_superficie,preciocategoria.precio, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente, cliente.ci as ci_cliente, CONCAT(empleado.nombre,' ',empleado.apellido)as empleado, empleado.ci as ci_empleado
 from prereserva,detalleprereserva,lote,categorialote,proyecto,preciocategoria,cliente,empleado
 WHERE prereserva.id=detalleprereserva.idPreReserva AND detalleprereserva.idLote=lote.id AND lote.idProyecto=proyecto.id AND lote.idCategoriaLote=categorialote.id AND preciocategoria.idCategoria=categorialote.id AND cliente.id=prereserva.idCliente AND empleado.id=prereserva.idEmpleado AND preciocategoria.deleted_at IS NULL AND detalleprereserva.estado='p'");
 
@@ -117,7 +118,7 @@ WHERE prereserva.id=detalleprereserva.idPreReserva AND detalleprereserva.idLote=
 
 
     function BuscarListaPreReserva(Request $request){
-        $lista=DB::select("SELECT cliente.id as idCliente,detalleprereserva.id as idDetalle,lote.id as idLote,prereserva.id, DATE_FORMAT(prereserva.fecha,'%d/%m/%Y %H:%i:%s') AS fecha  ,proyecto.nombre, categorialote.categoria,lote.nroLote,lote.fase,lote.manzano,lote.superficie, ROUND((preciocategoria.precio * lote.superficie),2)as precio_superficie,preciocategoria.precio, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente, cliente.ci as ci_cliente, CONCAT(empleado.nombre,' ',empleado.apellido)as empleado, empleado.ci as ci_empleado
+        $lista=DB::select("SELECT DATE_FORMAT((DATE_SUB(prereserva.fecha, INTERVAL -1 DAY)),'%d/%m/%Y %H:%i:%s') as vencimiento,cliente.expedido,cliente.id as idCliente,detalleprereserva.id as idDetalle,lote.id as idLote,prereserva.id, DATE_FORMAT(prereserva.fecha,'%d/%m/%Y %H:%i:%s') AS fecha  ,proyecto.nombre, categorialote.categoria,lote.nroLote,lote.fase,lote.manzano,lote.superficie, ROUND((preciocategoria.precio * lote.superficie),2)as precio_superficie,preciocategoria.precio, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente, cliente.ci as ci_cliente, CONCAT(empleado.nombre,' ',empleado.apellido)as empleado, empleado.ci as ci_empleado
         from prereserva,detalleprereserva,lote,categorialote,proyecto,preciocategoria,cliente,empleado
         WHERE prereserva.id=detalleprereserva.idPreReserva AND detalleprereserva.idLote=lote.id AND lote.idProyecto=proyecto.id AND lote.idCategoriaLote=categorialote.id AND preciocategoria.idCategoria=categorialote.id AND cliente.id=prereserva.idCliente AND empleado.id=prereserva.idEmpleado AND preciocategoria.deleted_at IS NULL AND detalleprereserva.estado='p' AND DATE_FORMAT(prereserva.fecha,'%Y-%m-%d')='".$request['fecha_inicio']."'");  
         return view('pre_reserva.lista_pre_Reserva', compact('lista'));
