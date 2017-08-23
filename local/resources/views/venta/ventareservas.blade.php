@@ -60,7 +60,7 @@ codigo vendedor
             </div>  
           <div class="col-sm-2 ">
           <div class="form-group">
-          <label for="nacionalidad">Nacionalidad *</label>
+          <label for="nacionalidad">Pais de origen *</label>
                 <select name="idPais" class="form-control"  id="nacionalidad">
                     <?php foreach ($nacionalidad as $key => $value) {
                         echo "<option value=".$value->id.">".$value->paisnombre;
@@ -70,8 +70,18 @@ codigo vendedor
           </div>     
           <div class="col-sm-3 ">
           <div class="form-group">
-          <label for="fechaNacimiento">Fecha Nac. *</label>
-          <input  type="date"  class="form-control" name="fechaNacimiento" placeholder="" >  
+         
+           <div class="form-group">
+                <label>Fecha Nac. *</label>
+
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input type="text" name="fechaNacimiento" class="form-control pull-right" id="datepicker">
+                </div>
+                <!-- /.input group -->
+              </div>
           </div>        
           </div>
           
@@ -364,21 +374,18 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
 <table class="table table-striped table-bordered table-condensed table-hover" style="display: block;border: 1px solid;" id="TablaContado">
        <thead>
          <th>PRECIO DEL LOTE DE TERRENO</th>
-         <th>Descuento %</th>
-         <th>Pago al contado</th>
+       
           <th>reserva</th>
           <th>Total</th>
        </thead>
        <tbody>
          <tr>
         
-           <td><input type="text" name="PrecioLote" value= <?php $precioVenta=($lote[0]->precio*$lote[0]->superficie);
+           <td><input type="hidden" name="PrecioLote" value= <?php $precioVenta=($lote[0]->precio*$lote[0]->superficie);
           echo number_format($precioVenta, 0, '.', ''); ?> readonly="readonly" class="form-control">
+          <input type="hidden" name="descuentoContado" value=<?php echo $lote[0]->descuento ?> readonly="readonly" class="form-control"><input type="text" name="PrecioContado" value=  <?php echo number_format($precioContadoMenoReserva, 0, '.', '');  ?> readonly="readonly" class="form-control">
           </td>
-           <td><input type="text" name="descuentoContado" value=<?php echo $lote[0]->descuento ?> readonly="readonly" class="form-control"></td>
-            <td>
-           <input type="text" name="PrecioContado" value=  <?php echo number_format($precioContadoMenoReserva, 0, '.', '');  ?> readonly="readonly" class="form-control">
-          </td>
+         
            <td><?php echo $reserva ?></td>
            <td>
            <input type="text" name="PrecioContado" value=  <?php echo number_format($precioContado, 0, '.', '');  ?> readonly="readonly" class="form-control">
@@ -390,12 +397,12 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
  <table class="table table-striped table-bordered table-condensed table-hover" style="display: none ;     border: 1px solid;" id="TablaPlazo">
        <thead>
          <th>PRECIO DEL LOTE DE TERRENO</th>
+         <th>CUOTA iNICIAl</th>
          <th>Plazos</th>
          <th>Día de Pago</th>
-         <th>Cuota</th>
+         <th>Cuota MENSUAL</th>
          <th>% Descuento</th>
          <th>Total a Pagar 
-         <th>Pago iNICIAl</th>
          <th>Reserva</th>
          <th>Total</th>
          <th>.</th> 
@@ -404,6 +411,17 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
          <tr>
              <td><input type="text" name="PrecioLotePlazo" value= <?php $precioVenta=($lote[0]->precio*$lote[0]->superficie);
           echo number_format($precioVenta, 0, '.', ''); ?> readonly="readonly" class="form-control">
+          <td><!-- <input class="form-control" type="hidden" name="pago" value=<?php echo number_format($pagoInicialReserva, 2, '.', '');; ?>> -->
+  <select name="SelectPagoInicial" onchange="PagoInicial(this)" style="display: none" class="form-control">
+
+    <option >seleccione</option>
+
+    <option value="0">Calcular</option>
+    <option value="1">Ingresar</option>
+
+  </select>
+  <input class="form-control" type="number" name="pagoInicial" style="display: none" onchange="VerificarPagoInicial(this)" >
+  </td>
            <td><input type="number" name="meses" class="form-control" onchange="verificarPlazo(this)">
            <td><select class="form-control" name="diaMes">
             <?php for ($i=1; $i <29 ; $i++) { 
@@ -420,17 +438,7 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
            <td> 
              <input class="form-control" type="text" name="PrecioPlazo" value= <?php echo number_format($precioPlazo, 0, '.', ''); ?> readonly="readonly">
            </td>
-  <td><!-- <input class="form-control" type="hidden" name="pago" value=<?php echo number_format($pagoInicialReserva, 2, '.', '');; ?>> -->
-  <select name="SelectPagoInicial" onchange="PagoInicial(this)" style="display: none" class="form-control">
-
-    <option >seleccione</option>
-
-    <option value="0">Calcular</option>
-    <option value="1">Ingresar</option>
-
-  </select>
-  <input class="form-control" type="number" name="pagoInicial" style="display: none" onchange="VerificarPagoInicial(this)" >
-  </td>
+  
   <td><input type="text" name="reserva" value=<?php echo $reserva ?> disabled="" class="form-control"></td>
   <td><input type="text" class="form-control" name="totalPagado"  readonly="readonly"></td>
 
@@ -497,6 +505,13 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
 <label id="cambiarDolar">0 Bs.</label>
 
 </div>
+<script type="text/javascript">
+  $('#bodyPrincipal').removeClass();
+  $('#bodyPrincipal').addClass('hold-transition skin-blue sidebar-collapse sidebar-mini');
+   //Date picker
+  
+
+</script>
 {!!Html::script('js/venta2.js')!!}
 
    <!-- {!!Html::script('js/venta.js')!!} -->

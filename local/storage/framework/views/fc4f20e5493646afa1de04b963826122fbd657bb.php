@@ -22,6 +22,9 @@
 
         <?php echo Html::style('css/bootstrap/bootstrap-select.min.css'); ?>
 
+        <?php echo Html::style('css/bootstrap/datepicker3.css'); ?>
+
+
         <?php echo Html::style('css/plugins/toastr.css'); ?>
 
         <?php echo Html::script('js/plugins/jquery.min.js'); ?>
@@ -36,7 +39,7 @@
     </head>
 
     <!-- <body class="hold-transition skin-blue sidebar-mini"> -->
-    <body class="hold-transition skin-blue sidebar-mini">
+    <body id="bodyPrincipal" class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper"> 
 
             <header class="main-header" >
@@ -144,17 +147,30 @@
                         <li class="treeview">
                             <a href="#"> 
                                 <i class="fa fa-calculator" aria-hidden="true"></i>
-                                <span>VENTAS Y RESERVAS</span>
+                                <span>RESERVAS</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul id="listacategoria1" class="treeview-menu">
+                            
+                                <li><a href="<?php echo URL::to('Reserva'); ?>"><i class="fa fa-tasks"></i>Reservar</a></li>
+                                
+                               
+                                 <li><a href="<?php echo URL::to('ListaReserva'); ?>"><i class="fa fa-circle-o"> </i>LISTA Reserva</a></li>
+                                  <li><a href="<?php echo URL::to('ListaPreReserva'); ?>"><i class="fa fa-circle-o"></i>LISTA Pre-Reserva</a></li>
+                            </ul>
+                        </li>
+                           <li class="treeview">
+                            <a href="#"> 
+                                <i class="fa fa-calculator" aria-hidden="true"></i>
+                                <span>VENTAS</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul id="listacategoria1" class="treeview-menu">
                             <li><a href="<?php echo URL::to('Venta'); ?>"><i class="fa fa-handshake-o" aria-hidden="true""></i>Vender</a></li>
-                                <li><a href="<?php echo URL::to('Reserva'); ?>"><i class="fa fa-tasks"></i>Reservar</a></li>
-                                <li><a href="<?php echo URL::to('PagoVenta'); ?>"><i class="fa fa-tasks"></i>Ventas a Plazo</a></li>
+                                <li><a href="<?php echo URL::to('PagoVenta'); ?>"><i class="fa fa-tasks"></i>GESTION DE COBRANZA</a></li>
                                   
                                 <li><a href="<?php echo URL::to('ListaVenta'); ?>"><i class="fa fa-tasks"></i>LISTA VENTAS</a></li>
-                                 <li><a href="<?php echo URL::to('ListaReserva'); ?>"><i class="fa fa-circle-o"> </i>LISTA Reserva</a></li>
-                                  <li><a href="<?php echo URL::to('ListaPreReserva'); ?>"><i class="fa fa-circle-o"></i>LISTA Pre- Reserva</a></li>
+                               
                             </ul>
                         </li>
 <?php } ?>
@@ -341,7 +357,16 @@
 
         <?php echo Html::script('js/bootstrap/bootstrap-select.min.js'); ?>
 
+        <?php echo Html::script('js/bootstrap/bootstrap-datepicker.js'); ?>
 
+<script type="text/javascript">
+      $('#datepicker').datepicker({
+      autoclose: true
+    });
+       $('#datepicker1').datepicker({
+      autoclose: true
+    });
+</script>
         <!-- AdminLTE App -->
         <script src="<?php echo e(asset('js/plugins/app.js')); ?>"></script>
         <?php echo Html::script('js/herramientas.js'); ?>
