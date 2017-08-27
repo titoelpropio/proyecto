@@ -3,8 +3,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\ConsumoRequest;
+use App\DetalleCuota;
+use App\Cuotas;
 use App\Pago;
 use App\PlanPago;
+use App\PlanDePago;
 use App\TransaccionPago;
 use App\AutorizacionPago;
 use App\Venta;
@@ -54,7 +57,7 @@ var   $puedeModificar=0;
       return view('planpago.index', compact('pago'));
   }
 
-  public function store(Request $request) {
+   public function store(Request $request) {
     try {
       DB::beginTransaction();              
       $monto = $request['monto'] + $request['montoBanco'];
@@ -81,41 +84,64 @@ var   $puedeModificar=0;
         }         
         break;        
       }      
-     
-        $pago=DB::select("SELECT (IFNULL(SUM(pago.monto),0) + ".$monto.")as monto FROM pago WHERE pago.idVenta=".$request['idVenta']);// LA SUMA DE LA TABLA DE PAGO DE ESA VENTA MAS LO Q ESTA INTRODUCIENDO EN EL TEXTO
-        $cuota=DB::select("SELECT SUM(planpago.cuota)as cuota from planpago WHERE planpago.idVenta=".$request['idVenta']);//LA SUMA DE TODO EL PLAN DE PAGO DE ESA VENTA
-        $cuota_pago=DB::select("SELECT *from planpago WHERE planpago.idVenta=".$request['idVenta']." LIMIT 1");//OBTENGO LA CUOTA Q SE PAGA POR MES
+        $pago=DB::select("SELECT (IFNULL(SUM(detallecuota.monto),0) + ".$monto.")as monto FROM cuotas,plandepago,venta,detallecuota WHERE detallecuota.idCuota=cuotas.id and cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and plandepago.idVenta=".$request['idVenta']);// LA SUMA DE LA TABLA DE PAGO DE ESA VENTA MAS LO Q ESTA INTRODUCIENDO EN EL TEXTO
+        $cuota=DB::select("SELECT SUM(cuotas.monto)as cuota from cuotas,plandepago,venta WHERE cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and  plandepago.idVenta=".$request['idVenta']);//LA SUMA DE TODO EL PLAN DE PAGO DE ESA VENTA
+        $cuota_pago=DB::select("SELECT *from  cuotas,plandepago,venta WHERE cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and  plandepago.idVenta=".$request['idVenta']." LIMIT 1");//OBTENGO LA CUOTA Q SE PAGA POR MES
 
         if ($pago[0]->monto > $cuota[0]->cuota) { //EN CASO Q SEA MAYOR L MONTO Q INTRODUJO Q LA CUOTA A PAGAR
           Session::flash('message-error', 'LA CANTIDAD A COBRAR ES MAYOR AL MONTO A PAGAR');
           return Redirect::to('PlanPago/'.$request['idVenta']);             
         } else {//SI NO HACE TODA LA OPERACION DE PAGAR CUOTA
-          if ($pago[0]->monto == $cuota[0]->cuota) {
-            //CUANDO YA SE PAGO TODO LA CUOTA
-            $debe=DB::select("SELECT *from planpago WHERE planpago.estado='d' AND planpago.idVenta=".$request['idVenta']);                
-            foreach ($debe as $key => $value) { //ENTRA AL FOREACH Y ACTUALIZA EL ESTADO DEL PLAN DE PAGO
-              $planpago = PlanPago::find($value->id);
-              $planpago->fill(['estado' => 'p' ]);
-              $planpago->save();      
+          if ($pago[0]->monto == $cuota[0]->cuota) {//CUANDO YA SE PAGO TODO LA CUOTA
+            $debe=DB::select("SELECT cuotas.id,cuotas.monto from cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and plandepago.idVenta=".$request['idVenta']);                
+            foreach ($debe as $key => $value) { //ENTRA AL FOREACH Y ACTUALIZA EL ESTADO DEL PLAN DE PAGO  
+              $det_cuota=DB::select("SELECT IFNULL(SUM(detallecuota.monto),0)as monto FROM detallecuota WHERE detallecuota.idCuota=".$value->id);            
+              $restante=abs($det_cuota[0]->monto - $value->monto);
+              $Pago=DetalleCuota::create(['monto'=>$restante,'tipoPago'=>$request['tipoPago'],'idCuota'=>$value->id ]);//CREO EN LA 
+              $cuotas = Cuotas::find($value->id);
+              $cuotas->fill(['estado' => 'p' ]);
+              $cuotas->save();                                                         
             }
-            $Pago=Pago::create(['monto'=>$monto, 'idVenta'=>$request['idVenta'],'tipoPago'=>$request['tipoPago'] ]);  //CREO EN LA TABLA PAGO LO Q CANCELO EN MONTO
+ 
+            $plandepago=DB::select("SELECT plandepago.id FROM plandepago,venta WHERE plandepago.idVenta=venta.id and plandepago.idVenta=".$request['idVenta']);
+            $planpago = PlanDePago::find($plandepago[0]->id);//SE ACTUALIZA EL PLAN DE PAGO a "p" PAGADO
+            $planpago->fill(['estado' => 'p' ]);
+            $planpago->save();   
+
             $venta = Venta::find($request['idVenta']);//ACTUALIZO EL ESTADO DE LA TABLA VENTA 
             $venta->fill(['estado' => 'p']);
             $venta->save();                           
           }else{
-              $verificar=$pago[0]->monto / $cuota_pago[0]->cuota; 
-              $pagado=DB::select("SELECT COUNT(*)as contador FROM planpago WHERE planpago.estado='p' AND planpago.idVenta=".$request['idVenta']);
+              $verificar=$pago[0]->monto / $cuota_pago[0]->monto; 
+             // return "pago-monto".$pago[0]->monto ." cuotapago".$cuota_pago[0]->monto;
+              $pagado=DB::select("SELECT COUNT(*)as contador FROM cuotas,plandepago,venta WHERE  plandepago.idVenta=venta.id and cuotas.estado='p' AND cuotas.idPlandePago=plandepago.id and venta.id=".$request['idVenta']);
               if (intval($verificar) > $pagado[0]->contador) {
                 $limit = intval($verificar) - $pagado[0]->contador;
-                $debe=DB::select("SELECT * FROM planpago WHERE planpago.idVenta=".$request['idVenta']." AND planpago.estado='d' LIMIT ".$limit);        
+
+                $debe=DB::select("SELECT cuotas.id,cuotas.monto FROM cuotas,plandepago,venta WHERE  plandepago.idVenta=venta.id and cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$request['idVenta']." AND cuotas.estado='d' LIMIT ".$limit);        
                 foreach ($debe as $key => $value) { //ENTRA AL FOREACH Y ACTUALIZA EL ESTADO DEL PLAN DE PAGO
-                  $planpago = PlanPago::find($value->id);
-                  $planpago->fill(['estado' => 'p']);
-                  $planpago->save();      
+                  $det_cuota=DB::select("SELECT IFNULL(SUM(detallecuota.monto),0)as monto FROM detallecuota WHERE detallecuota.idCuota=".$value->id);            
+                  $restante=abs($det_cuota[0]->monto - $value->monto);
+                  $Pago=DetalleCuota::create(['monto'=>$restante,'tipoPago'=>$request['tipoPago'],'idCuota'=>$value->id ]);//CREO EN LA 
+                  $cuotas = Cuotas::find($value->id);
+                  $cuotas->fill(['estado' => 'p' ]);
+                  $cuotas->save();                                             
+                  $monto=$monto-$restante;
                 }
-                $Pago=Pago::create(['monto'=>$monto, 'idVenta'=>$request['idVenta'],'tipoPago'=>$request['tipoPago'] ]);  //CREO EN LA TABLA PAGO LO Q CANCELO EN MONTO                    
+
+                if ($monto != 0) {
+                  $debe=DB::select("SELECT cuotas.id,cuotas.monto FROM cuotas,plandepago,venta WHERE plandepago.idVenta=venta.id and cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$request['idVenta']." AND cuotas.estado='d' LIMIT 1");        
+                  foreach ($debe as $key => $value) { //ENTRA AL FOREACH Y ACTUALIZA EL ESTADO DEL PLAN DE PAGO EL SOBRANTE
+                    $det_cuota=DB::select("SELECT IFNULL(SUM(detallecuota.monto),0)as monto FROM detallecuota WHERE detallecuota.idCuota=".$value->id);            
+                    $Pago=DetalleCuota::create(['monto'=>$monto,'tipoPago'=>$request['tipoPago'],'idCuota'=>$value->id ]);
+                  }                    
+                }                
               } else {
-                $Pago=Pago::create(['monto'=>$monto, 'idVenta'=>$request['idVenta'],'tipoPago'=>$request['tipoPago'] ]);  //CREO EN LA TABLA PAGO LO Q CANCELO EN MONTO                  
+                $debe=DB::select("SELECT cuotas.id,cuotas.monto FROM cuotas,plandepago,venta WHERE plandepago.idVenta=venta.id and cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$request['idVenta']." AND cuotas.estado='d' LIMIT 1");        
+                foreach ($debe as $key => $value) { //ENTRA AL FOREACH Y ACTUALIZA EL ESTADO DEL PLAN DE PAGO EL SOBRANTE
+                  $det_cuota=DB::select("SELECT IFNULL(SUM(detallecuota.monto),0)as monto FROM detallecuota WHERE detallecuota.idCuota=".$value->id);            
+                  $Pago=DetalleCuota::create(['monto'=>$monto,'tipoPago'=>$request['tipoPago'],'idCuota'=>$value->id ]);
+                }                
               }
           }
           if ($request['tipoPago'] != 'e') { //Cuando es distinto de 'e' significa q escogio banco o banco-efectivo por lo tanto igual se crea en la tabla transaccion pago
@@ -137,13 +163,12 @@ var   $puedeModificar=0;
       return Redirect::to('PlanPago/'.$request['idVenta']);           
     }
   }
-
   function PagoVenta(Request $request){
         $fecha=DB::select("SELECT curdate()as fecha"); // %H:%i:%s
         $lista=DB::select("SELECT venta.id,DATE_FORMAT(venta.fecha,'%d/%m/%Y') AS fecha,venta.cuotaInicial,venta.precio,venta.estado as estado_venta, empleado.ci as ci_empleado,CONCAT(empleado.nombre,' ',empleado.apellido)as empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,cliente.ci as ci_cliente,cliente.celular,cliente.celular_ref,proyecto.nombre, categorialote.categoria,categorialote.descripcion, lote.nroLote,lote.manzano,lote.superficie,lote.uv,lote.matricula,lote.estado as estado_lote, preciocategoria.precio as precio_categoria
 from venta,empleado,cliente,lote,categorialote,proyecto,preciocategoria
 WHERE venta.idEmpleado=empleado.id AND venta.idCliente=cliente.id AND lote.id=venta.idLote AND categorialote.id=lote.idCategoriaLote AND proyecto.id=categorialote.idProyecto AND preciocategoria.idCategoria=categorialote.id AND preciocategoria.deleted_at IS NULL AND venta.estado='C' AND proyecto.id=".Session::get('idProyecto')." LIMIT 30");
-        return view('venta.pago_venta', compact('lista'));
+        return view('planpago.pago_venta', compact('lista'));
     }
 
     function BuscarPagoVenta(Request $request){ // %H:%i:%s

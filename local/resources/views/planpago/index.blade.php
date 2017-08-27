@@ -165,7 +165,9 @@
 
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div align="right">
-            {!!Form::submit('PAGAR',['class'=>'btn btn-primary','id'=>'btn_registrar','onclick'=>'btn_esconder()'])!!}  <br><br>                           
+        <?php if ($monto_pagar[0]->cuota != 0): ?>
+            {!!Form::submit('PAGAR',['class'=>'btn btn-primary','id'=>'btn_registrar','onclick'=>'btn_esconder()'])!!}  <br><br>              
+        <?php endif ?>                         
         </div>         
     </div>               
 
@@ -191,7 +193,7 @@
                 <?php endif ?>
                 
                 <!--td><CENTER>{{$deb->id}}</CENTER></td-->
-                <td><CENTER>{{$deb->fechaPago}}</CENTER></td>
+                <td><CENTER>{{$deb->fechaLimite}}</CENTER></td>
 
                 <?php if ($cont==0) {
                     if ($ultimo[0]->contador == 1) {
@@ -200,16 +202,16 @@
                         if ($monto_cuota[0]->monto_cuota > 0) {
                             echo "<td><CENTER>".$monto_cuota[0]->monto_cuota."</CENTER></td>";                             
                         }else{
-                            echo "<td><CENTER>".$deb->cuota."</CENTER></td>";                               
+                            echo "<td><CENTER>".$deb->monto."</CENTER></td>";                               
                         }                          
                     }
                     $cont++;                                           
                 } else {
-                    echo "<td><CENTER>".$deb->cuota." </CENTER></td>";
+                    echo "<td><CENTER>".$deb->monto." </CENTER></td>";
                 }
                  ?>
 
-                <!--td><CENTER>{{$deb->cuota}}</CENTER></td-->
+                <!--td><CENTER>{{$deb->monto}}</CENTER></td-->
                 <td><CENTER>{{$deb->mora}}</CENTER></td>
                 <!--td><CENTER>{{$deb->idVenta}}</CENTER></td-->
                 <td><CENTER>{{$deb->estado}}</CENTER></td>
@@ -230,8 +232,8 @@
                 @foreach ($pago as $pag)
                 <TR>
                 <!--td><CENTER>{{$pag->id}}</CENTER></td-->
-                <td><CENTER>{{$pag->fechaPago}}</CENTER></td>                
-                <td><CENTER>{{$pag->cuota}}</CENTER></td>
+                <td><CENTER>{{$pag->fechaLimite}}</CENTER></td>                
+                <td><CENTER>{{$pag->monto}}</CENTER></td>
                 <td><CENTER>{{$pag->mora}}</CENTER></td>
                 <!--td><CENTER>{{$pag->idVenta}}</CENTER></td-->
                 <td><CENTER>{{$pag->estado}}</CENTER></td>

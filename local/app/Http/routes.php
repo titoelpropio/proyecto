@@ -229,6 +229,11 @@ Route::resource('DescuentoVenta','DescuentoVentaController');
 //CUOTA MINIMA
 Route::resource('CuotaMinima','CuotaMinimaController');
 
+
+//cuotas plan de pago
+Route::get('ListaCuota/{idVenta}','VentaController@ListaCuota');
+Route::get('ListaDetalleCuota/{idCuota}','VentaController@ListaDetalleCuota');
+
 //VENTA
 Route::resource('Venta','VentaController');
 Route::get('VentaLote/{idLote}','VentaController@VentaLote');
