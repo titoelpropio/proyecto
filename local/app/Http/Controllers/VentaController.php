@@ -502,4 +502,14 @@ $pdf=\PDF::loadView('pdf.gestorvendedor',compact('vendedor'));
     $lista=DB::select("SELECT lote.superficie,venta.precio,venta.estado,lote.uv,lote.nroLote, pais.paisnombre,pais.id as idPais, cliente.fechaNacimiento,cliente.domicilio,cliente.ocupacion, cliente.celular,cliente.ci as ciCliente, cliente.nombre as nombreCliente,cliente.apellidos,cliente.fechaNacimiento,cliente.expedido,cliente.estadoCivil,cliente.ocupacion,cliente.domicilio,cliente.genero,cliente.lugarProcedencia, cliente.id as idCliente,CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre as nombreProyecto,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(venta.fecha,'%d/%M/%Y %H:%i:%s') AS fecha,venta.cuotaInicial,venta.estado from pais, venta,empleado,cliente,lote,categorialote,preciocategoria,proyecto WHERE  cliente.idEmpleado=empleado.id  AND venta.idCliente=cliente.id AND venta.idLote=lote.id AND categorialote.id=lote.idCategoriaLote AND categorialote.id=preciocategoria.idCategoria AND categorialote.idProyecto=proyecto.id AND preciocategoria.deleted_at IS NULL and cliente.idPais=pais.id  AND venta.id=".$id);
 return response()->json($lista);
   }
+  //LISTA DE LAS CUOTAS Y SUS DETALLES
+  function ListaCuota($idVenta){
+    $lista=DB::select("SELECT cuotas.* FROM cuotas,plandepago WHERE plandepago.id=cuotas.idPlandePago AND plandepago.idVenta=".$idVenta);
+    return response()->json($lista);
+  }
+
+  function ListaDetalleCuota($idCuota){
+    $lista=DB::select("SELECT *FROM detallecuota WHERE detallecuota.idCuota=".$idCuota);
+    return response()->json($lista);
+  }
 }

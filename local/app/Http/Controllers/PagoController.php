@@ -23,7 +23,7 @@ var   $puedeModificar=0;
   var $puedeListar=0;
   var $puedeVerReporte=0;
      public function __construct(Request $request) {
-     /*if (Session::get('user')==null || Session::get('idPerfil')=="" ) {
+     if (Session::get('user')==null || Session::get('idPerfil')=="" ) {
     Session::put('user', null); 
       $this->middleware('auth');
 
@@ -49,7 +49,7 @@ var   $puedeModificar=0;
          }
        
 
-    }*/
+    }
   }
 
   function index() {

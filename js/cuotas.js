@@ -21,7 +21,7 @@ function CargarCuotas(idVenta){
     cont++;    
       tabla_cuota.append("<tr align=center ><td>CUOTA "+cont+"</td><td>"+value.fechaLimite+"</td><td>"+value.monto+" $</td><td>"+estado+"</td>\n\
         <td><div class='box box-warning direct-chat direct-chat-warning collapsed-box' id='div_detcuota"+value.id+"'>\n\
-            <button type='button' class='btn btn-box-tool' data-widget='collapse'><i class='fa fa-minus'></i></button>\n\
+            <button type='button' class='btn btn-box-tool' data-widget='collapse'><i class='fa fa-plus'></i></button>\n\
              <div class='box-body' style='display: none;'>\n\
              <table class='table table-striped table-bordered table-condensed table-hover'>\n\
                 <thead><th><CENTER>FECHA</CENTER></th><th><CENTER>MONTO</CENTER></th></thead>\n\
