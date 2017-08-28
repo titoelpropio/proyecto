@@ -10,8 +10,8 @@
 
                     <table class="table table-striped table-bordered table-condensed table-hover">
                         <thead>
-                        <th><CENTER>CUOTAS</CENTER></th>
-                        <th><CENTER>FECHA</CENTER></th>
+                        <th><CENTER>NRO. CUOTAS</CENTER></th>
+                        <th><CENTER>FECHA DE PAGO</CENTER></th>
                         <th><CENTER>MONTO</CENTER></th>
                         <th><CENTER>ESTADO</CENTER></th>
                         <th><CENTER>DETALLE</CENTER></th>
