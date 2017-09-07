@@ -250,17 +250,17 @@ if ($texto!="") {
 
     public function show($id){
      
-      $debe=DB::select("SELECT * FROM cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and plandepago.idVenta=".$id." ORDER BY cuotas.fechaLimite LIMIT 10");
-      $pago=DB::select("SELECT * FROM cuotas,plandepago,venta WHERE cuotas.estado='p'and plandepago.idVenta=venta.id AND cuotas.idPlandePago and plandepago.idVenta=".$id." ORDER BY cuotas.fechaLimite DESC LIMIT 10");
+      $debe=DB::select("SELECT * FROM cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and plandepago.idVenta=".$id." ORDER BY cuotas.fechaLimite LIMIT 10");//lista de cuotas que deben en bruto
+      $pago=DB::select("SELECT * FROM cuotas,plandepago,venta WHERE cuotas.estado='p'and plandepago.idVenta=venta.id AND cuotas.idPlandePago=plandepago.id  and plandepago.idVenta=".$id." ORDER BY cuotas.fechaLimite DESC LIMIT 10");
     $monto_pagar=DB::select("SELECT ABS((SELECT IFNULL(SUM(detallecuota.monto),0)as monto FROM plandepago,cuotas,detallecuota WHERE plandepago.id=cuotas.idPlandePago AND cuotas.id=detallecuota.idCuota AND plandepago.idVenta=".$id.") - (SELECT SUM(cuotas.monto) FROM plandepago,cuotas WHERE plandepago.id=cuotas.idPlandePago AND plandepago.idVenta=".$id.")) as cuota");
       $cantidad=DB::select("SELECT COUNT(*)as contador FROM cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago and plandepago.idVenta=venta.id and plandepago.idVenta=".$id);
 
-      $monto_debe=DB::select("SELECT SUM(cuotas.monto)as cuota FROM cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago and plandepago.idVenta=venta.id and  plandepago.idVenta=".$id);
-      $cuota_pago=DB::select("SELECT *from  cuotas,plandepago,venta WHERE cuotas.idPlandePago and plandepago.idVenta=venta.id and  plandepago.idVenta=".$id." LIMIT 1");
+      $monto_debe=DB::select("SELECT SUM(cuotas.monto)as cuota FROM cuotas,plandepago,venta WHERE cuotas.estado='d' AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and  plandepago.idVenta=".$id);
+      $cuota_pago=DB::select("SELECT *from  cuotas,plandepago,venta WHERE cuotas.idPlandePago=plandepago.id and plandepago.idVenta=venta.id and  plandepago.idVenta=".$id." LIMIT 1");
       $monto_cuota=DB::select("SELECT (".$cuota_pago[0]->monto."-(".$monto_debe[0]->cuota."-".$monto_pagar[0]->cuota."))as monto_cuota");
       $mora=DB::select("SELECT COUNT(*)as contador FROM cuotas,plandepago,venta WHERE cuotas.estado='d' and plandepago.idVenta=venta.id AND  cuotas.mora=1 AND  cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$id);
 
-      $ultimo=DB::select("SELECT COUNT(*)AS contador FROM cuotas,plandepago,venta WHERE cuotas.estado='d' and plandepago.idVenta=venta.id AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$id);
+      $ultimo=DB::select("SELECT COUNT(*)AS contador FROM cuotas,plandepago,venta WHERE cuotas.estado='d' and plandepago.idVenta=venta.id AND cuotas.idPlandePago=plandepago.id and plandepago.idVenta=".$id);//verifica la ultima cuota
             
       return view('planpago.index', compact('debe','pago','monto_pagar','cantidad','monto_cuota','mora','ultimo'));
     

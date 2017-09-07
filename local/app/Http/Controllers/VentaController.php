@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\PlanPago;
+use App\PlanDePago;
+use App\Cuotas;
+
 use App\Venta;
 use App\Empleado;
 use App\Lote;
@@ -214,10 +217,10 @@ $apellidos= strtoupper($request->apellidos);
          }
 
           if ($request['tipoPago']=='p') {
-
+          //aqui
           $venta=Venta::create([
              'cuotaInicial'=>$request['pagoInicial'],
-             'precio'=>$request['PrecioPlazo'],
+             'precio'=>$request['PrecioLotePlazo'],
              'estado'=>'c',
              'tipoPago'=>$request['tipoDepositoC'],
              'descuento'=>$request['DescuentoPlazo'],
@@ -226,11 +229,17 @@ $apellidos= strtoupper($request->apellidos);
              'idLote'=>$request->id_lote,
              'idTipoCambio'=>$request->idTipoCambio,
           ]);
+              $PlanDePago=PlanDePago::create([
+             'montoTotal'=>$request['PrecioPlazo'],
+             'estado'=>'d',
+             'nroCuotas'=>$request['meses'],
+             'idVenta'=>$venta['id'],
+             'idTipoCambio'=>$request->idTipoCambio,
+          ]);
              $mes=date('n');
              $año=date("Y");
              $date = date_create( $año.'-'.$mes.'-'.$request['diaMes']);
              $fecha=date_format($date, 'd-m-Y');
-             echo $fecha;
               for ($i=1; $i <=$request['meses'] ; $i++) {
                  if ($request['meses']==$i) {
                 $request['cuotaMensual']=$request['cuotaMensual']-$request['sumarDecimal'];
@@ -238,11 +247,11 @@ $apellidos= strtoupper($request->apellidos);
                $nuevafecha = strtotime ( '+'.$i.' month' , strtotime ( $fecha ) ) ;
               $nuevafecha = date ( 'Y-m-j' , $nuevafecha ); 
              
-                    $planpago=PlanPago::create([
-                        'fechaPago'=>$nuevafecha,
-                        'cuota'=>$request['cuotaMensual'],
+                    $planpago=Cuotas::create([
+                        'fechaLimite'=>$nuevafecha,
+                        'monto'=>$request['cuotaMensual'],
                         'mora'=>0,
-                        'idVenta'=>$venta['id'],
+                        'idPlandePago'=>$PlanDePago['id'],
                         'estado'=>'d'
                       ]);
               }
