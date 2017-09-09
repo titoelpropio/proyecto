@@ -487,7 +487,6 @@ $pdf=\PDF::loadView('pdf.gestorvendedor',compact('vendedor'));
   public function ReporteVentas(){
     $fecha_inicio=DB::select("SELECT curdate()as fecha");
     $fecha_fin=DB::select("SELECT curdate()as fecha");
-    $aux=DB::select("SET lc_time_names = 'es_MX'");
     $lista=DB::select("SELECT cliente.id as idCliente, CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(venta.fecha,'%d/%M/%Y %H:%i:%s') AS fecha,venta.cuotaInicial,venta.estado from venta,empleado,cliente,lote,categorialote,preciocategoria,proyecto WHERE  cliente.idEmpleado=empleado.id AND venta.idCliente=cliente.id AND venta.idLote=lote.id AND categorialote.id=lote.idCategoriaLote AND categorialote.id=preciocategoria.idCategoria AND categorialote.idProyecto=proyecto.id AND preciocategoria.deleted_at IS NULL AND venta.fecha BETWEEN '".$fecha_inicio[0]->fecha."' AND DATE_SUB('".$fecha_fin[0]->fecha."',INTERVAL -1 DAY) ORDER BY empleado.nombre,venta.fecha");
     return view('reportes.reportevista.reporte_venta',compact('lista','fecha_inicio','fecha_fin'));
   }
@@ -500,7 +499,7 @@ $pdf=\PDF::loadView('pdf.gestorvendedor',compact('vendedor'));
     return view('reportes.reportevista.reporte_venta',compact('lista','fecha_inicio','fecha_fin'));    
   }  
  public function ReporteVentaPDF($fecha_inicio, $fecha_fin){
-    $aux=DB::select("SET lc_time_names = 'es_MX'");    
+  
     $fecha_inicio_aux=DB::select("SELECT DATE_FORMAT('".$fecha_inicio."','%d/%M/%Y') as fecha");
     $fecha_fin_aux=DB::select("SELECT DATE_FORMAT('".$fecha_fin."','%d/%M/%Y')as fecha");
     $lista=DB::select("SELECT CONCAT(empleado.nombre,' ',empleado.apellido)as empleado,CONCAT(empleado.ci,' ',empleado.expedido) as ci_empleado,empleado.celular as celular_empleado, CONCAT(cliente.nombre,' ',cliente.apellidos)as cliente,CONCAT(cliente.ci,' ',cliente.expedido) as ci_cliente,cliente.celular as celular_cliente,proyecto.nombre,categorialote.categoria,lote.fase,lote.manzano,lote.nroLote,DATE_FORMAT(venta.fecha,'%d/%M/%Y %H:%i:%s') AS fecha,venta.cuotaInicial,venta.estado from venta,empleado,cliente,lote,categorialote,preciocategoria,proyecto WHERE  cliente.idEmpleado=empleado.id AND venta.idCliente=cliente.id AND venta.idLote=lote.id AND categorialote.id=lote.idCategoriaLote AND categorialote.id=preciocategoria.idCategoria AND categorialote.idProyecto=proyecto.id AND preciocategoria.deleted_at IS NULL AND venta.fecha BETWEEN '".$fecha_inicio."' AND DATE_SUB('".$fecha_fin."',INTERVAL -1 DAY) ORDER BY empleado.nombre,venta.fecha");
