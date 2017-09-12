@@ -4,13 +4,31 @@
 @include('alerts.success')
 @include('planpago.DetalleCuota')
 @include('alerts.cargando')
+<section class="content-header">
+    <h1>
+        GESTION DE COBRANZA
+        <small>Preview</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">VENTAS</a></li>
+        <li class="active">GESTION DE COBRANZA</li>
+    </ol>
+</section>
 
+<div class="col-md-12">
+    <div class="box box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"></h3>
+            <div class="box-tools pull-right">
+
+            </div>
+        </div>
+<div class="box-body">
 <div class="row">
 {!! Form::open(['route' => 'PagoVenta/search', 'method' => 'post', 'novalidate', 'class' => 'form-inline']) !!}
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <font size="6">GESTION DE COBRANZA</font>
-        </div>
+        
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"> 
             <div class="pull-right">
@@ -23,9 +41,9 @@
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed table-hover">
+            <table id="example1" class="table table-bordered table-striped">
                 <thead>
-                <th><CENTER>CARNET</CENTER></th>
+                <th><CENTER>DATOS DEL CLIENTE</CENTER></th>
                 <th><CENTER>CLIENTE</CENTER></th>                
                 <th><CENTER>CELULAR</CENTER></th>
                 <th><CENTER>NRO LOTE</CENTER></th>
@@ -39,30 +57,22 @@
                 <th><CENTER>OPCION</CENTER></th>
                 </thead>
                 @foreach ($lista as $lis)
-                <TR>
-                    <td align=center>{{$lis->ci_cliente}}</td>
-                    <td align=center>{{$lis->cliente}}</td>                
-                    <td align=center>{{$lis->celular}}</td>                
-                    <td align=center>{{$lis->nroLote}}</td>
-                    <td align=center>{{$lis->manzano}}</td>
-                    <td align=center>{{$lis->cuotaInicial}} $</td>
+
+                <tbody id="idTbody">
+                                <?php
+                                 
+                                    echo '<td>'.$lis->cliente;
+
+                                 ?>
+
+               
+                                
+               
                     <!--td align=center>{{$lis->precio}}</td-->
-                    <td align=center>{{$lis->nombre}}</td>
                     <!--td align=center>{{$lis->ci_empleado}}</td>
                     <td align=center>{{$lis->empleado}}</td-->
-                    <td align=center>{{$lis->fecha}}</td>
-                    <td align=center>
-                <?php 
-                switch ($lis->estado_venta) {
-                    case 'c':?> 
-                    {!!link_to_route('PlanPago.show', $title='PAGAR', $parameters=$lis->id, $attributes=['class'=>'btn-sm btn-success'])!!}
-                    <?php //{!!link_to_route('Pago.show', $title='LISTA PAGOS', $parameters=$lis->id, $attributes=['class'=>'btn-sm btn-info'])!!} ?>
-                    <a class="btn-sm btn-info" data-toggle="modal" style="cursor: pointer;" data-target="#DetalleCuota" onclick="CargarCuotas({{$lis->id}})">DETALLE</a>        
-                <?php   break;                
-                    case 'p':?>   
-                    <a class="btn-sm btn-info" data-toggle="modal" style="cursor: pointer;" data-target="#DetalleCuota" onclick="CargarCuotas({{$lis->id}})">DETALLE</a>         
-                <?php   break;
-                } ?>                    
+                   
+                               
 
                     </td>                             
                 </TR>
@@ -71,6 +81,9 @@
         </div>
     </div>
 
+</div>
+       </div><!-- /.row -->
+    </div><!-- /.box-body -->
 </div>
 {!!Html::script('js/cuotas.js')!!}
 
