@@ -339,3 +339,7 @@ Route::get('pdfPrueba',function(){
    $pdf=\PDF::loadView('pdf.pdfPrueba');
          return   $pdf->stream();   
 });
+
+//reprogramacion 
+Route::resource('Reprogramacion','ReProgramacionController');
+Route::get('listaVentaRevertida/{fechaInicio}/{fechaFin}','ReProgramacionController@listaVentaRevertida');

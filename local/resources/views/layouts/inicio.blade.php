@@ -15,11 +15,19 @@
         {!!Html::style('css/plugins/AdminLTE.min.css')!!}
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
+        {!!Html::style('css/plugins/moment.min.css')!!}
+
         {!!Html::style('css/plugins/_all-skins.min.css')!!}
         {!!Html::style('css/bootstrap/bootstrap-select.min.css')!!}
         {!!Html::style('css/bootstrap/datepicker3.css')!!}
 
         {!!Html::style('css/plugins/toastr.css')!!}
+        {!!Html::style('css/bootstrap/daterangepicker.css')!!}
+        {!!Html::style('css/personalizado.css')!!}
+  <!-- DataTables -->
+        {!!Html::style('datatables/dataTables.bootstrap.css')!!}
+
+
         {!!Html::script('js/plugins/jquery.min.js')!!}
         {!!Html::style('css/cargando.css')!!}
         <link rel="shortcut icon" href="{{asset('images/sinfondo.png')}}">
@@ -164,6 +172,20 @@
                                
                             </ul>
                         </li>
+               <li class="treeview">
+                            <a href="#"> 
+                                <i class="fa fa-calculator" aria-hidden="true"></i>
+                                <span>RPROG. Y TRASPASO</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul id="listacategoria1" class="treeview-menu">
+                            <li><a href="{!!URL::to('Venta')!!}"><i class="fa fa-circle-o"></i>REPROGRAMAR</a></li>
+                                <li><a href="{!!URL::to('PagoVenta')!!}"><i class="fa fa-circle-o"></i>TRASPASO</a></li>
+                                  
+                             
+                               
+                            </ul>
+                        </li>
 <?php } ?>
 
                   <?php
@@ -300,27 +322,7 @@
                 <section class="content">
 
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="box">
-                                <!--div class="box-header with-border">
-                                    <h3 class="box-title">LA PROVISION </h3>
-                                    <div class="box-tools pull-right">
-
-                                    </div>
-                                </div-->
-                                <!-- /.box-header -->
-                                <div class="box-body">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <!--Contenido-->
-
-                                            @yield('contenido')
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div><!-- /.row -->
-                        </div><!-- /.box-body -->
+                         @yield('contenido')
                     </div><!-- /.box -->
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -338,6 +340,7 @@
 
 
         <!-- jQuery 2.1.4 -->
+        {!!Html::script('js/plugins/moment.min.js')!!}
 
 
         {!!Html::script('js/plugins/toastr.min.js')!!}
@@ -346,6 +349,10 @@
         {!!Html::script('js/bootstrap/bootstrap.min.js')!!}
         {!!Html::script('js/bootstrap/bootstrap-select.min.js')!!}
         {!!Html::script('js/bootstrap/bootstrap-datepicker.js')!!}
+        {!!Html::script('js/bootstrap/daterangepicker.js')!!}
+        <!-- DataTables -->
+          {!!Html::script('datatables/jquery.dataTables.min.js')!!}
+          {!!Html::script('datatables/dataTables.bootstrap.min.js')!!}
 <script type="text/javascript">
       $('#datepicker').datepicker({
       autoclose: true
@@ -353,7 +360,21 @@
        $('#datepicker1').datepicker({
       autoclose: true
     });
+        $('#reservation').daterangepicker();
+
+          $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
 </script>
+
         <!-- AdminLTE App -->
         <script src="{{asset('js/plugins/app.js')}}"></script>
         {!!Html::script('js/herramientas.js')!!}
