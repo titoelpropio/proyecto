@@ -26,44 +26,44 @@
         </div>
 <div class="box-body">
 <div class="row">
-{!! Form::open(['route' => 'PagoVenta/search', 'method' => 'post', 'novalidate', 'class' => 'form-inline']) !!}
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"> 
-            <div class="pull-right">
-                <button  type="submit" class="btn btn-info"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>        
-            <div class="pull-right"><B>CARNET:</B> <input type="text" name="ci" class="form-control" onkeypress="return bloqueo_de_punto(event)"></div>
-        </div>    
-    </div>
-{!!Form::close()!!}
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="table-responsive">
             <table id="example1" class="table table-bordered table-striped">
                 <thead>
-                <th><CENTER>DATOS DEL CLIENTE</CENTER></th>
-                <th><CENTER>CLIENTE</CENTER></th>                
-                <th><CENTER>CELULAR</CENTER></th>
-                <th><CENTER>NRO LOTE</CENTER></th>
-                <th><CENTER>MANZANO</CENTER></th>
-                <th><CENTER>CUOTA INICIAL</CENTER></th>
+                <th>DATOS DEL CLIENTE</th>
+                <th>DATOS DEL PREVIO</th>
+                <th>CUOTA INICIAL</th>
+                <th>PRECIO DE VENTA</th>
                 <!--th><CENTER>PRECIO LOTE</CENTER></th-->
-                <th><CENTER>CATEGORIA</CENTER></th>
                 <!--th><CENTER>CARNET</CENTER></th>
                 <th><CENTER>EMPLEADO</CENTER></th-->
-                <th><CENTER>FECHA</CENTER></th>
-                <th><CENTER>OPCION</CENTER></th>
+                <th>FECHA</th>
+                <th>OPCION</th>
                 </thead>
                 @foreach ($lista as $lis)
 
                 <tbody id="idTbody">
                                 <?php
                                  
-                                    echo '<td>'.$lis->cliente;
+                                    echo '<tr>
+                                    <td><span class="negritaTabla">Nombre:</span> '.$lis->cliente.'<br>
+                                    <span class="negritaTabla">CI:</span> '.$lis->ci_cliente.' '.$lis->expedido.'.<br>
+                                    <span class="negritaTabla">Telefono:</span> '.$lis->celular.'</td>
+                                    
+                                    <td><span class="negritaTabla">Urbanizacion:</span> '.$lis->nombre.'<br>
+                                    <span class="negritaTabla">Manzano:</span> '.$lis->manzano.' <br>
+                                    <span class="negritaTabla">Nro. Lote:</span> '.$lis->nroLote.'</td>
+                                    <td>'.$lis->cuotaInicial.'</td>
+                                    <td>'.$lis->precio.'</td>
+                                    <td>'.$lis->fecha.'</td>';
 
                                  ?>
+                            
+                                    <td><a href="{!!URL::to('PlanPago')!!}<?php echo "/".$lis->id ?>" class="btn-sm btn-success" >PAGAR</a>
+                                        <a data-toggle="modal" style="cursor: pointer;" data-target="#DetalleCuota" href="#" onclick="CargarCuotas(<?php echo $lis->id ?>)" class="btn-sm btn-info" >DETALLE</a>
+                                    </td>                        
+                                    </tr>
 
                
                                 
