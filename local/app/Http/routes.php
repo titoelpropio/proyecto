@@ -336,7 +336,9 @@ Route::get('Pland_PDF/{id}','VentaController@Pland_PDF');
 Route::get('vendedores','VentaController@vendedores');
 
 Route::get('pdfPrueba',function(){
-   $pdf=\PDF::loadView('pdf.pdfPrueba');
+	$cliente=DB::select("select lote.superficie,cliente.nombre,cliente.apellidos,cliente.ci,cliente.expedido,venta.cuotaInicial,venta.precio,venta.fecha,lote.nroLote,lote.manzano,lote.fase,proyecto.nombre as nombreProyecto    from cliente,venta, plandepago,lote,proyecto where venta.id=plandepago.idVenta and cliente.id=venta.idCliente and venta.id=5 and venta.idLote=lote.id and proyecto.id=lote.idProyecto");
+	$cuotas=DB::select("select cuotas.monto,cuotas.estado,cuotas.fechaLimite,@num:=@num+1 as num  from (select @num:=0) r, cliente,venta, plandepago, cuotas where venta.id=plandepago.idVenta and plandepago.id =cuotas.idPlandePago and cliente.id=venta.idCliente and venta.id=5");
+   $pdf=\PDF::loadView('pdf.pdfPrueba',compact('cliente','cuotas'));
          return   $pdf->stream();   
 });
 

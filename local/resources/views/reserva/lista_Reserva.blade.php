@@ -2,12 +2,31 @@
 @section('contenido')
 @include('alerts.errors')
 @include('alerts.success')
+<section class="content-header">
+    <h1>
+       LISTA DE RESERVA
+        <small>Preview</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">RESERVA</a></li>
+    
+        <li class="active">LISTA DE RESERVA</li>
+    </ol>
+</section>
 
+<div class="col-md-12">
+    <div class="box box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"></h3>
+            <div class="box-tools pull-right">
+
+            </div>
+        </div>
+<div class="box-body">
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <font size="6">LISTA DE RESERVAS</font>
-        </div>
+       
 
 {!! Form::open(['route' => 'ListaReservasearch', 'method' => 'post', 'novalidate', 'class' => 'form-inline']) !!}
 
@@ -74,5 +93,7 @@
     </div>
 
 </div>
-
+  </div><!-- /.row -->
+    </div><!-- /.box-body -->
+</div>
     @endsection

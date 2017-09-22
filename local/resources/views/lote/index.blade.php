@@ -30,7 +30,7 @@
                      
 
                      
-      <iframe id="seccion" style="border: none; height: 800px ; overflow: none;width: 100%" src="http://104.198.231.176/seccion1/1">
+      <iframe id="seccion" style="border: none; height: 800px ; overflow: none;width: 100%" src="{!!URL::to('seccion1/2')!!}">
                          
                      </iframe>
                      

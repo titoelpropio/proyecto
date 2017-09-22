@@ -7,7 +7,30 @@
 @include('alerts.request')
 @include('alerts.errors')
 @include('venta.modal')
-<h3 style="font-weight: bold">FORMULARIO DE VENTA</h3>
+<section class="content-header">
+    <h1>
+        VENTA DE LOTE
+        <small>Preview</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">VENTAS</a></li>
+        <li class="active">VENTA DE LOTE</li>
+    </ol>
+</section>
+
+<div class="col-md-12">
+    <div class="box box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"></h3>
+            <div class="box-tools pull-right">
+
+            </div>
+        </div>
+<div class="box-body">
+<div class="row">
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <div class="panel panel-success" style="text-transform: uppercase;">
 <div class="panel-heading">
   {!!Form::open(['route'=>'Venta.store', 'method'=>'POST','onKeypress'=>'if(event.keyCode == 13) event.returnValue = false;'])!!}
@@ -504,6 +527,9 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
   <input type="" class="form-control" name="boliviano" id="" onchange="cambiarDolar(this)">
 <label id="cambiarDolar">0 Bs.</label>
 
+</div>
+</div><!-- /.row -->
+    </div><!-- /.box-body -->
 </div>
 <script type="text/javascript">
   $('#bodyPrincipal').removeClass();

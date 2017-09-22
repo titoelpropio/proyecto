@@ -6,13 +6,30 @@
 
 @include('pre_reserva.modal')
 
+<section class="content-header">
+    <h1>
+        LISTA DE PRE RESERVA
+        <small>Preview</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">RESERVAS</a></li>
+        <li class="active">LISTA DE PRE RESERVA</li>
+    </ol>
+</section>
+
+<div class="col-md-12">
+    <div class="box box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"></h3>
+            <div class="box-tools pull-right">
+
+            </div>
+        </div>
+<div class="box-body">
 <div class="row">
 {!! Form::open(['route' => 'ListaPreReserva', 'method' => 'post', 'novalidate', 'class' => 'form-inline']) !!}
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <font size="6">LISTA DE PRE RESERVAS</font>
-        </div>
-
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"> 
             <div class="pull-right">
                 <button  type="submit" class="btn btn-info"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -57,6 +74,9 @@
         </div>
     </div>
 
+</div>
+    </div><!-- /.row -->
+    </div><!-- /.box-body -->
 </div>
  <script type="text/javascript">
 $(document).ready(function(){

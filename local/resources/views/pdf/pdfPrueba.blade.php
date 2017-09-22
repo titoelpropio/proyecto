@@ -55,20 +55,23 @@
   
   </table>  -->
   <div style="margin-bottom: 10px">
-    <span style="margin-right: 10px"><b> Cliente: </b> MODESTO SALDAÑA MICHALEC</span>
-    <span style="margin-right: 10px;"><b> CI:</b> 8883510</span>
+    <span style="margin-right: 10px"><b> Cliente: </b> <?php echo $cliente[0]->nombre.' '.$cliente[0]->apellidos; ?></span>
+    <span style="margin-right: 10px;"><b> CI:</b> <?php echo $cliente[0]->ci; ?></span>
     </div> 
-    <span style="margin-right: 10px"><b> Fecha de Venta: </b> 2017/02/02 15:00:00</span>
-    <span style="margin-right: 10px"><b> Cuota Inicial:</b> 3555 $</span> <br>
+    <span style="margin-right: 10px"><b> Fecha de Venta: </b> <?php echo $cliente[0]->fecha; ?></span>
+    <span style="margin-right: 10px"><b> Cuota Inicial:</b> <?php echo $cliente[0]->cuotaInicial;  ?></span> <br>
     <div style="margin-top: 10px">
-    <span style="margin-right: 10px"><b> Urbanizacion: </b> LA BARRANCA</span>
-      <span style="margin-right: 10px"><b> FASE: </b> 1</span>  
-      <span style="margin-right: 10px"><b> MANZANO: </b> 1</span>  
-      <span style="margin-right: 10px"><b> LOTE: </b> 1</span>  
+    <span style="margin-right: 10px"><b> Urbanizacion: </b> <?php echo $cliente[0]->nombreProyecto; ?></span>
+      <span style="margin-right: 10px"><b> FASE: </b> <?php echo $cliente[0]->fase; ?></span>  
+      <span style="margin-right: 10px"><b> MANZANO: </b> <?php echo $cliente[0]->manzano; ?></span>  
+      <span style="margin-right: 10px"><b> LOTE: </b> <?php echo $cliente[0]->nroLote; ?></span>  
     </div> 
 <div style="margin-top: 10px">
-    <span style="margin-right: 10px"><b> Superficie: </b> 360 MT2</span> 
+    <span style="margin-right: 10px"><b> Superficie: </b> <?php echo $cliente[0]->superficie; ?> MT2</span> 
+    <span style="margin-right: 10px"><b> Precio de Venta: </b> <?php echo $cliente[0]->precio; ?> $US</span> 
+
     </div> 
+
 </div>
 <div style="width: 20%; display: inline-block;">
   <img src="{{asset('images/logo-oficial.png')}}" width="140px" height="125px">
@@ -90,15 +93,22 @@
 
     <tbody>   
 
-    <tr align="center">
-      <td></td>
-
-      <td></td>
-
-      <td></td>
-      <td></td>
+ 
+        <?php 
+                for ($i=0; $i <count($cuotas) ; $i++) { 
+                  echo  '   <tr align="center">
+                  <td>'.$cuotas[$i]->num.'</td>
+                  <td>'.$cuotas[$i]->fechaLimite.'</td>
+                  <td>'.$cuotas[$i]->monto.'</td>';
+                  if ($cuotas[$i]->estado==='d') {
+                    echo '<td>DEBE</td></tr>';
+                  }else{
+                     echo '<td>PAGADO</td></tr>';
+                  }
+                }
+           ?>
    
-    </tr>    
+    
    
 
 
@@ -107,7 +117,7 @@
   <tfoot border="2" style="text-align: center; background: #4EB7EC">
     <td style="font-weight: bold">Total</td>
     <td></td>
-    <td> 2000 </td>
+    <td> 4011 </td>
     <td></td>
   </tfoot>
 
