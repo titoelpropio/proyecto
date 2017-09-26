@@ -184,7 +184,7 @@ public function seccion1($opcion){
         // $manzano = Manzano::lists('numero', 'id');     
 //
     $Categoria=Categoria::lists('categoria','id');
-   return view('mapas.seccion1',['opcion'=>$opcion,'categoria'=>$Categoria,'fase'=>1]) ;
+   return view('mapas.barrancaFase1',['opcion'=>$opcion,'categoria'=>$Categoria,'fase'=>1]) ;
 }
 
 

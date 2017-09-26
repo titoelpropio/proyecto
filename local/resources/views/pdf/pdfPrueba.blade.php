@@ -56,7 +56,7 @@
   </table>  -->
   <div style="margin-bottom: 10px">
     <span style="margin-right: 10px"><b> Cliente: </b> <?php echo $cliente[0]->nombre.' '.$cliente[0]->apellidos; ?></span>
-    <span style="margin-right: 10px;"><b> CI:</b> <?php echo $cliente[0]->ci; ?></span>
+    <span style="margin-right: 10px;"><b> CI:</b> <?php echo $cliente[0]->ci.' '.$cliente[0]->expedido.'.'; ?></span>
     </div> 
     <span style="margin-right: 10px"><b> Fecha de Venta: </b> <?php echo $cliente[0]->fecha; ?></span>
     <span style="margin-right: 10px"><b> Cuota Inicial:</b> <?php echo $cliente[0]->cuotaInicial;  ?></span> <br>
@@ -79,9 +79,9 @@
 </div>
 
 <?php $total=0; ?>
-  <table border="2" cellspacing="3" cellpadding="5" style="width: 100%">
-    <thead>
-      <tr style="background: #db4437 ; text-align: center;">
+  <table border="2" cellspacing="3" cellpadding="5" style="width: 100% ; border-radius: 15px; border-color:rgba(57, 151, 190, 1);" >
+    <thead style=" border-radius: 25px;">
+      <tr style="background: rgba(57, 151, 190, 1); text-align: center;">
         <th>Nro.</th>
 
         <th>Fecha de Pago</th>
@@ -100,11 +100,12 @@
                   <td>'.$cuotas[$i]->num.'</td>
                   <td>'.$cuotas[$i]->fechaLimite.'</td>
                   <td>'.$cuotas[$i]->monto.'</td>';
-                  if ($cuotas[$i]->estado==='d') {
-                    echo '<td>DEBE</td></tr>';
-                  }else{
-                     echo '<td>PAGADO</td></tr>';
-                  }
+                   echo '<td>DEBE</td></tr>';
+                  // if ($cuotas[$i]->estado==='d') {
+                  //   echo '<td>DEBE</td></tr>';
+                  // }else{
+                  //    echo '<td>PAGADO</td></tr>';
+                  // }
                 }
            ?>
    
@@ -117,7 +118,7 @@
   <tfoot border="2" style="text-align: center; background: #4EB7EC">
     <td style="font-weight: bold">Total</td>
     <td></td>
-    <td> 4011 </td>
+    <td> <?php echo $totalCuotas[0]->totalCuotas; ?> </td>
     <td></td>
   </tfoot>
 

@@ -224,6 +224,7 @@ $apellidos= strtoupper($request->apellidos);
              'estado'=>'c',
              'tipoPago'=>$request['tipoDepositoC'],
              'descuento'=>$request['DescuentoPlazo'],
+             'reserva'=>$request['reserva'],
              'idCliente'=>$cliente->id,
              'idEmpleado'=>Session::get('idEmpleado'),
              'idLote'=>$request->id_lote,
@@ -287,6 +288,7 @@ $apellidos= strtoupper($request->apellidos);
           'estado'=>'p',
           'tipoPago'=>$request['tipoDepositoC'],
           'descuento'=>$request['descuentoContado'],
+          'reserva'=>$request['reserva'],
           'idCliente'=>$cliente->id,
           'idEmpleado'=>Session::get('idEmpleado'),
           'idLote'=>$request->id_lote,
@@ -316,13 +318,14 @@ $apellidos= strtoupper($request->apellidos);
                  }
         }
      if ($request['tipoPago']=='p') {//reporte pdf plan de pago
-         $datoventa=DB::select("SELECT cliente.ci,planpago.fechaPago,planpago.cuota,cliente.nombre, cliente.apellidos,@num:=@num+1 as num,planpago.estado FROM (select @num:=0) r, venta,planpago,cliente WHERE venta.id=planpago.idVenta and venta.idCliente=cliente.id and venta.id=".$venta['id']);
-          $datos=DB::select("SELECT  venta.id as idVenta,venta.fecha,sum(planpago.cuota)as total,venta.precio,venta.cuotaInicial,lote.nroLote,lote.manzano,lote.fase FROM venta,planpago,cliente,lote WHERE venta.id=planpago.idVenta and venta.idCliente=cliente.id and lote.id=venta.idLote and venta.id=".$venta['id']);
+      $cliente=DB::select("select cliente.expedido, ( venta.reserva+venta.cuotaInicial)as cuotaInicial, venta.reserva,lote.superficie,cliente.nombre,cliente.apellidos,cliente.ci,cliente.expedido,venta.precio,venta.fecha,lote.nroLote,lote.manzano,lote.fase,proyecto.nombre as nombreProyecto    from cliente,venta, plandepago,lote,proyecto where venta.id=plandepago.idVenta and cliente.id=venta.idCliente and venta.id=".$venta['id']." and venta.idLote=lote.id and proyecto.id=lote.idProyecto");
+  $cuotas=DB::select("select cuotas.monto,cuotas.estado,cuotas.fechaLimite,@num:=@num+1 as num  from (select @num:=0) r, cliente,venta, plandepago, cuotas where venta.id=plandepago.idVenta and plandepago.id =cuotas.idPlandePago and cliente.id=venta.idCliente and venta.id=".$venta['id']);
+ $totalCuotas=DB::select("SELECT sum(cuotas.monto) as totalCuotas FROM venta,cuotas,plandepago where venta.id=plandepago.idVenta and plandepago.id=cuotas.idPlandePago  and venta.id=".$venta['id']);
 
-           DB::commit(); 
+   $pdf=\PDF::loadView('pdf.pdfPrueba',compact('cliente','cuotas','totalCuotas'));
 
-         $pdf=\PDF::loadView('pdf.ReportePlanDepago',compact('datoventa','datos'));
-         return   $pdf->stream();       
+         DB::commit(); 
+         return   $pdf->stream();         
      }
        
       DB::commit(); 
