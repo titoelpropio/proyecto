@@ -462,7 +462,7 @@ number_format($pagoInicialReserva, 0, '.', '');//esto es lo qe tiene q pagar com
              <input class="form-control" type="text" name="PrecioPlazo" value= <?php echo number_format($precioPlazo, 0, '.', ''); ?> readonly="readonly">
            </td>
   
-  <td><input type="text" name="reserva" value=<?php echo $reserva ?> disabled="" class="form-control"></td>
+  <td><input type="text" name="reserva" value=<?php echo $reserva ?> readonly="readonly" class="form-control"></td>
   <td><input type="text" class="form-control" name="totalPagado"  readonly="readonly"></td>
 
          </tr>

@@ -26,6 +26,7 @@
         {!!Html::style('css/personalizado.css')!!}
   <!-- DataTables -->
         {!!Html::style('datatables/dataTables.bootstrap.css')!!}
+        {!!Html::style('css/plugins/jquery-jvectormap-2.0.3.css')!!}
 
 
         {!!Html::script('js/plugins/jquery.min.js')!!}
