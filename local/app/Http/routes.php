@@ -345,3 +345,8 @@ Route::get('pdfPrueba',function(){
 //reprogramacion 
 Route::resource('Reprogramacion','ReProgramacionController');
 Route::get('listaVentaRevertida/{fechaInicio}/{fechaFin}','ReProgramacionController@listaVentaRevertida');
+Route::get('BienesRaicez',function(){
+	
+ 
+	return view('bienesRaicezPrueba.bienesprueba');
+});
