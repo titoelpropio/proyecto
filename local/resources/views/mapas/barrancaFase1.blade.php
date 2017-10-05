@@ -12571,7 +12571,7 @@ case "3":
             <path class="cls-3" d="M461.37,198.9l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33L583.44,213s1-8-7.67-8.48Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='465.56 201.16 464.63 219.98 472.12 220.33 473.05 201.57 465.56 201.16'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12595,7 +12595,7 @@ case "3":
      ?> class="cls-4" points="465.56 201.16 464.63 219.98 472.12 220.33 473.05 201.57 465.56 201.16"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='473.05 201.57 472.12 220.33 479.61 220.73 480.54 201.92 473.05 201.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12619,7 +12619,7 @@ case "3":
      ?> class="cls-4" points="473.05 201.57 472.12 220.33 479.61 220.73 480.54 201.92 473.05 201.57"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='480.6 201.92 479.67 220.73 487.16 221.08 488.09 202.33 480.6 201.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12643,7 +12643,7 @@ case "3":
      ?> class="cls-4" points="480.6 201.92 479.67 220.73 487.16 221.08 488.09 202.33 480.6 201.92"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='488.09 202.33 487.16 221.08 494.65 221.49 495.64 202.67 488.09 202.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12667,7 +12667,7 @@ case "3":
      ?> class="cls-4" points="488.09 202.33 487.16 221.08 494.65 221.49 495.64 202.67 488.09 202.33"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='495.58 202.67 494.65 221.49 502.2 221.84 503.13 203.08 495.58 202.67'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12691,7 +12691,7 @@ case "3":
      ?> class="cls-4" points="495.58 202.67 494.65 221.49 502.2 221.84 503.13 203.08 495.58 202.67"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='503.13 203.08 502.2 221.84 509.69 222.24 510.68 203.43 503.13 203.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12715,7 +12715,7 @@ case "3":
      ?> class="cls-4" points="503.13 203.08 502.2 221.84 509.69 222.24 510.68 203.43 503.13 203.08"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='510.68 203.43 509.75 222.24 517.24 222.59 518.17 203.84 510.68 203.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12739,7 +12739,7 @@ case "3":
      ?> class="cls-4" points="510.68 203.43 509.75 222.24 517.24 222.59 518.17 203.84 510.68 203.43"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='518.17 203.84 517.24 222.59 524.73 223 525.72 204.18 518.17 203.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12763,7 +12763,7 @@ case "3":
      ?> class="cls-4" points="518.17 203.84 517.24 222.59 524.73 223 525.72 204.18 518.17 203.84"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='533.21 204.59 532.28 223.35 539.83 223.75 540.76 204.94 533.21 204.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12787,7 +12787,7 @@ case "3":
      ?> class="cls-4" points="533.21 204.59 532.28 223.35 539.83 223.75 540.76 204.94 533.21 204.59"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='525.66 204.18 524.73 223 532.28 223.35 533.21 204.59 525.66 204.18'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12811,7 +12811,7 @@ case "3":
      ?> class="cls-4" points="525.66 204.18 524.73 223 532.28 223.35 533.21 204.59 525.66 204.18"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='540.7 204.94 539.83 223.75 547.32 224.1 548.25 205.34 540.7 204.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12835,7 +12835,7 @@ case "3":
      ?> class="cls-4" points="540.7 204.94 539.83 223.75 547.32 224.1 548.25 205.34 540.7 204.94"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='548.25 205.34 547.32 224.1 554.87 224.51 555.8 205.69 548.25 205.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12859,7 +12859,7 @@ case "3":
      ?> class="cls-4" points="548.25 205.34 547.32 224.1 554.87 224.51 555.8 205.69 548.25 205.34"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='555.8 205.69 554.87 224.51 562.36 224.86 563.29 206.1 555.8 205.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12883,7 +12883,7 @@ case "3":
      ?> class="cls-4" points="555.8 205.69 554.87 224.51 562.36 224.86 563.29 206.1 555.8 205.69"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='464.57 219.98 463.64 238.79 471.13 239.14 472.12 220.33 464.57 219.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12907,7 +12907,7 @@ case "3":
      ?> class="cls-4" points="464.57 219.98 463.64 238.79 471.13 239.14 472.12 220.33 464.57 219.98"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='472.06 220.33 471.13 239.14 478.68 239.55 479.61 220.73 472.06 220.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12931,7 +12931,7 @@ case "3":
      ?> class="cls-4" points="472.06 220.33 471.13 239.14 478.68 239.55 479.61 220.73 472.06 220.33"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='479.61 220.73 478.68 239.55 486.17 239.9 487.16 221.08 479.61 220.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12955,7 +12955,7 @@ case "3":
      ?> class="cls-4" points="479.61 220.73 478.68 239.55 486.17 239.9 487.16 221.08 479.61 220.73"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='487.16 221.08 486.23 239.9 493.72 240.3 494.65 221.49 487.16 221.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -12979,7 +12979,7 @@ case "3":
      ?> class="cls-4" points="487.16 221.08 486.23 239.9 493.72 240.3 494.65 221.49 487.16 221.08"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='494.65 221.49 493.72 240.3 501.21 240.65 502.14 221.84 494.65 221.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13003,7 +13003,7 @@ case "3":
      ?> class="cls-4" points="494.65 221.49 493.72 240.3 501.21 240.65 502.14 221.84 494.65 221.49"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='502.2 221.84 501.27 240.65 508.76 241.06 509.69 222.24 502.2 221.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13027,7 +13027,7 @@ case "3":
      ?> class="cls-4" points="502.2 221.84 501.27 240.65 508.76 241.06 509.69 222.24 502.2 221.84"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='509.69 222.24 508.76 241.06 516.25 241.41 517.24 222.59 509.69 222.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13051,7 +13051,7 @@ case "3":
      ?> class="cls-4" points="509.69 222.24 508.76 241.06 516.25 241.41 517.24 222.59 509.69 222.24"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='517.24 222.59 516.31 241.41 523.8 241.81 524.73 223 517.24 222.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13075,7 +13075,7 @@ case "3":
      ?> class="cls-4" points="517.24 222.59 516.31 241.41 523.8 241.81 524.73 223 517.24 222.59"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='532.28 223.35 531.35 242.16 538.84 242.57 539.77 223.75 532.28 223.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13099,7 +13099,7 @@ case "3":
      ?> class="cls-4" points="532.28 223.35 531.35 242.16 538.84 242.57 539.77 223.75 532.28 223.35"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='524.73 223 523.8 241.81 531.29 242.16 532.22 223.35 524.73 223'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13123,7 +13123,7 @@ case "3":
      ?> class="cls-4" points="524.73 223 523.8 241.81 531.29 242.16 532.22 223.35 524.73 223"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='539.77 223.75 538.84 242.57 546.33 242.92 547.32 224.1 539.77 223.75'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13147,7 +13147,7 @@ case "3":
      ?> class="cls-4" points="539.77 223.75 538.84 242.57 546.33 242.92 547.32 224.1 539.77 223.75"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='547.32 224.1 546.39 242.92 553.88 243.32 554.81 224.51 547.32 224.1'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13171,7 +13171,7 @@ case "3":
      ?> class="cls-4" points="547.32 224.1 546.39 242.92 553.88 243.32 554.81 224.51 547.32 224.1"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='554.81 224.51 553.88 243.32 561.43 243.67 562.36 224.86 554.81 224.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13196,7 +13196,7 @@ case "3":
             <path class="cls-4" d="M465.56,201.16l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='446.22 209.7 445.81 219.05 464.57 219.98 465.03 210.63 446.22 209.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13220,7 +13220,7 @@ case "3":
      ?> class="cls-4" points="446.22 209.7 445.81 219.05 464.57 219.98 465.03 210.63 446.22 209.7"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='464.57 219.98 464.1 229.39 445.29 228.46 445.81 219.05 464.57 219.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13246,7 +13246,7 @@ case "3":
             <path class="cls-4" d="M563.29,206.1l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='562.83 215.45 562.36 224.86 581.18 225.84 581.64 216.44 562.83 215.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13270,7 +13270,7 @@ case "3":
      ?> class="cls-4" points="562.83 215.45 562.36 224.86 581.18 225.84 581.64 216.44 562.83 215.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='562.36 224.86 561.9 234.32 580.71 235.19 581.18 225.84 562.36 224.86'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13406,7 +13406,7 @@ case "3":
             <path class="cls-3" d="M456.9,289.43l-8.88-.58s-6.85-.81-7.61,7.55L439,323.23s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33L579,303.49s1-8-7.67-8.48Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='461.08 291.7 460.15 310.45 467.65 310.86 468.58 292.05 461.08 291.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13430,7 +13430,7 @@ case "3":
      ?> class="cls-4" points="461.08 291.7 460.15 310.45 467.65 310.86 468.58 292.05 461.08 291.7"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='468.58 292.05 467.65 310.86 475.14 311.21 476.07 292.45 468.58 292.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13454,7 +13454,7 @@ case "3":
      ?> class="cls-4" points="468.58 292.05 467.65 310.86 475.14 311.21 476.07 292.45 468.58 292.05"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='476.13 292.45 475.2 311.21 482.69 311.62 483.62 292.8 476.13 292.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13478,7 +13478,7 @@ case "3":
      ?> class="cls-4" points="476.13 292.45 475.2 311.21 482.69 311.62 483.62 292.8 476.13 292.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='483.62 292.8 482.69 311.62 490.18 311.96 491.17 293.21 483.62 292.8'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13502,7 +13502,7 @@ case "3":
      ?> class="cls-4" points="483.62 292.8 482.69 311.62 490.18 311.96 491.17 293.21 483.62 292.8"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='491.11 293.21 490.18 311.96 497.73 312.37 498.66 293.56 491.11 293.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13526,7 +13526,7 @@ case "3":
      ?> class="cls-4" points="491.11 293.21 490.18 311.96 497.73 312.37 498.66 293.56 491.11 293.21"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='498.66 293.56 497.73 312.37 505.28 312.72 506.21 293.96 498.66 293.56'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13550,7 +13550,7 @@ case "3":
      ?> class="cls-4" points="498.66 293.56 497.73 312.37 505.28 312.72 506.21 293.96 498.66 293.56"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='506.21 293.96 505.28 312.72 512.77 313.13 513.7 294.31 506.21 293.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13574,7 +13574,7 @@ case "3":
      ?> class="cls-4" points="506.21 293.96 505.28 312.72 512.77 313.13 513.7 294.31 506.21 293.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='513.7 294.31 512.77 313.13 520.26 313.47 521.25 294.72 513.7 294.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13598,7 +13598,7 @@ case "3":
      ?> class="cls-4" points="513.7 294.31 512.77 313.13 520.26 313.47 521.25 294.72 513.7 294.31"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='528.74 295.07 527.81 313.88 535.36 314.23 536.29 295.47 528.74 295.07'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13622,7 +13622,7 @@ case "3":
      ?> class="cls-4" points="528.74 295.07 527.81 313.88 535.36 314.23 536.29 295.47 528.74 295.07"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='521.19 294.72 520.26 313.47 527.81 313.88 528.74 295.07 521.19 294.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13646,7 +13646,7 @@ case "3":
      ?> class="cls-4" points="521.19 294.72 520.26 313.47 527.81 313.88 528.74 295.07 521.19 294.72"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='536.29 295.47 535.36 314.23 542.85 314.64 543.78 295.82 536.29 295.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13670,7 +13670,7 @@ case "3":
      ?> class="cls-4" points="536.29 295.47 535.36 314.23 542.85 314.64 543.78 295.82 536.29 295.47"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='543.78 295.82 542.85 314.64 550.4 314.98 551.33 296.23 543.78 295.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13694,7 +13694,7 @@ case "3":
      ?> class="cls-4" points="543.78 295.82 542.85 314.64 550.4 314.98 551.33 296.23 543.78 295.82"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='551.33 296.23 550.4 314.98 557.89 315.39 558.82 296.58 551.33 296.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13718,7 +13718,7 @@ case "3":
      ?> class="cls-4" points="551.33 296.23 550.4 314.98 557.89 315.39 558.82 296.58 551.33 296.23"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='460.1 310.45 459.17 329.27 466.66 329.68 467.65 310.86 460.1 310.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13742,7 +13742,7 @@ case "3":
      ?> class="cls-4" points="460.1 310.45 459.17 329.27 466.66 329.68 467.65 310.86 460.1 310.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='467.59 310.86 466.66 329.68 474.21 330.02 475.14 311.21 467.59 310.86'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13766,7 +13766,7 @@ case "3":
      ?> class="cls-4" points="467.59 310.86 466.66 329.68 474.21 330.02 475.14 311.21 467.59 310.86"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='475.14 311.21 474.21 330.02 481.7 330.43 482.69 311.62 475.14 311.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13790,7 +13790,7 @@ case "3":
      ?> class="cls-4" points="475.14 311.21 474.21 330.02 481.7 330.43 482.69 311.62 475.14 311.21"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='482.69 311.62 481.76 330.43 489.25 330.78 490.18 311.96 482.69 311.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13814,7 +13814,7 @@ case "3":
      ?> class="cls-4" points="482.69 311.62 481.76 330.43 489.25 330.78 490.18 311.96 482.69 311.62"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='490.18 311.96 489.25 330.78 496.74 331.19 497.67 312.37 490.18 311.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13838,7 +13838,7 @@ case "3":
      ?> class="cls-4" points="490.18 311.96 489.25 330.78 496.74 331.19 497.67 312.37 490.18 311.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='497.73 312.37 496.8 331.19 504.29 331.54 505.22 312.72 497.73 312.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13862,7 +13862,7 @@ case "3":
      ?> class="cls-4" points="497.73 312.37 496.8 331.19 504.29 331.54 505.22 312.72 497.73 312.37"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='505.22 312.72 504.29 331.54 511.84 331.94 512.77 313.13 505.22 312.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13886,7 +13886,7 @@ case "3":
      ?> class="cls-4" points="505.22 312.72 504.29 331.54 511.84 331.94 512.77 313.13 505.22 312.72"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='512.77 313.13 511.84 331.94 519.33 332.29 520.26 313.47 512.77 313.13'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13910,7 +13910,7 @@ case "3":
      ?> class="cls-4" points="512.77 313.13 511.84 331.94 519.33 332.29 520.26 313.47 512.77 313.13"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='527.81 313.88 526.88 332.7 534.37 333.04 535.3 314.23 527.81 313.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13934,7 +13934,7 @@ case "3":
      ?> class="cls-4" points="527.81 313.88 526.88 332.7 534.37 333.04 535.3 314.23 527.81 313.88"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='520.26 313.47 519.33 332.29 526.82 332.7 527.75 313.88 520.26 313.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13958,7 +13958,7 @@ case "3":
      ?> class="cls-4" points="520.26 313.47 519.33 332.29 526.82 332.7 527.75 313.88 520.26 313.47"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='535.3 314.23 534.37 333.04 541.86 333.45 542.85 314.64 535.3 314.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -13982,7 +13982,7 @@ case "3":
      ?> class="cls-4" points="535.3 314.23 534.37 333.04 541.86 333.45 542.85 314.64 535.3 314.23"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='542.85 314.64 541.92 333.45 549.41 333.8 550.34 314.98 542.85 314.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14006,7 +14006,7 @@ case "3":
      ?> class="cls-4" points="542.85 314.64 541.92 333.45 549.41 333.8 550.34 314.98 542.85 314.64"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='550.34 314.98 549.41 333.8 556.96 334.21 557.89 315.39 550.34 314.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14031,7 +14031,7 @@ case "3":
             <path class="cls-4" d="M461.08,291.7l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='441.75 300.18 441.34 309.52 460.1 310.45 460.56 301.11 441.75 300.18'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14055,7 +14055,7 @@ case "3":
      ?> class="cls-4" points="441.75 300.18 441.34 309.52 460.1 310.45 460.56 301.11 441.75 300.18"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='460.1 310.45 459.63 319.86 440.88 318.93 441.34 309.52 460.1 310.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14081,7 +14081,7 @@ case "3":
             <path class="cls-4" d="M558.82,296.58l12.08.64s7.2.64,6.27,9.41v.29L558.35,306Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='558.35 305.98 557.89 315.39 576.71 316.32 577.17 306.91 558.35 305.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14105,7 +14105,7 @@ case "3":
      ?> class="cls-4" points="558.35 305.98 557.89 315.39 576.71 316.32 577.17 306.91 558.35 305.98"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='557.89 315.39 557.42 324.86 576.24 325.73 576.71 316.32 557.89 315.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14243,7 +14243,7 @@ case "3":
                 <path class="cls-3" d="M454.75,334.55l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='458.94 336.82 458.01 355.63 465.5 355.98 466.43 337.23 458.94 336.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14267,7 +14267,7 @@ case "3":
      ?> class="cls-4" points="458.94 336.82 458.01 355.63 465.5 355.98 466.43 337.23 458.94 336.82"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='466.43 337.23 465.5 355.98 472.99 356.39 473.98 337.57 466.43 337.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14291,7 +14291,7 @@ case "3":
      ?> class="cls-4" points="466.43 337.23 465.5 355.98 472.99 356.39 473.98 337.57 466.43 337.23"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='473.98 337.57 473.05 356.39 480.54 356.74 481.47 337.98 473.98 337.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14315,7 +14315,7 @@ case "3":
      ?> class="cls-4" points="473.98 337.57 473.05 356.39 480.54 356.74 481.47 337.98 473.98 337.57"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='481.47 337.98 480.54 356.74 488.09 357.14 489.02 338.33 481.47 337.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14339,7 +14339,7 @@ case "3":
      ?> class="cls-4" points="481.47 337.98 480.54 356.74 488.09 357.14 489.02 338.33 481.47 337.98"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='489.02 338.33 488.09 357.14 495.58 357.49 496.51 338.68 489.02 338.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14363,7 +14363,7 @@ case "3":
      ?> class="cls-4" points="489.02 338.33 488.09 357.14 495.58 357.49 496.51 338.68 489.02 338.33"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='496.51 338.68 495.58 357.49 503.13 357.9 504.06 339.08 496.51 338.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14387,7 +14387,7 @@ case "3":
      ?> class="cls-4" points="496.51 338.68 495.58 357.49 503.13 357.9 504.06 339.08 496.51 338.68"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='504.06 339.08 503.13 357.9 510.62 358.25 511.55 339.43 504.06 339.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14411,7 +14411,7 @@ case "3":
      ?> class="cls-4" points="504.06 339.08 503.13 357.9 510.62 358.25 511.55 339.43 504.06 339.08"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='511.55 339.43 510.62 358.25 518.17 358.65 519.1 339.84 511.55 339.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14435,7 +14435,7 @@ case "3":
      ?> class="cls-4" points="511.55 339.43 510.62 358.25 518.17 358.65 519.1 339.84 511.55 339.43"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='526.65 340.19 525.72 359 533.21 359.41 534.14 340.59 526.65 340.19'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14459,7 +14459,7 @@ case "3":
      ?> class="cls-4" points="526.65 340.19 525.72 359 533.21 359.41 534.14 340.59 526.65 340.19"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='519.1 339.84 518.17 358.65 525.66 359 526.59 340.19 519.1 339.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14483,7 +14483,7 @@ case "3":
      ?> class="cls-4" points="519.1 339.84 518.17 358.65 525.66 359 526.59 340.19 519.1 339.84"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='534.14 340.59 533.21 359.41 540.7 359.76 541.63 340.94 534.14 340.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14507,7 +14507,7 @@ case "3":
      ?> class="cls-4" points="534.14 340.59 533.21 359.41 540.7 359.76 541.63 340.94 534.14 340.59"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='541.69 340.94 540.76 359.76 548.25 360.16 549.18 341.35 541.69 340.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14531,7 +14531,7 @@ case "3":
      ?> class="cls-4" points="541.69 340.94 540.76 359.76 548.25 360.16 549.18 341.35 541.69 340.94"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='549.18 341.35 548.25 360.16 555.74 360.51 556.73 341.7 549.18 341.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14555,7 +14555,7 @@ case "3":
      ?> class="cls-4" points="549.18 341.35 548.25 360.16 555.74 360.51 556.73 341.7 549.18 341.35"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='457.95 355.63 457.02 374.45 464.57 374.8 465.5 355.98 457.95 355.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14579,7 +14579,7 @@ case "3":
      ?> class="cls-4" points="457.95 355.63 457.02 374.45 464.57 374.8 465.5 355.98 457.95 355.63"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='465.5 355.98 464.57 374.8 472.06 375.2 472.99 356.39 465.5 355.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14603,7 +14603,7 @@ case "3":
      ?> class="cls-4" points="465.5 355.98 464.57 374.8 472.06 375.2 472.99 356.39 465.5 355.98"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='472.99 356.39 472.06 375.2 479.61 375.55 480.54 356.74 472.99 356.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14627,7 +14627,7 @@ case "3":
      ?> class="cls-4" points="472.99 356.39 472.06 375.2 479.61 375.55 480.54 356.74 472.99 356.39"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='480.54 356.74 479.61 375.55 487.1 375.96 488.03 357.14 480.54 356.74'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14651,7 +14651,7 @@ case "3":
      ?> class="cls-4" points="480.54 356.74 479.61 375.55 487.1 375.96 488.03 357.14 480.54 356.74"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='488.03 357.14 487.1 375.96 494.59 376.31 495.58 357.49 488.03 357.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14675,7 +14675,7 @@ case "3":
      ?> class="cls-4" points="488.03 357.14 487.1 375.96 494.59 376.31 495.58 357.49 488.03 357.14"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='495.58 357.49 494.65 376.31 502.14 376.71 503.07 357.9 495.58 357.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14699,7 +14699,7 @@ case "3":
      ?> class="cls-4" points="495.58 357.49 494.65 376.31 502.14 376.71 503.07 357.9 495.58 357.49"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='503.07 357.9 502.2 376.71 509.69 377.06 510.62 358.25 503.07 357.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14723,7 +14723,7 @@ case "3":
      ?> class="cls-4" points="503.07 357.9 502.2 376.71 509.69 377.06 510.62 358.25 503.07 357.9"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='510.62 358.25 509.69 377.06 517.18 377.47 518.11 358.65 510.62 358.25'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14747,7 +14747,7 @@ case "3":
      ?> class="cls-4" points="510.62 358.25 509.69 377.06 517.18 377.47 518.11 358.65 510.62 358.25"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='525.66 359 524.73 377.82 532.22 378.17 533.21 359.41 525.66 359'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14771,7 +14771,7 @@ case "3":
      ?> class="cls-4" points="525.66 359 524.73 377.82 532.22 378.17 533.21 359.41 525.66 359"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='518.11 358.65 517.18 377.47 524.67 377.82 525.66 359 518.11 358.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14795,7 +14795,7 @@ case "3":
      ?> class="cls-4" points="518.11 358.65 517.18 377.47 524.67 377.82 525.66 359 518.11 358.65"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='533.15 359.41 532.22 378.17 539.77 378.57 540.7 359.76 533.15 359.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14819,7 +14819,7 @@ case "3":
      ?> class="cls-4" points="533.15 359.41 532.22 378.17 539.77 378.57 540.7 359.76 533.15 359.41"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='540.7 359.76 539.77 378.57 547.26 378.92 548.25 360.16 540.7 359.76'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14843,7 +14843,7 @@ case "3":
      ?> class="cls-4" points="540.7 359.76 539.77 378.57 547.26 378.92 548.25 360.16 540.7 359.76"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='548.25 360.16 547.32 378.92 554.81 379.33 555.74 360.51 548.25 360.16'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14868,7 +14868,7 @@ case "3":
                 <path class="cls-4" d="M458.94,336.82l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='439.66 345.36 439.19 354.7 457.95 355.63 458.41 346.29 439.66 345.36'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14892,7 +14892,7 @@ case "3":
      ?> class="cls-4" points="439.66 345.36 439.19 354.7 457.95 355.63 458.41 346.29 439.66 345.36"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='457.95 355.63 457.48 365.04 438.73 364.06 439.19 354.7 457.95 355.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14918,7 +14918,7 @@ case "3":
                 <path class="cls-4" d="M556.73,341.7l12.08.64s7.2.64,6.27,9.41V352l-18.82-.93Z"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='556.26 351.11 555.74 360.51 574.56 361.44 575.02 352.03 556.26 351.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -14942,7 +14942,7 @@ case "3":
      ?> class="cls-4" points="556.26 351.11 555.74 360.51 574.56 361.44 575.02 352.03 556.26 351.11"/>
                 <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='555.74 360.51 555.28 369.98 574.09 370.85 574.56 361.44 555.74 360.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15076,7 +15076,7 @@ case "3":
             <path class="cls-3" d="M452.78,379.91l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33L574.85,394s1-8-7.67-8.48Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='456.96 382.17 456.03 400.99 463.52 401.34 464.45 382.52 456.96 382.17'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15100,7 +15100,7 @@ case "3":
      ?> class="cls-4" points="456.96 382.17 456.03 400.99 463.52 401.34 464.45 382.52 456.96 382.17"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='464.45 382.52 463.52 401.34 471.01 401.69 471.94 382.93 464.45 382.52'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15124,7 +15124,7 @@ case "3":
      ?> class="cls-4" points="464.45 382.52 463.52 401.34 471.01 401.69 471.94 382.93 464.45 382.52"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='472 382.93 471.07 401.69 478.56 402.09 479.49 383.28 472 382.93'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15148,7 +15148,7 @@ case "3":
      ?> class="cls-4" points="472 382.93 471.07 401.69 478.56 402.09 479.49 383.28 472 382.93"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='479.49 383.28 478.56 402.09 486.06 402.44 487.04 383.68 479.49 383.28'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15172,7 +15172,7 @@ case "3":
      ?> class="cls-4" points="479.49 383.28 478.56 402.09 486.06 402.44 487.04 383.68 479.49 383.28"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='486.99 383.68 486.06 402.44 493.61 402.85 494.53 384.03 486.99 383.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15196,7 +15196,7 @@ case "3":
      ?> class="cls-4" points="486.99 383.68 486.06 402.44 493.61 402.85 494.53 384.03 486.99 383.68"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='494.53 384.03 493.61 402.85 501.1 403.19 502.08 384.44 494.53 384.03'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15220,7 +15220,7 @@ case "3":
      ?> class="cls-4" points="494.53 384.03 493.61 402.85 501.1 403.19 502.08 384.44 494.53 384.03"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='502.08 384.44 501.15 403.19 508.64 403.6 509.57 384.79 502.08 384.44'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15244,7 +15244,7 @@ case "3":
      ?> class="cls-4" points="502.08 384.44 501.15 403.19 508.64 403.6 509.57 384.79 502.08 384.44"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='509.57 384.79 508.64 403.6 516.14 403.95 517.12 385.19 509.57 384.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15268,7 +15268,7 @@ case "3":
      ?> class="cls-4" points="509.57 384.79 508.64 403.6 516.14 403.95 517.12 385.19 509.57 384.79"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='524.62 385.54 523.69 404.36 531.18 404.7 532.16 385.95 524.62 385.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15292,7 +15292,7 @@ case "3":
      ?> class="cls-4" points="524.62 385.54 523.69 404.36 531.18 404.7 532.16 385.95 524.62 385.54"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='517.07 385.19 516.14 403.95 523.69 404.36 524.62 385.54 517.07 385.19'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15316,7 +15316,7 @@ case "3":
      ?> class="cls-4" points="517.07 385.19 516.14 403.95 523.69 404.36 524.62 385.54 517.07 385.19"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='532.11 385.95 531.18 404.7 538.73 405.11 539.65 386.3 532.11 385.95'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15340,7 +15340,7 @@ case "3":
      ?> class="cls-4" points="532.11 385.95 531.18 404.7 538.73 405.11 539.65 386.3 532.11 385.95"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='539.65 386.3 538.73 405.11 546.27 405.46 547.21 386.7 539.65 386.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15364,7 +15364,7 @@ case "3":
      ?> class="cls-4" points="539.65 386.3 538.73 405.11 546.27 405.46 547.21 386.7 539.65 386.3"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='547.21 386.7 546.27 405.46 553.77 405.87 554.7 387.05 547.21 386.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15388,7 +15388,7 @@ case "3":
      ?> class="cls-4" points="547.21 386.7 546.27 405.46 553.77 405.87 554.7 387.05 547.21 386.7"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='455.97 400.99 455.05 419.75 462.54 420.15 463.52 401.34 455.97 400.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15412,7 +15412,7 @@ case "3":
      ?> class="cls-4" points="455.97 400.99 455.05 419.75 462.54 420.15 463.52 401.34 455.97 400.99"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='463.47 401.34 462.54 420.15 470.09 420.5 471.01 401.74 463.47 401.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15436,7 +15436,7 @@ case "3":
      ?> class="cls-4" points="463.47 401.34 462.54 420.15 470.09 420.5 471.01 401.74 463.47 401.34"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='471.01 401.74 470.09 420.5 477.58 420.91 478.56 402.09 471.01 401.74'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15460,7 +15460,7 @@ case "3":
      ?> class="cls-4" points="471.01 401.74 470.09 420.5 477.58 420.91 478.56 402.09 471.01 401.74"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='478.56 402.09 477.63 420.91 485.13 421.25 486.06 402.5 478.56 402.09'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15484,7 +15484,7 @@ case "3":
      ?> class="cls-4" points="478.56 402.09 477.63 420.91 485.13 421.25 486.06 402.5 478.56 402.09"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='486.06 402.5 485.13 421.25 492.62 421.66 493.55 402.85 486.06 402.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15508,7 +15508,7 @@ case "3":
      ?> class="cls-4" points="486.06 402.5 485.13 421.25 492.62 421.66 493.55 402.85 486.06 402.5"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='493.61 402.85 492.68 421.66 500.17 422.01 501.1 403.19 493.61 402.85'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15532,7 +15532,7 @@ case "3":
      ?> class="cls-4" points="493.61 402.85 492.68 421.66 500.17 422.01 501.1 403.19 493.61 402.85"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='501.1 403.19 500.17 422.01 507.66 422.42 508.64 403.6 501.1 403.19'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15556,7 +15556,7 @@ case "3":
      ?> class="cls-4" points="501.1 403.19 500.17 422.01 507.66 422.42 508.64 403.6 501.1 403.19"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='508.64 403.6 507.72 422.42 515.21 422.76 516.14 403.95 508.64 403.6'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15580,7 +15580,7 @@ case "3":
      ?> class="cls-4" points="508.64 403.6 507.72 422.42 515.21 422.76 516.14 403.95 508.64 403.6"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='523.69 404.36 522.76 423.17 530.25 423.52 531.18 404.7 523.69 404.36'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15604,7 +15604,7 @@ case "3":
      ?> class="cls-4" points="523.69 404.36 522.76 423.17 530.25 423.52 531.18 404.7 523.69 404.36"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='516.14 403.95 515.21 422.76 522.7 423.17 523.63 404.36 516.14 403.95'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15628,7 +15628,7 @@ case "3":
      ?> class="cls-4" points="516.14 403.95 515.21 422.76 522.7 423.17 523.63 404.36 516.14 403.95"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='531.18 404.7 530.25 423.52 537.74 423.93 538.67 405.11 531.18 404.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15652,7 +15652,7 @@ case "3":
      ?> class="cls-4" points="531.18 404.7 530.25 423.52 537.74 423.93 538.67 405.11 531.18 404.7"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='538.73 405.11 537.8 423.93 545.29 424.27 546.22 405.46 538.73 405.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15676,7 +15676,7 @@ case "3":
      ?> class="cls-4" points="538.73 405.11 537.8 423.93 545.29 424.27 546.22 405.46 538.73 405.11"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='546.22 405.46 545.29 424.27 552.84 424.68 553.77 405.87 546.22 405.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15701,7 +15701,7 @@ case "3":
             <path class="cls-4" d="M457,382.17l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='437.62 390.65 437.22 400 455.97 400.99 456.44 391.58 437.62 390.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15725,7 +15725,7 @@ case "3":
      ?> class="cls-4" points="437.62 390.65 437.22 400 455.97 400.99 456.44 391.58 437.62 390.65"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='455.97 400.99 455.51 410.34 436.69 409.41 437.22 400 455.97 400.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15751,7 +15751,7 @@ case "3":
             <path class="cls-4" d="M554.7,387.05l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='554.23 396.46 553.77 405.87 572.58 406.8 573.05 397.39 554.23 396.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15775,7 +15775,7 @@ case "3":
      ?> class="cls-4" points="554.23 396.46 553.77 405.87 572.58 406.8 573.05 397.39 554.23 396.46"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='553.77 405.87 553.3 415.33 572.06 416.2 572.58 406.8 553.77 405.87'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15911,7 +15911,7 @@ case "3":
             <path class="cls-3" d="M311.9,327.41l-8.88-.58s-6.85-.81-7.61,7.55L294,361.21s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33L434,341.46s1-8-7.67-8.48Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='316.02 329.68 315.09 348.49 322.64 348.84 323.57 330.02 316.02 329.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15935,7 +15935,7 @@ case "3":
      ?> class="cls-4" points="316.02 329.68 315.09 348.49 322.64 348.84 323.57 330.02 316.02 329.68"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='323.51 330.02 322.64 348.84 330.13 349.25 331.06 330.43 323.51 330.02'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15959,7 +15959,7 @@ case "3":
      ?> class="cls-4" points="323.51 330.02 322.64 348.84 330.13 349.25 331.06 330.43 323.51 330.02"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='331.06 330.43 330.13 349.25 337.68 349.6 338.61 330.78 331.06 330.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -15983,7 +15983,7 @@ case "3":
      ?> class="cls-4" points="331.06 330.43 330.13 349.25 337.68 349.6 338.61 330.78 331.06 330.43"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='338.61 330.78 337.68 349.6 345.17 350 346.1 331.19 338.61 330.78'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16007,7 +16007,7 @@ case "3":
      ?> class="cls-4" points="338.61 330.78 337.68 349.6 345.17 350 346.1 331.19 338.61 330.78"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='346.1 331.19 345.17 350 352.67 350.35 353.65 331.54 346.1 331.19'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16031,7 +16031,7 @@ case "3":
      ?> class="cls-4" points="346.1 331.19 345.17 350 352.67 350.35 353.65 331.54 346.1 331.19"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='353.65 331.54 352.72 350.35 360.21 350.76 361.14 331.94 353.65 331.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16055,7 +16055,7 @@ case "3":
      ?> class="cls-4" points="353.65 331.54 352.72 350.35 360.21 350.76 361.14 331.94 353.65 331.54"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='361.14 331.94 360.21 350.76 367.76 351.11 368.69 332.29 361.14 331.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16079,7 +16079,7 @@ case "3":
      ?> class="cls-4" points="361.14 331.94 360.21 350.76 367.76 351.11 368.69 332.29 361.14 331.94"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='368.69 332.29 367.76 351.11 375.25 351.51 376.18 332.7 368.69 332.29'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16103,7 +16103,7 @@ case "3":
      ?> class="cls-4" points="368.69 332.29 367.76 351.11 375.25 351.51 376.18 332.7 368.69 332.29"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='383.73 333.04 382.8 351.86 390.3 352.27 391.23 333.45 383.73 333.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16127,7 +16127,7 @@ case "3":
      ?> class="cls-4" points="383.73 333.04 382.8 351.86 390.3 352.27 391.23 333.45 383.73 333.04"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='376.18 332.7 375.25 351.51 382.75 351.86 383.68 333.04 376.18 332.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16151,7 +16151,7 @@ case "3":
      ?> class="cls-4" points="376.18 332.7 375.25 351.51 382.75 351.86 383.68 333.04 376.18 332.7"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='391.23 333.45 390.3 352.27 397.79 352.62 398.77 333.8 391.23 333.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16175,7 +16175,7 @@ case "3":
      ?> class="cls-4" points="391.23 333.45 390.3 352.27 397.79 352.62 398.77 333.8 391.23 333.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='398.77 333.8 397.85 352.62 405.34 352.96 406.26 334.21 398.77 333.8'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16199,7 +16199,7 @@ case "3":
      ?> class="cls-4" points="398.77 333.8 397.85 352.62 405.34 352.96 406.26 334.21 398.77 333.8"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='406.32 334.21 405.39 352.96 412.88 353.37 413.81 334.55 406.32 334.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16223,7 +16223,7 @@ case "3":
      ?> class="cls-4" points="406.32 334.21 405.39 352.96 412.88 353.37 413.81 334.55 406.32 334.21"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='315.09 348.49 314.16 367.25 321.65 367.65 322.58 348.84 315.09 348.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16247,7 +16247,7 @@ case "3":
      ?> class="cls-4" points="315.09 348.49 314.16 367.25 321.65 367.65 322.58 348.84 315.09 348.49"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='322.58 348.84 321.65 367.65 329.15 368 330.07 349.25 322.58 348.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16271,7 +16271,7 @@ case "3":
      ?> class="cls-4" points="322.58 348.84 321.65 367.65 329.15 368 330.07 349.25 322.58 348.84"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='330.13 349.25 329.2 368 336.69 368.41 337.63 349.6 330.13 349.25'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16295,7 +16295,7 @@ case "3":
      ?> class="cls-4" points="330.13 349.25 329.2 368 336.69 368.41 337.63 349.6 330.13 349.25"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='337.63 349.6 336.69 368.41 344.25 368.76 345.17 350 337.63 349.6'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16319,7 +16319,7 @@ case "3":
      ?> class="cls-4" points="337.63 349.6 336.69 368.41 344.25 368.76 345.17 350 337.63 349.6"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='345.17 350 344.25 368.76 351.74 369.17 352.67 350.35 345.17 350'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16343,7 +16343,7 @@ case "3":
      ?> class="cls-4" points="345.17 350 344.25 368.76 351.74 369.17 352.67 350.35 345.17 350"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='352.67 350.35 351.74 369.17 359.29 369.51 360.21 350.76 352.67 350.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16367,7 +16367,7 @@ case "3":
      ?> class="cls-4" points="352.67 350.35 351.74 369.17 359.29 369.51 360.21 350.76 352.67 350.35"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='360.21 350.76 359.29 369.51 366.78 369.92 367.71 351.11 360.21 350.76'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16391,7 +16391,7 @@ case "3":
      ?> class="cls-4" points="360.21 350.76 359.29 369.51 366.78 369.92 367.71 351.11 360.21 350.76"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='367.71 351.11 366.78 369.92 374.33 370.27 375.25 351.51 367.71 351.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16415,7 +16415,7 @@ case "3":
      ?> class="cls-4" points="367.71 351.11 366.78 369.92 374.33 370.27 375.25 351.51 367.71 351.11"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='382.75 351.86 381.82 370.68 389.37 371.02 390.3 352.27 382.75 351.86'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16439,7 +16439,7 @@ case "3":
      ?> class="cls-4" points="382.75 351.86 381.82 370.68 389.37 371.02 390.3 352.27 382.75 351.86"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='375.25 351.51 374.33 370.27 381.82 370.68 382.75 351.86 375.25 351.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16463,7 +16463,7 @@ case "3":
      ?> class="cls-4" points="375.25 351.51 374.33 370.27 381.82 370.68 382.75 351.86 375.25 351.51"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='390.3 352.27 389.37 371.02 396.86 371.43 397.79 352.62 390.3 352.27'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16487,7 +16487,7 @@ case "3":
      ?> class="cls-4" points="390.3 352.27 389.37 371.02 396.86 371.43 397.79 352.62 390.3 352.27"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='397.79 352.62 396.86 371.43 404.41 371.78 405.34 353.02 397.79 352.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16511,7 +16511,7 @@ case "3":
      ?> class="cls-4" points="397.79 352.62 396.86 371.43 404.41 371.78 405.34 353.02 397.79 352.62"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='405.34 353.02 404.41 371.78 411.9 372.19 412.88 353.37 405.34 353.02'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16536,7 +16536,7 @@ case "3":
             <path class="cls-4" d="M316,329.68,302.84,329s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='296.74 338.15 296.28 347.5 315.09 348.49 315.56 339.14 296.74 338.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16560,7 +16560,7 @@ case "3":
      ?> class="cls-4" points="296.74 338.15 296.28 347.5 315.09 348.49 315.56 339.14 296.74 338.15"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='315.09 348.49 314.63 357.84 295.81 356.91 296.28 347.5 315.09 348.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16586,7 +16586,7 @@ case "3":
             <path class="cls-4" d="M413.81,334.55l12.08.64s7.2.64,6.27,9.41v.29L413.35,344Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='413.35 343.96 412.88 353.37 431.64 354.3 432.11 344.89 413.35 343.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16610,7 +16610,7 @@ case "3":
      ?> class="cls-4" points="413.35 343.96 412.88 353.37 431.64 354.3 432.11 344.89 413.35 343.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='412.88 353.37 412.36 362.83 431.18 363.71 431.64 354.3 412.88 353.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16746,7 +16746,7 @@ case "3":
             <path class="cls-3" d="M309.52,372.71l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='313.64 374.97 312.71 393.73 320.26 394.14 321.19 375.32 313.64 374.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16770,7 +16770,7 @@ case "3":
      ?> class="cls-4" points="313.64 374.97 312.71 393.73 320.26 394.14 321.19 375.32 313.64 374.97"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='321.19 375.32 320.26 394.14 327.75 394.48 328.68 375.73 321.19 375.32'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16794,7 +16794,7 @@ case "3":
      ?> class="cls-4" points="321.19 375.32 320.26 394.14 327.75 394.48 328.68 375.73 321.19 375.32"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='328.68 375.73 327.75 394.48 335.3 394.89 336.23 376.07 328.68 375.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16818,7 +16818,7 @@ case "3":
      ?> class="cls-4" points="328.68 375.73 327.75 394.48 335.3 394.89 336.23 376.07 328.68 375.73"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='336.23 376.07 335.3 394.89 342.79 395.24 343.72 376.42 336.23 376.07'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16842,7 +16842,7 @@ case "3":
      ?> class="cls-4" points="336.23 376.07 335.3 394.89 342.79 395.24 343.72 376.42 336.23 376.07"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='343.72 376.42 342.79 395.24 350.28 395.64 351.27 376.83 343.72 376.42'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16866,7 +16866,7 @@ case "3":
      ?> class="cls-4" points="343.72 376.42 342.79 395.24 350.28 395.64 351.27 376.83 343.72 376.42"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='351.27 376.83 350.34 395.64 357.83 395.99 358.76 377.18 351.27 376.83'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16890,7 +16890,7 @@ case "3":
      ?> class="cls-4" points="351.27 376.83 350.34 395.64 357.83 395.99 358.76 377.18 351.27 376.83"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='358.76 377.18 357.83 395.99 365.38 396.4 366.31 377.58 358.76 377.18'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16914,7 +16914,7 @@ case "3":
      ?> class="cls-4" points="358.76 377.18 357.83 395.99 365.38 396.4 366.31 377.58 358.76 377.18"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='366.31 377.58 365.38 396.4 372.87 396.75 373.8 377.93 366.31 377.58'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16938,7 +16938,7 @@ case "3":
      ?> class="cls-4" points="366.31 377.58 365.38 396.4 372.87 396.75 373.8 377.93 366.31 377.58"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='381.35 378.34 380.42 397.15 387.92 397.5 388.84 378.69 381.35 378.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16962,7 +16962,7 @@ case "3":
      ?> class="cls-4" points="381.35 378.34 380.42 397.15 387.92 397.5 388.84 378.69 381.35 378.34"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='373.8 377.93 372.87 396.75 380.37 397.15 381.35 378.34 373.8 377.93'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -16986,7 +16986,7 @@ case "3":
      ?> class="cls-4" points="373.8 377.93 372.87 396.75 380.37 397.15 381.35 378.34 373.8 377.93"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='388.84 378.69 387.92 397.5 395.46 397.91 396.39 379.1 388.84 378.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17010,7 +17010,7 @@ case "3":
      ?> class="cls-4" points="388.84 378.69 387.92 397.5 395.46 397.91 396.39 379.1 388.84 378.69"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='396.39 379.1 395.46 397.91 402.95 398.26 403.94 379.44 396.39 379.1'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17034,7 +17034,7 @@ case "3":
      ?> class="cls-4" points="396.39 379.1 395.46 397.91 402.95 398.26 403.94 379.44 396.39 379.1"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='403.94 379.44 403.01 398.26 410.5 398.67 411.43 379.85 403.94 379.44'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17058,7 +17058,7 @@ case "3":
      ?> class="cls-4" points="403.94 379.44 403.01 398.26 410.5 398.67 411.43 379.85 403.94 379.44"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='312.71 393.73 311.78 412.54 319.27 412.95 320.2 394.14 312.71 393.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17082,7 +17082,7 @@ case "3":
      ?> class="cls-4" points="312.71 393.73 311.78 412.54 319.27 412.95 320.2 394.14 312.71 393.73"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='320.2 394.14 319.27 412.95 326.76 413.3 327.75 394.48 320.2 394.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17106,7 +17106,7 @@ case "3":
      ?> class="cls-4" points="320.2 394.14 319.27 412.95 326.76 413.3 327.75 394.48 320.2 394.14"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='327.75 394.48 326.82 413.3 334.31 413.71 335.24 394.89 327.75 394.48'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17130,7 +17130,7 @@ case "3":
      ?> class="cls-4" points="327.75 394.48 326.82 413.3 334.31 413.71 335.24 394.89 327.75 394.48"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='335.24 394.89 334.31 413.71 341.86 414.05 342.79 395.24 335.24 394.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17154,7 +17154,7 @@ case "3":
      ?> class="cls-4" points="335.24 394.89 334.31 413.71 341.86 414.05 342.79 395.24 335.24 394.89"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='342.79 395.24 341.86 414.05 349.36 414.46 350.28 395.64 342.79 395.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17178,7 +17178,7 @@ case "3":
      ?> class="cls-4" points="342.79 395.24 341.86 414.05 349.36 414.46 350.28 395.64 342.79 395.24"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='350.28 395.64 349.36 414.46 356.9 414.81 357.83 395.99 350.28 395.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17202,7 +17202,7 @@ case "3":
      ?> class="cls-4" points="350.28 395.64 349.36 414.46 356.9 414.81 357.83 395.99 350.28 395.64"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='357.83 395.99 356.9 414.81 364.4 415.22 365.32 396.4 357.83 395.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17226,7 +17226,7 @@ case "3":
      ?> class="cls-4" points="357.83 395.99 356.9 414.81 364.4 415.22 365.32 396.4 357.83 395.99"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='365.32 396.4 364.4 415.22 371.94 415.56 372.87 396.75 365.32 396.4'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17250,7 +17250,7 @@ case "3":
      ?> class="cls-4" points="365.32 396.4 364.4 415.22 371.94 415.56 372.87 396.75 365.32 396.4"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='380.37 397.15 379.49 415.91 386.99 416.32 387.92 397.5 380.37 397.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17274,7 +17274,7 @@ case "3":
      ?> class="cls-4" points="380.37 397.15 379.49 415.91 386.99 416.32 387.92 397.5 380.37 397.15"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='372.87 396.75 371.94 415.56 379.44 415.91 380.37 397.15 372.87 396.75'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17298,7 +17298,7 @@ case "3":
      ?> class="cls-4" points="372.87 396.75 371.94 415.56 379.44 415.91 380.37 397.15 372.87 396.75"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='387.92 397.5 386.99 416.32 394.48 416.67 395.41 397.91 387.92 397.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17322,7 +17322,7 @@ case "3":
      ?> class="cls-4" points="387.92 397.5 386.99 416.32 394.48 416.67 395.41 397.91 387.92 397.5"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='395.46 397.91 394.54 416.67 402.03 417.07 402.95 398.26 395.46 397.91'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17346,7 +17346,7 @@ case "3":
      ?> class="cls-4" points="395.46 397.91 394.54 416.67 402.03 417.07 402.95 398.26 395.46 397.91"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='402.95 398.26 402.03 417.07 409.52 417.42 410.5 398.67 402.95 398.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17371,7 +17371,7 @@ case "3":
             <path class="cls-4" d="M313.64,375l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='294.36 383.45 293.9 392.8 312.71 393.73 313.18 384.38 294.36 383.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17395,7 +17395,7 @@ case "3":
      ?> class="cls-4" points="294.36 383.45 293.9 392.8 312.71 393.73 313.18 384.38 294.36 383.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='312.71 393.73 312.25 403.14 293.43 402.21 293.9 392.8 312.71 393.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17421,7 +17421,7 @@ case "3":
             <path class="cls-4" d="M411.43,379.85l12.08.64s7.2.64,6.27,9.41v.29L411,389.26Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='410.97 389.26 410.5 398.67 429.26 399.59 429.73 390.19 410.97 389.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17445,7 +17445,7 @@ case "3":
      ?> class="cls-4" points="410.97 389.26 410.5 398.67 429.26 399.59 429.73 390.19 410.97 389.26"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='410.5 398.67 410.04 408.13 428.8 409 429.26 399.59 410.5 398.67'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17600,7 +17600,7 @@ case "3":
             <path class="cls-4" d="M105.75,389l-.17,4.12s-1.45,9,8.3,9.47l4.65.17.64-13.18Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='119.16 389.66 118.46 402.85 129.21 403.37 129.9 390.25 119.16 389.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17714,7 +17714,7 @@ case "3":
             <path class="cls-4" d="M117,163.24l-.17,4.12s-2.38,10.69,8.3,9.47l4.65.17.64-13.18Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='130.43 163.88 129.79 177.06 140.53 177.59 141.17 164.46 130.43 163.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17830,7 +17830,7 @@ case "3":
             <path class="cls-4" d="M610,180.37c.12.23-.41,7.55-.41,7.55l18.82.93.35-7.55Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='604.23 187.63 603.59 200.76 614.34 201.34 614.97 188.21 604.23 187.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -17948,7 +17948,7 @@ case "3":
             <path class="cls-4" d="M659,182.7c.12.23-.41,7.55-.41,7.55l18.82.93.35-7.55Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='189.9 652.6 203.08 663.35 203.6 663.99 190.48 653.24 189.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18065,7 +18065,7 @@ case "3":
             <path class="cls-4" d="M601.79,344l14.17.7a4.6,4.6,0,0,1,4.47,4.41l-.29,5.28-18.82-.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='592.97 413.3 592.27 426.48 603.07 427 603.71 413.88 592.97 413.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18184,7 +18184,7 @@ case "3":
             <path class="cls-4" d="M628.45,415.1l-.17,4.12a9.49,9.49,0,0,0,8.3,9.47l4.65.17.64-13.18Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='641.92 415.74 641.22 428.92 651.97 429.44 652.66 416.32 641.92 415.74'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18285,7 +18285,7 @@ case "3":
             <path class="cls-4" d="M705.12,413.08l-9.18,14.63s-3.37,4.3,1.51,8l3.37,1.68L713,418.07Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='700.88 437.35 709.36 441.54 721.03 423.13 713.07 418.13 700.88 437.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18309,7 +18309,7 @@ case "3":
      ?> class="cls-4" points="700.88 437.35 709.36 441.54 721.03 423.13 713.07 418.13 700.88 437.35"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='709.36 441.54 717.89 445.66 728.98 428.18 721.03 423.13 709.36 441.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18345,7 +18345,7 @@ case "3":
             <rect class="cls-4" x="735.47" y="367.4" width="7.55" height="18.82" transform="translate(25.01 799.11) rotate(-57.6)"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='741.29 373.59 749.25 378.64 759.35 362.73 751.4 357.74 741.29 373.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18437,7 +18437,7 @@ case "3":
             <path class="cls-4" d="M733.34,368.54l7.84-12.37a4.45,4.45,0,0,1,6.1-1.1l4.07,2.56-10.1,15.91Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='749.25 378.64 757.21 383.7 767.31 367.78 759.35 362.73 749.25 378.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18476,7 +18476,7 @@ case "3":
             </g>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='704.87 168.24 703.94 187 711.43 187.34 712.36 168.59 704.87 168.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18500,7 +18500,7 @@ case "3":
      ?> class="cls-4" points="704.87 168.24 703.94 187 711.43 187.34 712.36 168.59 704.87 168.24"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='712.36 168.59 711.43 187.4 718.98 187.75 719.91 168.99 712.36 168.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18524,7 +18524,7 @@ case "3":
      ?> class="cls-4" points="712.36 168.59 711.43 187.4 718.98 187.75 719.91 168.99 712.36 168.59"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='719.91 168.93 718.98 187.75 726.47 188.1 727.4 169.34 719.91 168.93'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18548,7 +18548,7 @@ case "3":
      ?> class="cls-4" points="719.91 168.93 718.98 187.75 726.47 188.1 727.4 169.34 719.91 168.93"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='727.4 169.34 726.47 188.1 734.02 188.5 734.95 169.69 727.4 169.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18572,7 +18572,7 @@ case "3":
      ?> class="cls-4" points="727.4 169.34 726.47 188.1 734.02 188.5 734.95 169.69 727.4 169.34"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='734.95 169.69 734.02 188.5 741.51 188.85 742.44 170.1 734.95 169.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18596,7 +18596,7 @@ case "3":
      ?> class="cls-4" points="734.95 169.69 734.02 188.5 741.51 188.85 742.44 170.1 734.95 169.69"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='742.44 170.1 741.51 188.91 749.06 189.26 749.99 170.5 742.44 170.1'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18620,7 +18620,7 @@ case "3":
      ?> class="cls-4" points="742.44 170.1 741.51 188.91 749.06 189.26 749.99 170.5 742.44 170.1"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='749.99 170.44 749.06 189.26 756.55 189.61 757.48 170.85 749.99 170.44'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18644,7 +18644,7 @@ case "3":
      ?> class="cls-4" points="749.99 170.44 749.06 189.26 756.55 189.61 757.48 170.85 749.99 170.44"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='757.48 170.85 756.55 189.61 764.1 189.96 765.03 171.2 757.48 170.85'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18668,7 +18668,7 @@ case "3":
      ?> class="cls-4" points="757.48 170.85 756.55 189.61 764.1 189.96 765.03 171.2 757.48 170.85"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='765.03 171.26 764.1 190.01 771.59 190.36 772.52 171.61 765.03 171.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18692,7 +18692,7 @@ case "3":
      ?> class="cls-4" points="765.03 171.26 764.1 190.01 771.59 190.36 772.52 171.61 765.03 171.26"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='772.52 171.61 771.59 190.42 779.14 190.77 780.07 172.01 772.52 171.61'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18716,7 +18716,7 @@ case "3":
      ?> class="cls-4" points="772.52 171.61 771.59 190.42 779.14 190.77 780.07 172.01 772.52 171.61"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='780.07 172.01 779.14 190.77 786.63 191.12 787.56 172.36 780.07 172.01'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18740,7 +18740,7 @@ case "3":
      ?> class="cls-4" points="780.07 172.01 779.14 190.77 786.63 191.12 787.56 172.36 780.07 172.01"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='703.94 186.88 702.95 205.69 710.5 206.04 711.43 187.28 703.94 186.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18764,7 +18764,7 @@ case "3":
      ?> class="cls-4" points="703.94 186.88 702.95 205.69 710.5 206.04 711.43 187.28 703.94 186.88"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='711.43 187.28 710.5 206.04 718.05 206.45 718.98 187.63 711.43 187.28'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18788,7 +18788,7 @@ case "3":
      ?> class="cls-4" points="711.43 187.28 710.5 206.04 718.05 206.45 718.98 187.63 711.43 187.28"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='718.98 187.63 717.99 206.45 725.54 206.8 726.47 188.04 718.98 187.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18812,7 +18812,7 @@ case "3":
      ?> class="cls-4" points="718.98 187.63 717.99 206.45 725.54 206.8 726.47 188.04 718.98 187.63"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='726.47 188.04 725.54 206.8 733.09 207.15 734.02 188.39 726.47 188.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18836,7 +18836,7 @@ case "3":
      ?> class="cls-4" points="726.47 188.04 725.54 206.8 733.09 207.15 734.02 188.39 726.47 188.04"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='734.02 188.39 733.03 207.2 740.58 207.55 741.51 188.79 734.02 188.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18860,7 +18860,7 @@ case "3":
      ?> class="cls-4" points="734.02 188.39 733.03 207.2 740.58 207.55 741.51 188.79 734.02 188.39"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='741.51 188.79 740.58 207.55 748.13 207.96 749.06 189.14 741.51 188.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18884,7 +18884,7 @@ case "3":
      ?> class="cls-4" points="741.51 188.79 740.58 207.55 748.13 207.96 749.06 189.14 741.51 188.79"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='749.06 189.14 748.07 207.96 755.62 208.31 756.55 189.55 749.06 189.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18908,7 +18908,7 @@ case "3":
      ?> class="cls-4" points="749.06 189.14 748.07 207.96 755.62 208.31 756.55 189.55 749.06 189.14"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='756.55 189.55 755.62 208.31 763.17 208.66 764.1 189.9 756.55 189.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18932,7 +18932,7 @@ case "3":
      ?> class="cls-4" points="756.55 189.55 755.62 208.31 763.17 208.66 764.1 189.9 756.55 189.55"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='764.1 189.96 763.11 208.71 770.66 209.06 771.59 190.31 764.1 189.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18956,7 +18956,7 @@ case "3":
      ?> class="cls-4" points="764.1 189.96 763.11 208.71 770.66 209.06 771.59 190.31 764.1 189.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='771.59 190.31 770.66 209.12 778.21 209.47 779.14 190.71 771.59 190.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -18980,7 +18980,7 @@ case "3":
      ?> class="cls-4" points="771.59 190.31 770.66 209.12 778.21 209.47 779.14 190.71 771.59 190.31"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='779.14 190.65 778.15 209.47 785.7 209.82 786.63 191.06 779.14 190.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19004,7 +19004,7 @@ case "3":
      ?> class="cls-4" points="779.14 190.65 778.15 209.47 785.7 209.82 786.63 191.06 779.14 190.65"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='786.63 191.12 785.7 209.93 793.25 210.28 794.18 191.52 786.63 191.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19028,7 +19028,7 @@ case "3":
      ?> class="cls-4" points="786.63 191.12 785.7 209.93 793.25 210.28 794.18 191.52 786.63 191.12"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='787.56 172.36 786.63 191.18 794.18 191.52 795.11 172.77 787.56 172.36'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19052,7 +19052,7 @@ case "3":
      ?> class="cls-4" points="787.56 172.36 786.63 191.18 794.18 191.52 795.11 172.77 787.56 172.36"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='795.11 172.77 794.18 191.52 801.67 191.87 802.6 173.12 795.11 172.77'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19076,7 +19076,7 @@ case "3":
      ?> class="cls-4" points="795.11 172.77 794.18 191.52 801.67 191.87 802.6 173.12 795.11 172.77"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='802.6 173.12 801.67 191.93 809.22 192.28 810.15 173.52 802.6 173.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19100,7 +19100,7 @@ case "3":
      ?> class="cls-4" points="802.6 173.12 801.67 191.93 809.22 192.28 810.15 173.52 802.6 173.12"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='810.15 173.46 809.22 192.28 816.71 192.63 817.64 173.87 810.15 173.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19124,7 +19124,7 @@ case "3":
      ?> class="cls-4" points="810.15 173.46 809.22 192.28 816.71 192.63 817.64 173.87 810.15 173.46"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='817.64 173.87 816.71 192.69 824.26 193.03 825.19 174.28 817.64 173.87'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19148,7 +19148,7 @@ case "3":
      ?> class="cls-4" points="817.64 173.87 816.71 192.69 824.26 193.03 825.19 174.28 817.64 173.87"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='825.19 174.22 824.26 193.03 831.75 193.38 832.68 174.63 825.19 174.22'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19174,7 +19174,7 @@ case "3":
             <path class="cls-4" d="M816.71,192.69l-.93,18.82,5.63.29s2.56.58,4.53-2.5l9.93-15.62Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='809.22 192.28 808.24 211.09 815.78 211.44 816.71 192.69 809.22 192.28'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19198,7 +19198,7 @@ case "3":
      ?> class="cls-4" points="809.22 192.28 808.24 211.09 815.78 211.44 816.71 192.69 809.22 192.28"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='801.67 191.93 800.75 210.69 808.24 211.09 809.22 192.28 801.67 191.93'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19222,7 +19222,7 @@ case "3":
      ?> class="cls-4" points="801.67 191.93 800.75 210.69 808.24 211.09 809.22 192.28 801.67 191.93"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='794.18 191.52 793.2 210.34 800.75 210.69 801.67 191.93 794.18 191.52'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19247,7 +19247,7 @@ case "3":
             <path class="cls-4" d="M704.87,168.24l-14.05-.7a4.38,4.38,0,0,0-5,4.47l-.23,4.65,18.82.93Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='685.59 176.66 685.12 186.07 703.94 187 704.4 177.59 685.59 176.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19271,7 +19271,7 @@ case "3":
      ?> class="cls-4" points="685.59 176.66 685.12 186.07 703.94 187 704.4 177.59 685.59 176.66"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='685.12 186.07 684.66 195.47 703.42 196.4 703.94 187 685.12 186.07'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19359,7 +19359,7 @@ case "3":
             <path class="cls-4" d="M850.16,130.14l-13.59-.52a5.64,5.64,0,0,0-5.69,5.52s-.17,3.43-.17,3.6,18.93,1,18.93,1Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='830.71 138.68 830.25 148.09 849.18 148.96 849.7 139.72 830.71 138.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19383,7 +19383,7 @@ case "3":
      ?> class="cls-4" points="830.71 138.68 830.25 148.09 849.18 148.96 849.7 139.72 830.71 138.68"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='830.25 148.09 829.78 157.49 848.77 158.48 849.18 148.96 830.25 148.09'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19488,7 +19488,7 @@ case "3":
             <rect class="cls-4" x="129.93" y="189.99" width="18.81" height="9.41" transform="translate(-62.08 324.11) rotate(-87.13)"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='115.39 202.85 114.98 210.4 133.79 211.33 134.2 203.84 115.39 202.85'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19512,7 +19512,7 @@ case "3":
      ?> class="cls-4" points="115.39 202.85 114.98 210.4 133.79 211.33 134.2 203.84 115.39 202.85"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='134.14 203.84 133.79 211.33 152.61 212.31 152.96 204.82 134.14 203.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19536,7 +19536,7 @@ case "3":
      ?> class="cls-4" points="134.14 203.84 133.79 211.33 152.61 212.31 152.96 204.82 134.14 203.84"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='115.04 210.34 114.63 217.83 133.44 218.82 133.79 211.33 115.04 210.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19560,7 +19560,7 @@ case "3":
      ?> class="cls-4" points="115.04 210.34 114.63 217.83 133.44 218.82 133.79 211.33 115.04 210.34"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='133.79 211.33 133.44 218.82 152.2 219.75 152.61 212.26 133.79 211.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19584,7 +19584,7 @@ case "3":
      ?> class="cls-4" points="133.79 211.33 133.44 218.82 152.2 219.75 152.61 212.26 133.79 211.33"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='114.63 217.89 114.28 225.44 133.04 226.37 133.44 218.88 114.63 217.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19608,7 +19608,7 @@ case "3":
      ?> class="cls-4" points="114.63 217.89 114.28 225.44 133.04 226.37 133.44 218.88 114.63 217.89"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='133.44 218.88 133.04 226.37 151.85 227.35 152.2 219.86 133.44 218.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19632,7 +19632,7 @@ case "3":
      ?> class="cls-4" points="133.44 218.88 133.04 226.37 151.85 227.35 152.2 219.86 133.44 218.88"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='114.28 225.38 113.88 232.93 132.69 233.86 133.04 226.37 114.28 225.38'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19656,7 +19656,7 @@ case "3":
      ?> class="cls-4" points="114.28 225.38 113.88 232.93 132.69 233.86 133.04 226.37 114.28 225.38"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='133.04 226.37 132.69 233.86 151.45 234.79 151.85 227.35 133.04 226.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19680,7 +19680,7 @@ case "3":
      ?> class="cls-4" points="133.04 226.37 132.69 233.86 151.45 234.79 151.85 227.35 133.04 226.37"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='113.88 232.93 113.53 240.48 132.28 241.41 132.69 233.92 113.88 232.93'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19704,7 +19704,7 @@ case "3":
      ?> class="cls-4" points="113.88 232.93 113.53 240.48 132.28 241.41 132.69 233.92 113.88 232.93"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='132.69 233.92 132.28 241.41 151.1 242.4 151.45 234.9 132.69 233.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19728,7 +19728,7 @@ case "3":
      ?> class="cls-4" points="132.69 233.92 132.28 241.41 151.1 242.4 151.45 234.9 132.69 233.92"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='113.53 240.42 113.12 247.91 131.94 248.9 132.28 241.41 113.53 240.42'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19752,7 +19752,7 @@ case "3":
      ?> class="cls-4" points="113.53 240.42 113.12 247.91 131.94 248.9 132.28 241.41 113.53 240.42"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='132.28 241.41 131.94 248.9 150.75 249.83 151.1 242.34 132.28 241.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19776,7 +19776,7 @@ case "3":
      ?> class="cls-4" points="132.28 241.41 131.94 248.9 150.75 249.83 151.1 242.34 132.28 241.41"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='113.12 247.97 112.77 255.52 131.59 256.45 131.94 248.96 113.12 247.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19800,7 +19800,7 @@ case "3":
      ?> class="cls-4" points="113.12 247.97 112.77 255.52 131.59 256.45 131.94 248.96 113.12 247.97"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='131.94 248.96 131.53 256.51 150.34 257.44 150.75 249.94 131.94 248.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19824,7 +19824,7 @@ case "3":
      ?> class="cls-4" points="131.94 248.96 131.53 256.51 150.34 257.44 150.75 249.94 131.94 248.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='112.77 255.46 112.36 263.01 131.18 263.94 131.59 256.45 112.77 255.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19848,7 +19848,7 @@ case "3":
      ?> class="cls-4" points="112.77 255.46 112.36 263.01 131.18 263.94 131.59 256.45 112.77 255.46"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='131.53 256.45 131.18 263.94 150 264.93 150.34 257.44 131.53 256.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19872,7 +19872,7 @@ case "3":
      ?> class="cls-4" points="131.53 256.45 131.18 263.94 150 264.93 150.34 257.44 131.53 256.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='112.36 263.01 112.02 270.5 130.83 271.43 131.18 263.94 112.36 263.01'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19896,7 +19896,7 @@ case "3":
      ?> class="cls-4" points="112.36 263.01 112.02 270.5 130.83 271.43 131.18 263.94 112.36 263.01"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='131.18 263.94 130.77 271.49 149.59 272.42 149.94 264.93 131.18 263.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19920,7 +19920,7 @@ case "3":
      ?> class="cls-4" points="131.18 263.94 130.77 271.49 149.59 272.42 149.94 264.93 131.18 263.94"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='112.02 270.5 111.61 277.99 130.43 278.92 130.83 271.43 112.02 270.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19944,7 +19944,7 @@ case "3":
      ?> class="cls-4" points="112.02 270.5 111.61 277.99 130.43 278.92 130.83 271.43 112.02 270.5"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='130.77 271.43 130.43 278.98 149.24 279.91 149.59 272.42 130.77 271.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19968,7 +19968,7 @@ case "3":
      ?> class="cls-4" points="130.77 271.43 130.43 278.98 149.24 279.91 149.59 272.42 130.77 271.43"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='111.61 278.05 111.26 285.54 130.08 286.53 130.43 279.04 111.61 278.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -19992,7 +19992,7 @@ case "3":
      ?> class="cls-4" points="111.61 278.05 111.26 285.54 130.08 286.53 130.43 279.04 111.61 278.05"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='130.43 279.04 130.02 286.53 148.83 287.46 149.24 279.97 130.43 279.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20016,7 +20016,7 @@ case "3":
      ?> class="cls-4" points="130.43 279.04 130.02 286.53 148.83 287.46 149.24 279.97 130.43 279.04"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='111.26 285.54 110.91 293.03 129.67 293.96 130.08 286.47 111.26 285.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20040,7 +20040,7 @@ case "3":
      ?> class="cls-4" points="111.26 285.54 110.91 293.03 129.67 293.96 130.08 286.47 111.26 285.54"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='130.08 286.47 129.67 294.02 148.49 294.95 148.83 287.46 130.08 286.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20064,7 +20064,7 @@ case "3":
      ?> class="cls-4" points="130.08 286.47 129.67 294.02 148.49 294.95 148.83 287.46 130.08 286.47"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='128.68 312.89 138.09 313.36 139.02 294.54 129.61 294.02 128.68 312.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20173,7 +20173,7 @@ case "3":
             </g>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='119.33 312.37 128.74 312.84 129.67 294.02 120.26 293.5 119.33 312.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20219,7 +20219,7 @@ case "3":
             <path class="cls-4" d="M589.07,226.43l9.35.46.93-18.82-3.72-.17c-.46-.12-6.21-.06-6,5.4Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='599.35 208.13 608.7 208.6 607.72 227.35 598.42 226.89 599.35 208.13'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20243,7 +20243,7 @@ case "3":
      ?> class="cls-4" points="599.35 208.13 608.7 208.6 607.72 227.35 598.42 226.89 599.35 208.13"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='608.64 208.6 617.99 209.06 617.07 227.88 607.72 227.41 608.64 208.6'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20268,7 +20268,7 @@ case "3":
             <path class="cls-4" d="M617.06,227.88l9.35.46.58-11.73s1.51-7-6.21-7.38l-2.79-.12Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='589.07 226.43 588.73 233.97 607.37 234.9 607.72 227.41 589.07 226.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20292,7 +20292,7 @@ case "3":
      ?> class="cls-4" points="589.07 226.43 588.73 233.97 607.37 234.9 607.72 227.41 589.07 226.43"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='607.72 227.41 607.37 234.9 626.01 235.89 626.36 228.4 607.72 227.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20316,7 +20316,7 @@ case "3":
      ?> class="cls-4" points="607.72 227.41 607.37 234.9 626.01 235.89 626.36 228.4 607.72 227.41"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='588.73 233.92 588.32 241.41 607.02 242.4 607.37 234.9 588.73 233.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20340,7 +20340,7 @@ case "3":
      ?> class="cls-4" points="588.73 233.92 588.32 241.41 607.02 242.4 607.37 234.9 588.73 233.92"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='607.37 234.9 606.96 242.4 625.66 243.32 626.01 235.83 607.37 234.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20364,7 +20364,7 @@ case "3":
      ?> class="cls-4" points="607.37 234.9 606.96 242.4 625.66 243.32 626.01 235.83 607.37 234.9"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='588.32 241.47 587.97 249.01 606.61 249.94 607.02 242.45 588.32 241.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20388,7 +20388,7 @@ case "3":
      ?> class="cls-4" points="588.32 241.47 587.97 249.01 606.61 249.94 607.02 242.45 588.32 241.47"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='606.96 242.45 606.61 250 625.25 250.93 625.66 243.44 606.96 242.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20412,7 +20412,7 @@ case "3":
      ?> class="cls-4" points="606.96 242.45 606.61 250 625.25 250.93 625.66 243.44 606.96 242.45"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='587.97 248.96 587.62 256.51 606.26 257.44 606.61 249.94 587.97 248.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20436,7 +20436,7 @@ case "3":
      ?> class="cls-4" points="587.97 248.96 587.62 256.51 606.26 257.44 606.61 249.94 587.97 248.96"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='606.61 249.94 606.26 257.44 624.9 258.37 625.25 250.93 606.61 249.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20460,7 +20460,7 @@ case "3":
      ?> class="cls-4" points="606.61 249.94 606.26 257.44 624.9 258.37 625.25 250.93 606.61 249.94"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='587.62 256.51 587.22 264.06 605.86 264.99 606.26 257.49 587.62 256.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20484,7 +20484,7 @@ case "3":
      ?> class="cls-4" points="587.62 256.51 587.22 264.06 605.86 264.99 606.26 257.49 587.62 256.51"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='606.26 257.49 605.86 264.99 624.56 265.97 624.9 258.48 606.26 257.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20508,7 +20508,7 @@ case "3":
      ?> class="cls-4" points="606.26 257.49 605.86 264.99 624.56 265.97 624.9 258.48 606.26 257.49"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='587.22 264 586.87 271.55 605.51 272.48 605.86 264.99 587.22 264'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20532,7 +20532,7 @@ case "3":
      ?> class="cls-4" points="587.22 264 586.87 271.55 605.51 272.48 605.86 264.99 587.22 264"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='605.86 264.99 605.51 272.48 624.15 273.4 624.5 265.91 605.86 264.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20556,7 +20556,7 @@ case "3":
      ?> class="cls-4" points="605.86 264.99 605.51 272.48 624.15 273.4 624.5 265.91 605.86 264.99"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='586.87 271.55 586.46 279.1 605.16 280.02 605.51 272.53 586.87 271.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20580,7 +20580,7 @@ case "3":
      ?> class="cls-4" points="586.87 271.55 586.46 279.1 605.16 280.02 605.51 272.53 586.87 271.55"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='605.51 272.53 605.1 280.08 623.8 281.01 624.15 273.52 605.51 272.53'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20604,7 +20604,7 @@ case "3":
      ?> class="cls-4" points="605.51 272.53 605.1 280.08 623.8 281.01 624.15 273.52 605.51 272.53"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='586.46 279.04 586.11 286.59 604.75 287.52 605.16 280.02 586.46 279.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20628,7 +20628,7 @@ case "3":
      ?> class="cls-4" points="586.46 279.04 586.11 286.59 604.75 287.52 605.16 280.02 586.46 279.04"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='605.1 280.02 604.75 287.52 623.39 288.5 623.8 281.01 605.1 280.02'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20652,7 +20652,7 @@ case "3":
      ?> class="cls-4" points="605.1 280.02 604.75 287.52 623.39 288.5 623.8 281.01 605.1 280.02"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='586.11 286.59 585.71 294.08 604.4 295.01 604.75 287.57 586.11 286.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20676,7 +20676,7 @@ case "3":
      ?> class="cls-4" points="586.11 286.59 585.71 294.08 604.4 295.01 604.75 287.57 586.11 286.59"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='604.75 287.52 604.35 295.07 623.05 296 623.39 288.5 604.75 287.52'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20700,7 +20700,7 @@ case "3":
      ?> class="cls-4" points="604.75 287.52 604.35 295.07 623.05 296 623.39 288.5 604.75 287.52"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='585.71 294.08 585.36 301.57 604 302.5 604.4 295.01 585.71 294.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20724,7 +20724,7 @@ case "3":
      ?> class="cls-4" points="585.71 294.08 585.36 301.57 604 302.5 604.4 295.01 585.71 294.08"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='604.35 295.01 604 302.56 622.64 303.49 623.05 296 604.35 295.01'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20748,7 +20748,7 @@ case "3":
      ?> class="cls-4" points="604.35 295.01 604 302.56 622.64 303.49 623.05 296 604.35 295.01"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='585.36 301.63 585.01 309.12 603.65 310.11 604 302.62 585.36 301.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20772,7 +20772,7 @@ case "3":
      ?> class="cls-4" points="585.36 301.63 585.01 309.12 603.65 310.11 604 302.62 585.36 301.63"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='604 302.62 603.65 310.11 622.29 311.04 622.64 303.54 604 302.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20796,7 +20796,7 @@ case "3":
      ?> class="cls-4" points="604 302.62 603.65 310.11 622.29 311.04 622.64 303.54 604 302.62"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='585.01 309.12 584.6 316.61 603.3 317.54 603.65 310.05 585.01 309.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20820,7 +20820,7 @@ case "3":
      ?> class="cls-4" points="585.01 309.12 584.6 316.61 603.3 317.54 603.65 310.05 585.01 309.12"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='603.65 310.05 603.24 317.6 621.94 318.53 622.29 311.04 603.65 310.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20845,7 +20845,7 @@ case "3":
             <path class="cls-4" d="M584.6,316.61,584,329.1s-1.34,6.45,5.05,6.68l4,.17.93-18.87Z"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='592.97 335.95 602.31 336.41 603.24 317.6 593.89 317.07 592.97 335.95'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -20869,7 +20869,7 @@ case "3":
      ?> class="cls-4" points="592.97 335.95 602.31 336.41 603.24 317.6 593.89 317.07 592.97 335.95"/>
             <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='602.26 336.47 611.61 336.94 612.53 318.12 603.24 317.6 602.26 336.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21025,7 +21025,7 @@ case "3":
         <path class="cls-4" d="M572.79,546.28l-.64,13s-.35,6,5.81,6l3.25.17.93-18.82Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='582.14 546.74 581.21 565.56 590.62 566.02 591.55 547.21 582.14 546.74'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21049,7 +21049,7 @@ case "3":
      ?> class="cls-4" points="582.14 546.74 581.21 565.56 590.62 566.02 591.55 547.21 582.14 546.74"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='591.55 547.21 590.62 566.02 600.03 566.49 600.96 547.67 591.55 547.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21075,7 +21075,7 @@ case "3":
         <path class="cls-4" d="M577.27,456l.7-13.36a5.7,5.7,0,0,1,6.27-5.17l3.37.17-1,18.82Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='587.66 437.69 586.62 456.5 596.08 456.97 597.01 438.15 587.66 437.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21099,7 +21099,7 @@ case "3":
      ?> class="cls-4" points="587.66 437.69 586.62 456.5 596.08 456.97 597.01 438.15 587.66 437.69"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='597.01 438.15 596.02 456.97 605.43 457.43 606.42 438.62 597.01 438.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21252,7 +21252,7 @@ case "3":
         <path class="cls-4" d="M565.57,681.7l-.64,13s-.35,6,5.81,6l3.25.17.93-18.82Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='574.92 682.17 573.99 700.98 583.4 701.45 584.33 682.63 574.92 682.17'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21276,7 +21276,7 @@ case "3":
      ?> class="cls-4" points="574.92 682.17 573.99 700.98 583.4 701.45 584.33 682.63 574.92 682.17"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='584.33 682.63 583.4 701.45 592.8 701.91 593.74 683.1 584.33 682.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21302,7 +21302,7 @@ case "3":
         <path class="cls-4" d="M570,591.46l.7-13.36a5.7,5.7,0,0,1,6.27-5.17l3.37.17-1,18.82Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='580.44 573.11 579.39 591.92 588.86 592.39 589.79 573.57 580.44 573.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21326,7 +21326,7 @@ case "3":
      ?> class="cls-4" points="580.44 573.11 579.39 591.92 588.86 592.39 589.79 573.57 580.44 573.11"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='589.79 573.57 588.8 592.39 598.21 592.85 599.19 574.04 589.79 573.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21456,7 +21456,7 @@ case "3":
         <path class="cls-3" d="M163.59,413.86l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='167.77 416.12 166.84 434.94 174.33 435.34 175.26 416.53 167.77 416.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21480,7 +21480,7 @@ case "3":
      ?> class="cls-4" points="167.77 416.12 166.84 434.94 174.33 435.34 175.26 416.53 167.77 416.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='175.26 416.53 174.33 435.34 181.82 435.69 182.81 416.88 175.26 416.53'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21504,7 +21504,7 @@ case "3":
      ?> class="cls-4" points="175.26 416.53 174.33 435.34 181.82 435.69 182.81 416.88 175.26 416.53"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='182.81 416.88 181.88 435.69 189.37 436.1 190.3 417.28 182.81 416.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21528,7 +21528,7 @@ case "3":
      ?> class="cls-4" points="182.81 416.88 181.88 435.69 189.37 436.1 190.3 417.28 182.81 416.88"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='190.3 417.28 189.37 436.1 196.92 436.45 197.85 417.63 190.3 417.28'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21552,7 +21552,7 @@ case "3":
      ?> class="cls-4" points="190.3 417.28 189.37 436.1 196.92 436.45 197.85 417.63 190.3 417.28"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='197.85 417.63 196.92 436.45 204.41 436.85 205.34 418.04 197.85 417.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21576,7 +21576,7 @@ case "3":
      ?> class="cls-4" points="197.85 417.63 196.92 436.45 204.41 436.85 205.34 418.04 197.85 417.63"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='205.34 418.04 204.41 436.85 211.96 437.2 212.89 418.39 205.34 418.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21600,7 +21600,7 @@ case "3":
      ?> class="cls-4" points="205.34 418.04 204.41 436.85 211.96 437.2 212.89 418.39 205.34 418.04"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='212.89 418.39 211.96 437.2 219.45 437.61 220.38 418.79 212.89 418.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21624,7 +21624,7 @@ case "3":
      ?> class="cls-4" points="212.89 418.39 211.96 437.2 219.45 437.61 220.38 418.79 212.89 418.39"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='220.38 418.79 219.45 437.61 227 437.96 227.93 419.14 220.38 418.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21648,7 +21648,7 @@ case "3":
      ?> class="cls-4" points="220.38 418.79 219.45 437.61 227 437.96 227.93 419.14 220.38 418.79"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='235.42 419.55 234.55 438.36 242.04 438.71 242.97 419.9 235.42 419.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21672,7 +21672,7 @@ case "3":
      ?> class="cls-4" points="235.42 419.55 234.55 438.36 242.04 438.71 242.97 419.9 235.42 419.55"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='227.93 419.14 227 437.96 234.49 438.36 235.42 419.55 227.93 419.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21696,7 +21696,7 @@ case "3":
      ?> class="cls-4" points="227.93 419.14 227 437.96 234.49 438.36 235.42 419.55 227.93 419.14"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='242.97 419.9 242.04 438.71 249.53 439.06 250.46 420.3 242.97 419.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21720,7 +21720,7 @@ case "3":
      ?> class="cls-4" points="242.97 419.9 242.04 438.71 249.53 439.06 250.46 420.3 242.97 419.9"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='250.52 420.3 249.59 439.06 257.08 439.47 258.01 420.65 250.52 420.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21744,7 +21744,7 @@ case "3":
      ?> class="cls-4" points="250.52 420.3 249.59 439.06 257.08 439.47 258.01 420.65 250.52 420.3"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='258.01 420.65 257.08 439.47 264.57 439.81 265.56 421.06 258.01 420.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21768,7 +21768,7 @@ case "3":
      ?> class="cls-4" points="258.01 420.65 257.08 439.47 264.57 439.81 265.56 421.06 258.01 420.65"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='166.78 434.94 165.85 453.75 173.4 454.1 174.33 435.34 166.78 434.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21792,7 +21792,7 @@ case "3":
      ?> class="cls-4" points="166.78 434.94 165.85 453.75 173.4 454.1 174.33 435.34 166.78 434.94"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='174.33 435.34 173.4 454.1 180.89 454.51 181.82 435.69 174.33 435.34'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21816,7 +21816,7 @@ case "3":
      ?> class="cls-4" points="174.33 435.34 173.4 454.1 180.89 454.51 181.82 435.69 174.33 435.34"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='181.82 435.69 180.89 454.51 188.44 454.86 189.37 436.1 181.82 435.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21840,7 +21840,7 @@ case "3":
      ?> class="cls-4" points="181.82 435.69 180.89 454.51 188.44 454.86 189.37 436.1 181.82 435.69"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='189.37 436.1 188.44 454.86 195.93 455.26 196.86 436.45 189.37 436.1'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21864,7 +21864,7 @@ case "3":
      ?> class="cls-4" points="189.37 436.1 188.44 454.86 195.93 455.26 196.86 436.45 189.37 436.1"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='196.86 436.45 195.93 455.26 203.42 455.61 204.41 436.85 196.86 436.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21888,7 +21888,7 @@ case "3":
      ?> class="cls-4" points="196.86 436.45 195.93 455.26 203.42 455.61 204.41 436.85 196.86 436.45"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='204.41 436.85 203.48 455.61 210.97 456.02 211.9 437.2 204.41 436.85'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21912,7 +21912,7 @@ case "3":
      ?> class="cls-4" points="204.41 436.85 203.48 455.61 210.97 456.02 211.9 437.2 204.41 436.85"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='211.9 437.2 210.97 456.02 218.52 456.37 219.45 437.61 211.9 437.2'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21936,7 +21936,7 @@ case "3":
      ?> class="cls-4" points="211.9 437.2 210.97 456.02 218.52 456.37 219.45 437.61 211.9 437.2"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='219.45 437.61 218.52 456.37 226.01 456.77 226.94 437.96 219.45 437.61'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21960,7 +21960,7 @@ case "3":
      ?> class="cls-4" points="219.45 437.61 218.52 456.37 226.01 456.77 226.94 437.96 219.45 437.61"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='234.49 438.36 233.56 457.12 241.05 457.53 241.98 438.71 234.49 438.36'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -21984,7 +21984,7 @@ case "3":
      ?> class="cls-4" points="234.49 438.36 233.56 457.12 241.05 457.53 241.98 438.71 234.49 438.36"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='226.94 437.96 226.01 456.77 233.5 457.12 234.49 438.36 226.94 437.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22008,7 +22008,7 @@ case "3":
      ?> class="cls-4" points="226.94 437.96 226.01 456.77 233.5 457.12 234.49 438.36 226.94 437.96"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='241.98 438.71 241.05 457.53 248.6 457.88 249.53 439.12 241.98 438.71'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22032,7 +22032,7 @@ case "3":
      ?> class="cls-4" points="241.98 438.71 241.05 457.53 248.6 457.88 249.53 439.12 241.98 438.71"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='249.53 439.12 248.6 457.88 256.09 458.28 257.08 439.47 249.53 439.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22056,7 +22056,7 @@ case "3":
      ?> class="cls-4" points="249.53 439.12 248.6 457.88 256.09 458.28 257.08 439.47 249.53 439.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='257.08 439.47 256.15 458.28 263.64 458.63 264.57 439.87 257.08 439.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22081,7 +22081,7 @@ case "3":
         <path class="cls-4" d="M167.77,416.12l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='148.49 424.66 148.02 434.01 166.78 434.94 167.25 425.59 148.49 424.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22105,7 +22105,7 @@ case "3":
      ?> class="cls-4" points="148.49 424.66 148.02 434.01 166.78 434.94 167.25 425.59 148.49 424.66"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='166.78 434.94 166.32 444.34 147.56 443.42 148.02 434.01 166.78 434.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22131,7 +22131,7 @@ case "3":
         <path class="cls-4" d="M265.56,421.06l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='265.04 430.46 264.57 439.87 283.39 440.8 283.85 431.39 265.04 430.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22155,7 +22155,7 @@ case "3":
      ?> class="cls-4" points="265.04 430.46 264.57 439.87 283.39 440.8 283.85 431.39 265.04 430.46"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='264.57 439.87 264.11 449.34 282.92 450.21 283.39 440.8 264.57 439.87'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22291,7 +22291,7 @@ case "3":
         <path class="cls-3" d="M306.67,422l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='310.86 424.28 309.93 443.09 317.42 443.5 318.35 424.69 310.86 424.28'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22315,7 +22315,7 @@ case "3":
      ?> class="cls-4" points="310.86 424.28 309.93 443.09 317.42 443.5 318.35 424.69 310.86 424.28"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='318.35 424.69 317.42 443.5 324.91 443.85 325.9 425.03 318.35 424.69'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22339,7 +22339,7 @@ case "3":
      ?> class="cls-4" points="318.35 424.69 317.42 443.5 324.91 443.85 325.9 425.03 318.35 424.69"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='325.9 425.03 324.97 443.85 332.46 444.26 333.39 425.44 325.9 425.03'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22363,7 +22363,7 @@ case "3":
      ?> class="cls-4" points="325.9 425.03 324.97 443.85 332.46 444.26 333.39 425.44 325.9 425.03"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='333.39 425.44 332.46 444.26 340.01 444.6 340.94 425.79 333.39 425.44'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22387,7 +22387,7 @@ case "3":
      ?> class="cls-4" points="333.39 425.44 332.46 444.26 340.01 444.6 340.94 425.79 333.39 425.44"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='340.94 425.79 340.01 444.6 347.5 445.01 348.43 426.2 340.94 425.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22411,7 +22411,7 @@ case "3":
      ?> class="cls-4" points="340.94 425.79 340.01 444.6 347.5 445.01 348.43 426.2 340.94 425.79"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='348.43 426.2 347.5 445.01 355.05 445.36 355.98 426.54 348.43 426.2'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22435,7 +22435,7 @@ case "3":
      ?> class="cls-4" points="348.43 426.2 347.5 445.01 355.05 445.36 355.98 426.54 348.43 426.2"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='355.98 426.54 355.05 445.36 362.54 445.77 363.47 426.95 355.98 426.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22459,7 +22459,7 @@ case "3":
      ?> class="cls-4" points="355.98 426.54 355.05 445.36 362.54 445.77 363.47 426.95 355.98 426.54"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='363.47 426.95 362.54 445.77 370.09 446.11 371.02 427.3 363.47 426.95'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22483,7 +22483,7 @@ case "3":
      ?> class="cls-4" points="363.47 426.95 362.54 445.77 370.09 446.11 371.02 427.3 363.47 426.95"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='378.51 427.7 377.64 446.52 385.13 446.87 386.06 428.05 378.51 427.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22507,7 +22507,7 @@ case "3":
      ?> class="cls-4" points="378.51 427.7 377.64 446.52 385.13 446.87 386.06 428.05 378.51 427.7"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='371.02 427.3 370.09 446.11 377.58 446.52 378.51 427.7 371.02 427.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22531,7 +22531,7 @@ case "3":
      ?> class="cls-4" points="371.02 427.3 370.09 446.11 377.58 446.52 378.51 427.7 371.02 427.3"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='386.06 428.05 385.13 446.87 392.62 447.22 393.55 428.46 386.06 428.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22555,7 +22555,7 @@ case "3":
      ?> class="cls-4" points="386.06 428.05 385.13 446.87 392.62 447.22 393.55 428.46 386.06 428.05"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='393.61 428.46 392.68 447.22 400.17 447.62 401.1 428.81 393.61 428.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22579,7 +22579,7 @@ case "3":
      ?> class="cls-4" points="393.61 428.46 392.68 447.22 400.17 447.62 401.1 428.81 393.61 428.46"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='401.1 428.81 400.17 447.62 407.66 447.97 408.65 429.21 401.1 428.81'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22603,7 +22603,7 @@ case "3":
      ?> class="cls-4" points="401.1 428.81 400.17 447.62 407.66 447.97 408.65 429.21 401.1 428.81"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='309.87 443.09 308.94 461.91 316.49 462.26 317.42 443.5 309.87 443.09'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22627,7 +22627,7 @@ case "3":
      ?> class="cls-4" points="309.87 443.09 308.94 461.91 316.49 462.26 317.42 443.5 309.87 443.09"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='317.42 443.5 316.49 462.26 323.98 462.66 324.91 443.85 317.42 443.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22651,7 +22651,7 @@ case "3":
      ?> class="cls-4" points="317.42 443.5 316.49 462.26 323.98 462.66 324.91 443.85 317.42 443.5"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='324.91 443.85 323.98 462.66 331.53 463.01 332.46 444.26 324.91 443.85'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22675,7 +22675,7 @@ case "3":
      ?> class="cls-4" points="324.91 443.85 323.98 462.66 331.53 463.01 332.46 444.26 324.91 443.85"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='332.46 444.26 331.53 463.01 339.02 463.42 339.95 444.6 332.46 444.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22699,7 +22699,7 @@ case "3":
      ?> class="cls-4" points="332.46 444.26 331.53 463.01 339.02 463.42 339.95 444.6 332.46 444.26"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='339.95 444.6 339.02 463.42 346.51 463.77 347.5 445.01 339.95 444.6'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22723,7 +22723,7 @@ case "3":
      ?> class="cls-4" points="339.95 444.6 339.02 463.42 346.51 463.77 347.5 445.01 339.95 444.6"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='347.5 445.01 346.57 463.77 354.06 464.17 354.99 445.36 347.5 445.01'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22747,7 +22747,7 @@ case "3":
      ?> class="cls-4" points="347.5 445.01 346.57 463.77 354.06 464.17 354.99 445.36 347.5 445.01"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='354.99 445.36 354.06 464.17 361.61 464.52 362.54 445.77 354.99 445.36'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22771,7 +22771,7 @@ case "3":
      ?> class="cls-4" points="354.99 445.36 354.06 464.17 361.61 464.52 362.54 445.77 354.99 445.36"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='362.54 445.77 361.61 464.52 369.1 464.93 370.03 446.11 362.54 445.77'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22795,7 +22795,7 @@ case "3":
      ?> class="cls-4" points="362.54 445.77 361.61 464.52 369.1 464.93 370.03 446.11 362.54 445.77"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='377.58 446.52 376.65 465.28 384.14 465.68 385.07 446.87 377.58 446.52'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22819,7 +22819,7 @@ case "3":
      ?> class="cls-4" points="377.58 446.52 376.65 465.28 384.14 465.68 385.07 446.87 377.58 446.52"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='370.03 446.11 369.1 464.93 376.59 465.28 377.58 446.52 370.03 446.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22843,7 +22843,7 @@ case "3":
      ?> class="cls-4" points="370.03 446.11 369.1 464.93 376.59 465.28 377.58 446.52 370.03 446.11"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='385.07 446.87 384.14 465.68 391.69 466.03 392.62 447.27 385.07 446.87'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22867,7 +22867,7 @@ case "3":
      ?> class="cls-4" points="385.07 446.87 384.14 465.68 391.69 466.03 392.62 447.27 385.07 446.87"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='392.62 447.27 391.69 466.03 399.18 466.44 400.17 447.62 392.62 447.27'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22891,7 +22891,7 @@ case "3":
      ?> class="cls-4" points="392.62 447.27 391.69 466.03 399.18 466.44 400.17 447.62 392.62 447.27"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='400.17 447.62 399.24 466.44 406.73 466.79 407.66 448.03 400.17 447.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22916,7 +22916,7 @@ case "3":
         <path class="cls-4" d="M310.86,424.28l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='291.58 432.82 291.11 442.17 309.87 443.09 310.33 433.75 291.58 432.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22940,7 +22940,7 @@ case "3":
      ?> class="cls-4" points="291.58 432.82 291.11 442.17 309.87 443.09 310.33 433.75 291.58 432.82"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='309.87 443.09 309.4 452.5 290.65 451.57 291.11 442.17 309.87 443.09'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22966,7 +22966,7 @@ case "3":
         <path class="cls-4" d="M408.65,429.22l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='408.13 438.62 407.66 448.03 426.48 448.96 426.94 439.55 408.13 438.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -22990,7 +22990,7 @@ case "3":
      ?> class="cls-4" points="408.13 438.62 407.66 448.03 426.48 448.96 426.94 439.55 408.13 438.62"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='407.66 448.03 407.2 457.5 426.01 458.37 426.48 448.96 407.66 448.03'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23126,7 +23126,7 @@ case "3":
         <path class="cls-3" d="M449.89,429l-8.88-.58s-6.85-.81-7.61,7.55L432,462.77s-.87,6.21,5.69,6.91L564.88,476s5.4-.06,5.69-6.33L572,443s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='454.07 431.24 453.15 450.05 460.64 450.46 461.57 431.64 454.07 431.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23150,7 +23150,7 @@ case "3":
      ?> class="cls-4" points="454.07 431.24 453.15 450.05 460.64 450.46 461.57 431.64 454.07 431.24"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='461.57 431.64 460.64 450.46 468.13 450.81 469.12 431.99 461.57 431.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23174,7 +23174,7 @@ case "3":
      ?> class="cls-4" points="461.57 431.64 460.64 450.46 468.13 450.81 469.12 431.99 461.57 431.64"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='469.12 431.99 468.19 450.81 475.68 451.21 476.61 432.4 469.12 431.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23198,7 +23198,7 @@ case "3":
      ?> class="cls-4" points="469.12 431.99 468.19 450.81 475.68 451.21 476.61 432.4 469.12 431.99"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='476.61 432.4 475.68 451.21 483.23 451.56 484.16 432.75 476.61 432.4'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23222,7 +23222,7 @@ case "3":
      ?> class="cls-4" points="476.61 432.4 475.68 451.21 483.23 451.56 484.16 432.75 476.61 432.4"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='484.16 432.75 483.23 451.56 490.72 451.97 491.65 433.15 484.16 432.75'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23246,7 +23246,7 @@ case "3":
      ?> class="cls-4" points="484.16 432.75 483.23 451.56 490.72 451.97 491.65 433.15 484.16 432.75"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='491.65 433.15 490.72 451.97 498.27 452.32 499.2 433.5 491.65 433.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23270,7 +23270,7 @@ case "3":
      ?> class="cls-4" points="491.65 433.15 490.72 451.97 498.27 452.32 499.2 433.5 491.65 433.15"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='499.2 433.5 498.27 452.32 505.76 452.72 506.69 433.91 499.2 433.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23294,7 +23294,7 @@ case "3":
      ?> class="cls-4" points="499.2 433.5 498.27 452.32 505.76 452.72 506.69 433.91 499.2 433.5"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='506.69 433.91 505.76 452.72 513.31 453.07 514.24 434.26 506.69 433.91'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23318,7 +23318,7 @@ case "3":
      ?> class="cls-4" points="506.69 433.91 505.76 452.72 513.31 453.07 514.24 434.26 506.69 433.91"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='521.73 434.66 520.86 453.48 528.35 453.83 529.28 435.01 521.73 434.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23342,7 +23342,7 @@ case "3":
      ?> class="cls-4" points="521.73 434.66 520.86 453.48 528.35 453.83 529.28 435.01 521.73 434.66"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='514.24 434.26 513.31 453.07 520.8 453.48 521.73 434.66 514.24 434.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23366,7 +23366,7 @@ case "3":
      ?> class="cls-4" points="514.24 434.26 513.31 453.07 520.8 453.48 521.73 434.66 514.24 434.26"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='529.28 435.01 528.35 453.83 535.84 454.18 536.77 435.42 529.28 435.01'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23390,7 +23390,7 @@ case "3":
      ?> class="cls-4" points="529.28 435.01 528.35 453.83 535.84 454.18 536.77 435.42 529.28 435.01"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='536.83 435.42 535.9 454.18 543.39 454.58 544.32 435.77 536.83 435.42'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23414,7 +23414,7 @@ case "3":
      ?> class="cls-4" points="536.83 435.42 535.9 454.18 543.39 454.58 544.32 435.77 536.83 435.42"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='544.32 435.77 543.39 454.58 550.88 454.93 551.87 436.17 544.32 435.77'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23438,7 +23438,7 @@ case "3":
      ?> class="cls-4" points="544.32 435.77 543.39 454.58 550.88 454.93 551.87 436.17 544.32 435.77"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='453.09 450.05 452.16 468.87 459.71 469.22 460.64 450.46 453.09 450.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23462,7 +23462,7 @@ case "3":
      ?> class="cls-4" points="453.09 450.05 452.16 468.87 459.71 469.22 460.64 450.46 453.09 450.05"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='460.64 450.46 459.71 469.22 467.2 469.62 468.13 450.81 460.64 450.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23486,7 +23486,7 @@ case "3":
      ?> class="cls-4" points="460.64 450.46 459.71 469.22 467.2 469.62 468.13 450.81 460.64 450.46"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='468.13 450.81 467.2 469.62 474.75 469.97 475.68 451.21 468.13 450.81'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23510,7 +23510,7 @@ case "3":
      ?> class="cls-4" points="468.13 450.81 467.2 469.62 474.75 469.97 475.68 451.21 468.13 450.81"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='475.68 451.21 474.75 469.97 482.24 470.38 483.17 451.56 475.68 451.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23534,7 +23534,7 @@ case "3":
      ?> class="cls-4" points="475.68 451.21 474.75 469.97 482.24 470.38 483.17 451.56 475.68 451.21"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='483.17 451.56 482.24 470.38 489.73 470.73 490.72 451.97 483.17 451.56'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23558,7 +23558,7 @@ case "3":
      ?> class="cls-4" points="483.17 451.56 482.24 470.38 489.73 470.73 490.72 451.97 483.17 451.56"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='490.72 451.97 489.79 470.73 497.28 471.13 498.21 452.32 490.72 451.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23582,7 +23582,7 @@ case "3":
      ?> class="cls-4" points="490.72 451.97 489.79 470.73 497.28 471.13 498.21 452.32 490.72 451.97"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='498.21 452.32 497.28 471.13 504.83 471.48 505.76 452.72 498.21 452.32'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23606,7 +23606,7 @@ case "3":
      ?> class="cls-4" points="498.21 452.32 497.28 471.13 504.83 471.48 505.76 452.72 498.21 452.32"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='505.76 452.72 504.83 471.48 512.32 471.89 513.25 453.07 505.76 452.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23630,7 +23630,7 @@ case "3":
      ?> class="cls-4" points="505.76 452.72 504.83 471.48 512.32 471.89 513.25 453.07 505.76 452.72"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='520.8 453.48 519.87 472.24 527.36 472.64 528.29 453.83 520.8 453.48'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23654,7 +23654,7 @@ case "3":
      ?> class="cls-4" points="520.8 453.48 519.87 472.24 527.36 472.64 528.29 453.83 520.8 453.48"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='513.25 453.07 512.32 471.89 519.81 472.24 520.8 453.48 513.25 453.07'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23678,7 +23678,7 @@ case "3":
      ?> class="cls-4" points="513.25 453.07 512.32 471.89 519.81 472.24 520.8 453.48 513.25 453.07"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='528.29 453.83 527.36 472.64 534.91 472.99 535.84 454.23 528.29 453.83'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23702,7 +23702,7 @@ case "3":
      ?> class="cls-4" points="528.29 453.83 527.36 472.64 534.91 472.99 535.84 454.23 528.29 453.83"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='535.84 454.23 534.91 472.99 542.4 473.4 543.39 454.58 535.84 454.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23726,7 +23726,7 @@ case "3":
      ?> class="cls-4" points="535.84 454.23 534.91 472.99 542.4 473.4 543.39 454.58 535.84 454.23"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='543.39 454.58 542.46 473.4 549.95 473.75 550.88 454.99 543.39 454.58'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23751,7 +23751,7 @@ case "3":
         <path class="cls-4" d="M454.07,431.24l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='434.8 439.77 434.33 449.12 453.09 450.05 453.55 440.7 434.8 439.77'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23775,7 +23775,7 @@ case "3":
      ?> class="cls-4" points="434.8 439.77 434.33 449.12 453.09 450.05 453.55 440.7 434.8 439.77"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='453.09 450.05 452.62 459.46 433.87 458.53 434.33 449.12 453.09 450.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23801,7 +23801,7 @@ case "3":
         <path class="cls-4" d="M551.87,436.17l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='551.35 445.58 550.88 454.99 569.7 455.92 570.16 446.51 551.35 445.58'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23825,7 +23825,7 @@ case "3":
      ?> class="cls-4" points="551.35 445.58 550.88 454.99 569.7 455.92 570.16 446.51 551.35 445.58"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='550.88 454.99 550.41 464.45 569.23 465.33 569.7 455.92 550.88 454.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23961,7 +23961,7 @@ case "3":
         <path class="cls-3" d="M448.08,473.64l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='452.26 475.9 451.33 494.72 458.82 495.12 459.75 476.31 452.26 475.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -23985,7 +23985,7 @@ case "3":
      ?> class="cls-4" points="452.26 475.9 451.33 494.72 458.82 495.12 459.75 476.31 452.26 475.9"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='459.75 476.31 458.82 495.12 466.31 495.47 467.3 476.66 459.75 476.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24009,7 +24009,7 @@ case "3":
      ?> class="cls-4" points="459.75 476.31 458.82 495.12 466.31 495.47 467.3 476.66 459.75 476.31"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='467.3 476.66 466.37 495.47 473.86 495.88 474.79 477.06 467.3 476.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24033,7 +24033,7 @@ case "3":
      ?> class="cls-4" points="467.3 476.66 466.37 495.47 473.86 495.88 474.79 477.06 467.3 476.66"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='474.79 477.06 473.86 495.88 481.41 496.23 482.34 477.41 474.79 477.06'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24057,7 +24057,7 @@ case "3":
      ?> class="cls-4" points="474.79 477.06 473.86 495.88 481.41 496.23 482.34 477.41 474.79 477.06"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='482.34 477.41 481.41 496.23 488.9 496.63 489.83 477.82 482.34 477.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24081,7 +24081,7 @@ case "3":
      ?> class="cls-4" points="482.34 477.41 481.41 496.23 488.9 496.63 489.83 477.82 482.34 477.41"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='489.83 477.82 488.9 496.63 496.45 496.98 497.38 478.17 489.83 477.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24105,7 +24105,7 @@ case "3":
      ?> class="cls-4" points="489.83 477.82 488.9 496.63 496.45 496.98 497.38 478.17 489.83 477.82"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='497.38 478.17 496.45 496.98 503.94 497.39 504.87 478.57 497.38 478.17'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24129,7 +24129,7 @@ case "3":
      ?> class="cls-4" points="497.38 478.17 496.45 496.98 503.94 497.39 504.87 478.57 497.38 478.17"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='504.87 478.57 503.94 497.39 511.49 497.74 512.42 478.92 504.87 478.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24153,7 +24153,7 @@ case "3":
      ?> class="cls-4" points="504.87 478.57 503.94 497.39 511.49 497.74 512.42 478.92 504.87 478.57"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='519.91 479.33 519.04 498.14 526.53 498.49 527.46 479.68 519.91 479.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24177,7 +24177,7 @@ case "3":
      ?> class="cls-4" points="519.91 479.33 519.04 498.14 526.53 498.49 527.46 479.68 519.91 479.33"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='512.42 478.92 511.49 497.74 518.98 498.14 519.91 479.33 512.42 478.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24201,7 +24201,7 @@ case "3":
      ?> class="cls-4" points="512.42 478.92 511.49 497.74 518.98 498.14 519.91 479.33 512.42 478.92"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='527.46 479.68 526.53 498.49 534.02 498.84 534.95 480.08 527.46 479.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24225,7 +24225,7 @@ case "3":
      ?> class="cls-4" points="527.46 479.68 526.53 498.49 534.02 498.84 534.95 480.08 527.46 479.68"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='535.01 480.08 534.08 498.84 541.57 499.25 542.5 480.43 535.01 480.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24249,7 +24249,7 @@ case "3":
      ?> class="cls-4" points="535.01 480.08 534.08 498.84 541.57 499.25 542.5 480.43 535.01 480.08"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='542.5 480.43 541.57 499.25 549.07 499.6 550.05 480.84 542.5 480.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24273,7 +24273,7 @@ case "3":
      ?> class="cls-4" points="542.5 480.43 541.57 499.25 549.07 499.6 550.05 480.84 542.5 480.43"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='451.27 494.72 450.34 513.53 457.89 513.88 458.82 495.12 451.27 494.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24297,7 +24297,7 @@ case "3":
      ?> class="cls-4" points="451.27 494.72 450.34 513.53 457.89 513.88 458.82 495.12 451.27 494.72"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='458.82 495.12 457.89 513.88 465.38 514.29 466.31 495.47 458.82 495.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24321,7 +24321,7 @@ case "3":
      ?> class="cls-4" points="458.82 495.12 457.89 513.88 465.38 514.29 466.31 495.47 458.82 495.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='466.31 495.47 465.38 514.29 472.93 514.64 473.86 495.88 466.31 495.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24345,7 +24345,7 @@ case "3":
      ?> class="cls-4" points="466.31 495.47 465.38 514.29 472.93 514.64 473.86 495.88 466.31 495.47"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='473.86 495.88 472.93 514.64 480.43 515.04 481.35 496.23 473.86 495.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24369,7 +24369,7 @@ case "3":
      ?> class="cls-4" points="473.86 495.88 472.93 514.64 480.43 515.04 481.35 496.23 473.86 495.88"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='481.35 496.23 480.43 515.04 487.92 515.39 488.9 496.63 481.35 496.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24393,7 +24393,7 @@ case "3":
      ?> class="cls-4" points="481.35 496.23 480.43 515.04 487.92 515.39 488.9 496.63 481.35 496.23"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='488.9 496.63 487.97 515.39 495.46 515.8 496.39 496.98 488.9 496.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24417,7 +24417,7 @@ case "3":
      ?> class="cls-4" points="488.9 496.63 487.97 515.39 495.46 515.8 496.39 496.98 488.9 496.63"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='496.39 496.98 495.46 515.8 503.01 516.14 503.94 497.39 496.39 496.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24441,7 +24441,7 @@ case "3":
      ?> class="cls-4" points="496.39 496.98 495.46 515.8 503.01 516.14 503.94 497.39 496.39 496.98"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='503.94 497.39 503.01 516.14 510.51 516.55 511.44 497.74 503.94 497.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24465,7 +24465,7 @@ case "3":
      ?> class="cls-4" points="503.94 497.39 503.01 516.14 510.51 516.55 511.44 497.74 503.94 497.39"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='518.98 498.14 518.05 516.9 525.55 517.31 526.48 498.49 518.98 498.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24489,7 +24489,7 @@ case "3":
      ?> class="cls-4" points="518.98 498.14 518.05 516.9 525.55 517.31 526.48 498.49 518.98 498.14"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='511.44 497.74 510.51 516.55 518 516.9 518.98 498.14 511.44 497.74'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24513,7 +24513,7 @@ case "3":
      ?> class="cls-4" points="511.44 497.74 510.51 516.55 518 516.9 518.98 498.14 511.44 497.74"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='526.48 498.49 525.55 517.31 533.1 517.65 534.02 498.9 526.48 498.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24537,7 +24537,7 @@ case "3":
      ?> class="cls-4" points="526.48 498.49 525.55 517.31 533.1 517.65 534.02 498.9 526.48 498.49"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='534.02 498.9 533.1 517.65 540.59 518.06 541.57 499.25 534.02 498.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24561,7 +24561,7 @@ case "3":
      ?> class="cls-4" points="534.02 498.9 533.1 517.65 540.59 518.06 541.57 499.25 534.02 498.9"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='541.57 499.25 540.64 518.06 548.14 518.41 549.07 499.65 541.57 499.25'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24586,7 +24586,7 @@ case "3":
         <path class="cls-4" d="M452.26,475.9l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='432.98 484.44 432.52 493.79 451.27 494.72 451.74 485.37 432.98 484.44'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24610,7 +24610,7 @@ case "3":
      ?> class="cls-4" points="432.98 484.44 432.52 493.79 451.27 494.72 451.74 485.37 432.98 484.44"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='451.27 494.72 450.81 504.13 432.05 503.19 432.52 493.79 451.27 494.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24636,7 +24636,7 @@ case "3":
         <path class="cls-4" d="M550.05,480.84l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='549.53 490.25 549.07 499.65 567.88 500.58 568.35 491.18 549.53 490.25'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24660,7 +24660,7 @@ case "3":
      ?> class="cls-4" points="549.53 490.25 549.07 499.65 567.88 500.58 568.35 491.18 549.53 490.25"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='549.07 499.65 548.6 509.12 567.42 509.99 567.88 500.58 549.07 499.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24796,7 +24796,7 @@ case "3":
         <path class="cls-3" d="M445.37,519.33l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='449.55 521.59 448.62 540.41 456.12 540.82 457.05 522 449.55 521.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24820,7 +24820,7 @@ case "3":
      ?> class="cls-4" points="449.55 521.59 448.62 540.41 456.12 540.82 457.05 522 449.55 521.59"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='457.05 522 456.12 540.82 463.61 541.16 464.59 522.35 457.05 522'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24844,7 +24844,7 @@ case "3":
      ?> class="cls-4" points="457.05 522 456.12 540.82 463.61 541.16 464.59 522.35 457.05 522"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='464.59 522.35 463.67 541.16 471.16 541.57 472.08 522.75 464.59 522.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24868,7 +24868,7 @@ case "3":
      ?> class="cls-4" points="464.59 522.35 463.67 541.16 471.16 541.57 472.08 522.75 464.59 522.35"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='472.08 522.75 471.16 541.57 478.7 541.92 479.63 523.1 472.08 522.75'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24892,7 +24892,7 @@ case "3":
      ?> class="cls-4" points="472.08 522.75 471.16 541.57 478.7 541.92 479.63 523.1 472.08 522.75"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='479.63 523.1 478.7 541.92 486.2 542.33 487.13 523.51 479.63 523.1'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24916,7 +24916,7 @@ case "3":
      ?> class="cls-4" points="479.63 523.1 478.7 541.92 486.2 542.33 487.13 523.51 479.63 523.1"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='487.13 523.51 486.2 542.33 493.75 542.67 494.68 523.86 487.13 523.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24940,7 +24940,7 @@ case "3":
      ?> class="cls-4" points="487.13 523.51 486.2 542.33 493.75 542.67 494.68 523.86 487.13 523.51"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='494.68 523.86 493.75 542.67 501.24 543.08 502.17 524.26 494.68 523.86'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24964,7 +24964,7 @@ case "3":
      ?> class="cls-4" points="494.68 523.86 493.75 542.67 501.24 543.08 502.17 524.26 494.68 523.86"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='502.17 524.26 501.24 543.08 508.79 543.43 509.72 524.61 502.17 524.26'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -24988,7 +24988,7 @@ case "3":
      ?> class="cls-4" points="502.17 524.26 501.24 543.08 508.79 543.43 509.72 524.61 502.17 524.26"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='517.21 525.02 516.34 543.84 523.83 544.18 524.76 525.37 517.21 525.02'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25012,7 +25012,7 @@ case "3":
      ?> class="cls-4" points="517.21 525.02 516.34 543.84 523.83 544.18 524.76 525.37 517.21 525.02"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='509.72 524.61 508.79 543.43 516.28 543.84 517.21 525.02 509.72 524.61'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25036,7 +25036,7 @@ case "3":
      ?> class="cls-4" points="509.72 524.61 508.79 543.43 516.28 543.84 517.21 525.02 509.72 524.61"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='524.76 525.37 523.83 544.18 531.32 544.53 532.25 525.77 524.76 525.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25060,7 +25060,7 @@ case "3":
      ?> class="cls-4" points="524.76 525.37 523.83 544.18 531.32 544.53 532.25 525.77 524.76 525.37"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='532.3 525.77 531.38 544.53 538.87 544.94 539.8 526.12 532.3 525.77'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25084,7 +25084,7 @@ case "3":
      ?> class="cls-4" points="532.3 525.77 531.38 544.53 538.87 544.94 539.8 526.12 532.3 525.77"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='539.8 526.12 538.87 544.94 546.36 545.29 547.35 526.53 539.8 526.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25108,7 +25108,7 @@ case "3":
      ?> class="cls-4" points="539.8 526.12 538.87 544.94 546.36 545.29 547.35 526.53 539.8 526.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='448.57 540.41 447.64 559.22 455.19 559.57 456.12 540.82 448.57 540.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25132,7 +25132,7 @@ case "3":
      ?> class="cls-4" points="448.57 540.41 447.64 559.22 455.19 559.57 456.12 540.82 448.57 540.41"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='456.12 540.82 455.19 559.57 462.68 559.98 463.61 541.16 456.12 540.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25156,7 +25156,7 @@ case "3":
      ?> class="cls-4" points="456.12 540.82 455.19 559.57 462.68 559.98 463.61 541.16 456.12 540.82"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='463.61 541.16 462.68 559.98 470.23 560.33 471.16 541.57 463.61 541.16'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25180,7 +25180,7 @@ case "3":
      ?> class="cls-4" points="463.61 541.16 462.68 559.98 470.23 560.33 471.16 541.57 463.61 541.16"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='471.16 541.57 470.23 560.33 477.72 560.73 478.65 541.92 471.16 541.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25204,7 +25204,7 @@ case "3":
      ?> class="cls-4" points="471.16 541.57 470.23 560.33 477.72 560.73 478.65 541.92 471.16 541.57"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='478.65 541.92 477.72 560.73 485.21 561.08 486.2 542.33 478.65 541.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25228,7 +25228,7 @@ case "3":
      ?> class="cls-4" points="478.65 541.92 477.72 560.73 485.21 561.08 486.2 542.33 478.65 541.92"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='486.2 542.33 485.27 561.08 492.76 561.49 493.69 542.67 486.2 542.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25252,7 +25252,7 @@ case "3":
      ?> class="cls-4" points="486.2 542.33 485.27 561.08 492.76 561.49 493.69 542.67 486.2 542.33"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='493.69 542.67 492.76 561.49 500.31 561.84 501.24 543.08 493.69 542.67'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25276,7 +25276,7 @@ case "3":
      ?> class="cls-4" points="493.69 542.67 492.76 561.49 500.31 561.84 501.24 543.08 493.69 542.67"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='501.24 543.08 500.31 561.84 507.8 562.24 508.73 543.43 501.24 543.08'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25300,7 +25300,7 @@ case "3":
      ?> class="cls-4" points="501.24 543.08 500.31 561.84 507.8 562.24 508.73 543.43 501.24 543.08"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='516.28 543.84 515.35 562.59 522.84 563 523.77 544.18 516.28 543.84'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25324,7 +25324,7 @@ case "3":
      ?> class="cls-4" points="516.28 543.84 515.35 562.59 522.84 563 523.77 544.18 516.28 543.84"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='508.73 543.43 507.8 562.24 515.29 562.59 516.28 543.84 508.73 543.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25348,7 +25348,7 @@ case "3":
      ?> class="cls-4" points="508.73 543.43 507.8 562.24 515.29 562.59 516.28 543.84 508.73 543.43"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='523.77 544.18 522.84 563 530.39 563.35 531.32 544.59 523.77 544.18'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25372,7 +25372,7 @@ case "3":
      ?> class="cls-4" points="523.77 544.18 522.84 563 530.39 563.35 531.32 544.59 523.77 544.18"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='531.32 544.59 530.39 563.35 537.88 563.75 538.87 544.94 531.32 544.59'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25396,7 +25396,7 @@ case "3":
      ?> class="cls-4" points="531.32 544.59 530.39 563.35 537.88 563.75 538.87 544.94 531.32 544.59"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='538.87 544.94 537.94 563.75 545.43 564.1 546.36 545.35 538.87 544.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25421,7 +25421,7 @@ case "3":
         <path class="cls-4" d="M449.55,521.59,436.37,521s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='430.27 530.13 429.81 539.48 448.57 540.41 449.03 531.06 430.27 530.13'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25445,7 +25445,7 @@ case "3":
      ?> class="cls-4" points="430.27 530.13 429.81 539.48 448.57 540.41 449.03 531.06 430.27 530.13"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='448.57 540.41 448.1 549.82 429.35 548.89 429.81 539.48 448.57 540.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25471,7 +25471,7 @@ case "3":
         <path class="cls-4" d="M547.35,526.53l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='546.82 535.94 546.36 545.35 565.17 546.27 565.64 536.87 546.82 535.94'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25495,7 +25495,7 @@ case "3":
      ?> class="cls-4" points="546.82 535.94 546.36 545.35 565.17 546.27 565.64 536.87 546.82 535.94"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='546.36 545.35 545.89 554.81 564.71 555.68 565.17 546.27 546.36 545.35'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25631,7 +25631,7 @@ case "3":
         <path class="cls-3" d="M443.38,564.63l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='447.56 566.89 446.63 585.71 454.12 586.11 455.05 567.3 447.56 566.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25655,7 +25655,7 @@ case "3":
      ?> class="cls-4" points="447.56 566.89 446.63 585.71 454.12 586.11 455.05 567.3 447.56 566.89"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='455.05 567.3 454.12 586.11 461.61 586.46 462.6 567.65 455.05 567.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25679,7 +25679,7 @@ case "3":
      ?> class="cls-4" points="455.05 567.3 454.12 586.11 461.61 586.46 462.6 567.65 455.05 567.3"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='462.6 567.65 461.67 586.46 469.16 586.87 470.09 568.05 462.6 567.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25703,7 +25703,7 @@ case "3":
      ?> class="cls-4" points="462.6 567.65 461.67 586.46 469.16 586.87 470.09 568.05 462.6 567.65"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='470.09 568.05 469.16 586.87 476.71 587.22 477.64 568.4 470.09 568.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25727,7 +25727,7 @@ case "3":
      ?> class="cls-4" points="470.09 568.05 469.16 586.87 476.71 587.22 477.64 568.4 470.09 568.05"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='477.64 568.4 476.71 587.22 484.2 587.62 485.13 568.81 477.64 568.4'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25751,7 +25751,7 @@ case "3":
      ?> class="cls-4" points="477.64 568.4 476.71 587.22 484.2 587.62 485.13 568.81 477.64 568.4"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='485.13 568.81 484.2 587.62 491.75 587.97 492.68 569.16 485.13 568.81'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25775,7 +25775,7 @@ case "3":
      ?> class="cls-4" points="485.13 568.81 484.2 587.62 491.75 587.97 492.68 569.16 485.13 568.81"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='492.68 569.16 491.75 587.97 499.24 588.38 500.17 569.56 492.68 569.16'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25799,7 +25799,7 @@ case "3":
      ?> class="cls-4" points="492.68 569.16 491.75 587.97 499.24 588.38 500.17 569.56 492.68 569.16"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='500.17 569.56 499.24 588.38 506.79 588.73 507.72 569.91 500.17 569.56'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25823,7 +25823,7 @@ case "3":
      ?> class="cls-4" points="500.17 569.56 499.24 588.38 506.79 588.73 507.72 569.91 500.17 569.56"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='515.21 570.32 514.34 589.13 521.83 589.48 522.76 570.67 515.21 570.32'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25847,7 +25847,7 @@ case "3":
      ?> class="cls-4" points="515.21 570.32 514.34 589.13 521.83 589.48 522.76 570.67 515.21 570.32"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='507.72 569.91 506.79 588.73 514.28 589.13 515.21 570.32 507.72 569.91'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25871,7 +25871,7 @@ case "3":
      ?> class="cls-4" points="507.72 569.91 506.79 588.73 514.28 589.13 515.21 570.32 507.72 569.91"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='522.76 570.67 521.83 589.48 529.32 589.83 530.25 571.07 522.76 570.67'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25895,7 +25895,7 @@ case "3":
      ?> class="cls-4" points="522.76 570.67 521.83 589.48 529.32 589.83 530.25 571.07 522.76 570.67"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='530.31 571.07 529.38 589.83 536.87 590.24 537.8 571.42 530.31 571.07'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25919,7 +25919,7 @@ case "3":
      ?> class="cls-4" points="530.31 571.07 529.38 589.83 536.87 590.24 537.8 571.42 530.31 571.07"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='537.8 571.42 536.87 590.24 544.36 590.58 545.35 571.83 537.8 571.42'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25943,7 +25943,7 @@ case "3":
      ?> class="cls-4" points="537.8 571.42 536.87 590.24 544.36 590.58 545.35 571.83 537.8 571.42"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='446.57 585.71 445.64 604.52 453.19 604.87 454.12 586.11 446.57 585.71'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25967,7 +25967,7 @@ case "3":
      ?> class="cls-4" points="446.57 585.71 445.64 604.52 453.19 604.87 454.12 586.11 446.57 585.71"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='454.12 586.11 453.19 604.87 460.68 605.28 461.61 586.46 454.12 586.11'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -25991,7 +25991,7 @@ case "3":
      ?> class="cls-4" points="454.12 586.11 453.19 604.87 460.68 605.28 461.61 586.46 454.12 586.11"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='461.61 586.46 460.68 605.28 468.23 605.63 469.16 586.87 461.61 586.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26015,7 +26015,7 @@ case "3":
      ?> class="cls-4" points="461.61 586.46 460.68 605.28 468.23 605.63 469.16 586.87 461.61 586.46"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='469.16 586.87 468.23 605.63 475.72 606.03 476.65 587.22 469.16 586.87'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26039,7 +26039,7 @@ case "3":
      ?> class="cls-4" points="469.16 586.87 468.23 605.63 475.72 606.03 476.65 587.22 469.16 586.87"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='476.65 587.22 475.72 606.03 483.21 606.38 484.2 587.62 476.65 587.22'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26063,7 +26063,7 @@ case "3":
      ?> class="cls-4" points="476.65 587.22 475.72 606.03 483.21 606.38 484.2 587.62 476.65 587.22"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='484.2 587.62 483.27 606.38 490.76 606.79 491.69 587.97 484.2 587.62'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26087,7 +26087,7 @@ case "3":
      ?> class="cls-4" points="484.2 587.62 483.27 606.38 490.76 606.79 491.69 587.97 484.2 587.62"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='491.69 587.97 490.76 606.79 498.31 607.13 499.24 588.38 491.69 587.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26111,7 +26111,7 @@ case "3":
      ?> class="cls-4" points="491.69 587.97 490.76 606.79 498.31 607.13 499.24 588.38 491.69 587.97"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='499.24 588.38 498.31 607.13 505.8 607.54 506.73 588.73 499.24 588.38'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26135,7 +26135,7 @@ case "3":
      ?> class="cls-4" points="499.24 588.38 498.31 607.13 505.8 607.54 506.73 588.73 499.24 588.38"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='514.28 589.13 513.35 607.89 520.84 608.3 521.77 589.48 514.28 589.13'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26159,7 +26159,7 @@ case "3":
      ?> class="cls-4" points="514.28 589.13 513.35 607.89 520.84 608.3 521.77 589.48 514.28 589.13"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='506.73 588.73 505.8 607.54 513.29 607.89 514.28 589.13 506.73 588.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26183,7 +26183,7 @@ case "3":
      ?> class="cls-4" points="506.73 588.73 505.8 607.54 513.29 607.89 514.28 589.13 506.73 588.73"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='521.77 589.48 520.84 608.3 528.39 608.64 529.32 589.89 521.77 589.48'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26207,7 +26207,7 @@ case "3":
      ?> class="cls-4" points="521.77 589.48 520.84 608.3 528.39 608.64 529.32 589.89 521.77 589.48"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='529.32 589.89 528.39 608.64 535.88 609.05 536.87 590.24 529.32 589.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26231,7 +26231,7 @@ case "3":
      ?> class="cls-4" points="529.32 589.89 528.39 608.64 535.88 609.05 536.87 590.24 529.32 589.89"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='536.87 590.24 535.94 609.05 543.43 609.4 544.36 590.64 536.87 590.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26256,7 +26256,7 @@ case "3":
         <path class="cls-4" d="M447.56,566.89l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='428.28 575.43 427.81 584.78 446.57 585.71 447.04 576.36 428.28 575.43'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26280,7 +26280,7 @@ case "3":
      ?> class="cls-4" points="428.28 575.43 427.81 584.78 446.57 585.71 447.04 576.36 428.28 575.43"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='446.57 585.71 446.11 595.11 427.35 594.18 427.81 584.78 446.57 585.71'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26306,7 +26306,7 @@ case "3":
         <path class="cls-4" d="M545.35,571.83l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='544.83 581.24 544.36 590.64 563.18 591.57 563.64 582.16 544.83 581.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26330,7 +26330,7 @@ case "3":
      ?> class="cls-4" points="544.83 581.24 544.36 590.64 563.18 591.57 563.64 582.16 544.83 581.24"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='544.36 590.64 543.9 600.11 562.71 600.98 563.18 591.57 544.36 590.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26466,7 +26466,7 @@ case "3":
         <path class="cls-3" d="M441.08,609.88l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='445.26 612.14 444.33 630.96 451.83 631.37 452.76 612.55 445.26 612.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26490,7 +26490,7 @@ case "3":
      ?> class="cls-4" points="445.26 612.14 444.33 630.96 451.83 631.37 452.76 612.55 445.26 612.14"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='452.76 612.55 451.83 631.37 459.32 631.71 460.31 612.9 452.76 612.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26514,7 +26514,7 @@ case "3":
      ?> class="cls-4" points="452.76 612.55 451.83 631.37 459.32 631.71 460.31 612.9 452.76 612.55"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='460.31 612.9 459.38 631.71 466.87 632.12 467.8 613.31 460.31 612.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26538,7 +26538,7 @@ case "3":
      ?> class="cls-4" points="460.31 612.9 459.38 631.71 466.87 632.12 467.8 613.31 460.31 612.9"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='467.8 613.31 466.87 632.12 474.42 632.47 475.35 613.65 467.8 613.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26562,7 +26562,7 @@ case "3":
      ?> class="cls-4" points="467.8 613.31 466.87 632.12 474.42 632.47 475.35 613.65 467.8 613.31"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='475.35 613.65 474.42 632.47 481.91 632.88 482.84 614.06 475.35 613.65'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26586,7 +26586,7 @@ case "3":
      ?> class="cls-4" points="475.35 613.65 474.42 632.47 481.91 632.88 482.84 614.06 475.35 613.65"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='482.84 614.06 481.91 632.88 489.46 633.22 490.39 614.41 482.84 614.06'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26610,7 +26610,7 @@ case "3":
      ?> class="cls-4" points="482.84 614.06 481.91 632.88 489.46 633.22 490.39 614.41 482.84 614.06"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='490.39 614.41 489.46 633.22 496.95 633.63 497.88 614.82 490.39 614.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26634,7 +26634,7 @@ case "3":
      ?> class="cls-4" points="490.39 614.41 489.46 633.22 496.95 633.63 497.88 614.82 490.39 614.41"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='497.88 614.82 496.95 633.63 504.5 633.98 505.43 615.16 497.88 614.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26658,7 +26658,7 @@ case "3":
      ?> class="cls-4" points="497.88 614.82 496.95 633.63 504.5 633.98 505.43 615.16 497.88 614.82"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='512.92 615.57 512.05 634.39 519.54 634.73 520.47 615.92 512.92 615.57'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26682,7 +26682,7 @@ case "3":
      ?> class="cls-4" points="512.92 615.57 512.05 634.39 519.54 634.73 520.47 615.92 512.92 615.57"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='505.43 615.16 504.5 633.98 511.99 634.39 512.92 615.57 505.43 615.16'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26706,7 +26706,7 @@ case "3":
      ?> class="cls-4" points="505.43 615.16 504.5 633.98 511.99 634.39 512.92 615.57 505.43 615.16"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='520.47 615.92 519.54 634.73 527.03 635.08 527.96 616.33 520.47 615.92'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26730,7 +26730,7 @@ case "3":
      ?> class="cls-4" points="520.47 615.92 519.54 634.73 527.03 635.08 527.96 616.33 520.47 615.92"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='528.02 616.33 527.09 635.08 534.58 635.49 535.51 616.67 528.02 616.33'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26754,7 +26754,7 @@ case "3":
      ?> class="cls-4" points="528.02 616.33 527.09 635.08 534.58 635.49 535.51 616.67 528.02 616.33"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='535.51 616.67 534.58 635.49 542.07 635.84 543.06 617.08 535.51 616.67'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26778,7 +26778,7 @@ case "3":
      ?> class="cls-4" points="535.51 616.67 534.58 635.49 542.07 635.84 543.06 617.08 535.51 616.67"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='444.28 630.96 443.35 649.77 450.9 650.12 451.83 631.37 444.28 630.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26802,7 +26802,7 @@ case "3":
      ?> class="cls-4" points="444.28 630.96 443.35 649.77 450.9 650.12 451.83 631.37 444.28 630.96"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='451.83 631.37 450.9 650.12 458.39 650.53 459.32 631.71 451.83 631.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26826,7 +26826,7 @@ case "3":
      ?> class="cls-4" points="451.83 631.37 450.9 650.12 458.39 650.53 459.32 631.71 451.83 631.37"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='459.32 631.71 458.39 650.53 465.94 650.88 466.87 632.12 459.32 631.71'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26850,7 +26850,7 @@ case "3":
      ?> class="cls-4" points="459.32 631.71 458.39 650.53 465.94 650.88 466.87 632.12 459.32 631.71"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='466.87 632.12 465.94 650.88 473.43 651.28 474.36 632.47 466.87 632.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26874,7 +26874,7 @@ case "3":
      ?> class="cls-4" points="466.87 632.12 465.94 650.88 473.43 651.28 474.36 632.47 466.87 632.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='474.36 632.47 473.43 651.28 480.92 651.63 481.91 632.88 474.36 632.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26898,7 +26898,7 @@ case "3":
      ?> class="cls-4" points="474.36 632.47 473.43 651.28 480.92 651.63 481.91 632.88 474.36 632.47"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='481.91 632.88 480.98 651.63 488.47 652.04 489.4 633.22 481.91 632.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26922,7 +26922,7 @@ case "3":
      ?> class="cls-4" points="481.91 632.88 480.98 651.63 488.47 652.04 489.4 633.22 481.91 632.88"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='489.4 633.22 488.47 652.04 496.02 652.39 496.95 633.63 489.4 633.22'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26946,7 +26946,7 @@ case "3":
      ?> class="cls-4" points="489.4 633.22 488.47 652.04 496.02 652.39 496.95 633.63 489.4 633.22"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='496.95 633.63 496.02 652.39 503.51 652.79 504.44 633.98 496.95 633.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26970,7 +26970,7 @@ case "3":
      ?> class="cls-4" points="496.95 633.63 496.02 652.39 503.51 652.79 504.44 633.98 496.95 633.63"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='511.99 634.39 511.06 653.14 518.55 653.55 519.48 634.73 511.99 634.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -26994,7 +26994,7 @@ case "3":
      ?> class="cls-4" points="511.99 634.39 511.06 653.14 518.55 653.55 519.48 634.73 511.99 634.39"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='504.44 633.98 503.51 652.79 511 653.14 511.99 634.39 504.44 633.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27018,7 +27018,7 @@ case "3":
      ?> class="cls-4" points="504.44 633.98 503.51 652.79 511 653.14 511.99 634.39 504.44 633.98"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='519.48 634.73 518.55 653.55 526.1 653.9 527.03 635.14 519.48 634.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27042,7 +27042,7 @@ case "3":
      ?> class="cls-4" points="519.48 634.73 518.55 653.55 526.1 653.9 527.03 635.14 519.48 634.73"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='527.03 635.14 526.1 653.9 533.59 654.3 534.58 635.49 527.03 635.14'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27066,7 +27066,7 @@ case "3":
      ?> class="cls-4" points="527.03 635.14 526.1 653.9 533.59 654.3 534.58 635.49 527.03 635.14"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='534.58 635.49 533.65 654.3 541.14 654.65 542.07 635.89 534.58 635.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27091,7 +27091,7 @@ case "3":
         <path class="cls-4" d="M445.26,612.14l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==425.99 620.68 425.52 630.03 444.28 630.96 444.74 621.61 425.99 620.68'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27115,7 +27115,7 @@ case "3":
      ?> class="cls-4" points="425.99 620.68 425.52 630.03 444.28 630.96 444.74 621.61 425.99 620.68"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==444.28 630.96 443.81 640.37 425.06 639.44 425.52 630.03 444.28 630.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27141,7 +27141,7 @@ case "3":
         <path class="cls-4" d="M543.06,617.08l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==542.53 626.49 542.07 635.89 560.88 636.83 561.35 627.42 542.53 626.49'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27165,7 +27165,7 @@ case "3":
      ?> class="cls-4" points="542.53 626.49 542.07 635.89 560.88 636.83 561.35 627.42 542.53 626.49"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==542.07 635.89 541.61 645.36 560.42 646.23 560.88 636.83 542.07 635.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27303,7 +27303,7 @@ case "3":
         <path class="cls-3" d="M438.35,654.71l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='442.53 656.97 441.6 675.79 449.09 676.19 450.02 657.38 442.53 656.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27327,7 +27327,7 @@ case "3":
      ?> class="cls-4" points="442.53 656.97 441.6 675.79 449.09 676.19 450.02 657.38 442.53 656.97"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==450.02 657.38 449.09 676.19 456.58 676.54 457.57 657.73 450.02 657.38'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27351,7 +27351,7 @@ case "3":
      ?> class="cls-4" points="450.02 657.38 449.09 676.19 456.58 676.54 457.57 657.73 450.02 657.38"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==457.57 657.73 456.64 676.54 464.13 676.95 465.06 658.13 457.57 657.73'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27375,7 +27375,7 @@ case "3":
      ?> class="cls-4" points="457.57 657.73 456.64 676.54 464.13 676.95 465.06 658.13 457.57 657.73"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='465.06 658.13 464.13 676.95 471.68 677.3 472.61 658.48 465.06 658.13'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27399,7 +27399,7 @@ case "3":
      ?> class="cls-4" points="465.06 658.13 464.13 676.95 471.68 677.3 472.61 658.48 465.06 658.13"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->poin=='472.61 658.48 471.68 677.3 479.17 677.7 480.1 658.89 472.61 658.48'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27423,7 +27423,7 @@ case "3":
      ?> class="cls-4" points="472.61 658.48 471.68 677.3 479.17 677.7 480.1 658.89 472.61 658.48"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->poin=='480.1 658.89 479.17 677.7 486.72 678.05 487.65 659.24 480.1 658.89'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27447,7 +27447,7 @@ case "3":
      ?> class="cls-4" points="480.1 658.89 479.17 677.7 486.72 678.05 487.65 659.24 480.1 658.89"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==487.65 659.24 486.72 678.05 494.21 678.46 495.14 659.64 487.65 659.24'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27471,7 +27471,7 @@ case "3":
      ?> class="cls-4" points="487.65 659.24 486.72 678.05 494.21 678.46 495.14 659.64 487.65 659.24"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==495.14 659.64 494.21 678.46 501.76 678.81 502.69 659.99 495.14 659.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27495,7 +27495,7 @@ case "3":
      ?> class="cls-4" points="495.14 659.64 494.21 678.46 501.76 678.81 502.69 659.99 495.14 659.64"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->poin=='510.18 660.4 509.31 679.21 516.8 679.56 517.73 660.75 510.18 660.4'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27519,7 +27519,7 @@ case "3":
      ?> class="cls-4" points="510.18 660.4 509.31 679.21 516.8 679.56 517.73 660.75 510.18 660.4"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='502.69 659.99 501.76 678.81 509.25 679.21 510.18 660.4 502.69 659.99'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27543,7 +27543,7 @@ case "3":
      ?> class="cls-4" points="502.69 659.99 501.76 678.81 509.25 679.21 510.18 660.4 502.69 659.99"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='517.73 660.75 516.8 679.56 524.29 679.91 525.22 661.15 517.73 660.75'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27567,7 +27567,7 @@ case "3":
      ?> class="cls-4" points="517.73 660.75 516.8 679.56 524.29 679.91 525.22 661.15 517.73 660.75"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='525.28 661.15 524.35 679.91 531.84 680.32 532.77 661.5 525.28 661.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27591,7 +27591,7 @@ case "3":
      ?> class="cls-4" points="525.28 661.15 524.35 679.91 531.84 680.32 532.77 661.5 525.28 661.15"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='532.77 661.5 531.84 680.32 539.33 680.66 540.32 661.91 532.77 661.5'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27615,7 +27615,7 @@ case "3":
      ?> class="cls-4" points="532.77 661.5 531.84 680.32 539.33 680.66 540.32 661.91 532.77 661.5"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='441.54 675.79 440.61 694.6 448.16 694.95 449.09 676.19 441.54 675.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27639,7 +27639,7 @@ case "3":
      ?> class="cls-4" points="441.54 675.79 440.61 694.6 448.16 694.95 449.09 676.19 441.54 675.79"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==449.09 676.19 448.16 694.95 455.65 695.36 456.58 676.54 449.09 676.19'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27663,7 +27663,7 @@ case "3":
      ?> class="cls-4" points="449.09 676.19 448.16 694.95 455.65 695.36 456.58 676.54 449.09 676.19"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='456.58 676.54 455.65 695.36 463.2 695.71 464.13 676.95 456.58 676.54'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27687,7 +27687,7 @@ case "3":
      ?> class="cls-4" points="456.58 676.54 455.65 695.36 463.2 695.71 464.13 676.95 456.58 676.54"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='464.13 676.95 463.2 695.71 470.69 696.11 471.62 677.3 464.13 676.95'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27711,7 +27711,7 @@ case "3":
      ?> class="cls-4" points="464.13 676.95 463.2 695.71 470.69 696.11 471.62 677.3 464.13 676.95"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->poin=='471.62 677.3 470.69 696.11 478.19 696.46 479.17 677.7 471.62 677.3'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27735,7 +27735,7 @@ case "3":
      ?> class="cls-4" points="471.62 677.3 470.69 696.11 478.19 696.46 479.17 677.7 471.62 677.3"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='479.17 677.7 478.24 696.46 485.73 696.87 486.66 678.05 479.17 677.7'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27759,7 +27759,7 @@ case "3":
      ?> class="cls-4" points="479.17 677.7 478.24 696.46 485.73 696.87 486.66 678.05 479.17 677.7"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==486.66 678.05 485.73 696.87 493.28 697.22 494.21 678.46 486.66 678.05'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27783,7 +27783,7 @@ case "3":
      ?> class="cls-4" points="486.66 678.05 485.73 696.87 493.28 697.22 494.21 678.46 486.66 678.05"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='494.21 678.46 493.28 697.22 500.77 697.62 501.7 678.81 494.21 678.46'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27807,7 +27807,7 @@ case "3":
      ?> class="cls-4" points="494.21 678.46 493.28 697.22 500.77 697.62 501.7 678.81 494.21 678.46"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==509.25 679.21 508.32 697.97 515.82 698.38 516.74 679.56 509.25 679.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27831,7 +27831,7 @@ case "3":
      ?> class="cls-4" points="509.25 679.21 508.32 697.97 515.82 698.38 516.74 679.56 509.25 679.21"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point='501.7 678.81 500.77 697.62 508.27 697.97 509.25 679.21 501.7 678.81'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27855,7 +27855,7 @@ case "3":
      ?> class="cls-4" points="501.7 678.81 500.77 697.62 508.27 697.97 509.25 679.21 501.7 678.81"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point==516.74 679.56 515.82 698.38 523.37 698.73 524.29 679.97 516.74 679.56'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27879,7 +27879,7 @@ case "3":
      ?> class="cls-4" points="516.74 679.56 515.82 698.38 523.37 698.73 524.29 679.97 516.74 679.56"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='524.29 679.97 523.37 698.73 530.86 699.13 531.84 680.32 524.29 679.97'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27903,7 +27903,7 @@ case "3":
      ?> class="cls-4" points="524.29 679.97 523.37 698.73 530.86 699.13 531.84 680.32 524.29 679.97"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='531.84 680.32 530.91 699.13 538.4 699.48 539.33 680.72 531.84 680.32'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27928,7 +27928,7 @@ case "3":
         <path class="cls-4" d="M442.53,657l-13.18-.64s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='423.25 665.51 422.79 674.86 441.54 675.79 442.01 666.44 423.25 665.51'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27952,7 +27952,7 @@ case "3":
      ?> class="cls-4" points="423.25 665.51 422.79 674.86 441.54 675.79 442.01 666.44 423.25 665.51"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='441.54 675.79 441.08 685.19 422.32 684.26 422.79 674.86 441.54 675.79'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -27978,7 +27978,7 @@ case "3":
         <path class="cls-4" d="M540.32,661.91l12.08.64s7.2.64,6.27,9.41v.29l-18.82-.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='539.8 671.32 539.33 680.72 558.15 681.65 558.61 672.24 539.8 671.32'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28002,7 +28002,7 @@ case "3":
      ?> class="cls-4" points="539.8 671.32 539.33 680.72 558.15 681.65 558.61 672.24 539.8 671.32"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='539.33 680.72 538.87 690.19 557.68 691.06 558.15 681.65 539.33 680.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28140,7 +28140,7 @@ case "3":
         <path class="cls-3" d="M304.54,467.37l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='308.72 469.64 307.79 488.45 315.28 488.86 316.21 470.04 308.72 469.64'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28164,7 +28164,7 @@ case "3":
      ?> class="cls-4" points="308.72 469.64 307.79 488.45 315.28 488.86 316.21 470.04 308.72 469.64"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='316.21 470.04 315.28 488.86 322.77 489.21 323.76 470.39 316.21 470.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28188,7 +28188,7 @@ case "3":
      ?> class="cls-4" points="316.21 470.04 315.28 488.86 322.77 489.21 323.76 470.39 316.21 470.04"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='323.76 470.39 322.83 489.21 330.32 489.61 331.25 470.8 323.76 470.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28212,7 +28212,7 @@ case "3":
      ?> class="cls-4" points="323.76 470.39 322.83 489.21 330.32 489.61 331.25 470.8 323.76 470.39"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='331.25 470.8 330.32 489.61 337.87 489.96 338.8 471.15 331.25 470.8'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28236,7 +28236,7 @@ case "3":
      ?> class="cls-4" points="331.25 470.8 330.32 489.61 337.87 489.96 338.8 471.15 331.25 470.8"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='338.8 471.15 337.87 489.96 345.36 490.37 346.29 471.55 338.8 471.15'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28260,7 +28260,7 @@ case "3":
      ?> class="cls-4" points="338.8 471.15 337.87 489.96 345.36 490.37 346.29 471.55 338.8 471.15"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='346.29 471.55 345.36 490.37 352.91 490.72 353.84 471.9 346.29 471.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28284,7 +28284,7 @@ case "3":
      ?> class="cls-4" points="346.29 471.55 345.36 490.37 352.91 490.72 353.84 471.9 346.29 471.55"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='353.84 471.9 352.91 490.72 360.4 491.12 361.33 472.31 353.84 471.9'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28308,7 +28308,7 @@ case "3":
      ?> class="cls-4" points="353.84 471.9 352.91 490.72 360.4 491.12 361.33 472.31 353.84 471.9"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='361.33 472.31 360.4 491.12 367.95 491.47 368.88 472.66 361.33 472.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28332,7 +28332,7 @@ case "3":
      ?> class="cls-4" points="361.33 472.31 360.4 491.12 367.95 491.47 368.88 472.66 361.33 472.31"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='376.37 473.06 375.5 491.88 382.99 492.23 383.92 473.41 376.37 473.06'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28356,7 +28356,7 @@ case "3":
      ?> class="cls-4" points="376.37 473.06 375.5 491.88 382.99 492.23 383.92 473.41 376.37 473.06"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='368.88 472.66 367.95 491.47 375.44 491.88 376.37 473.06 368.88 472.66'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28380,7 +28380,7 @@ case "3":
      ?> class="cls-4" points="368.88 472.66 367.95 491.47 375.44 491.88 376.37 473.06 368.88 472.66"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='383.92 473.41 382.99 492.23 390.48 492.57 391.41 473.82 383.92 473.41'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28404,7 +28404,7 @@ case "3":
      ?> class="cls-4" points="383.92 473.41 382.99 492.23 390.48 492.57 391.41 473.82 383.92 473.41"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='391.47 473.82 390.54 492.57 398.03 492.98 398.96 474.17 391.47 473.82'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28428,7 +28428,7 @@ case "3":
      ?> class="cls-4" points="391.47 473.82 390.54 492.57 398.03 492.98 398.96 474.17 391.47 473.82"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='398.96 474.17 398.03 492.98 405.52 493.33 406.51 474.57 398.96 474.17'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28452,7 +28452,7 @@ case "3":
      ?> class="cls-4" points="398.96 474.17 398.03 492.98 405.52 493.33 406.51 474.57 398.96 474.17"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='307.73 488.45 306.8 507.27 314.35 507.62 315.28 488.86 307.73 488.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28476,7 +28476,7 @@ case "3":
      ?> class="cls-4" points="307.73 488.45 306.8 507.27 314.35 507.62 315.28 488.86 307.73 488.45"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='315.28 488.86 314.35 507.62 321.84 508.02 322.77 489.21 315.28 488.86'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28500,7 +28500,7 @@ case "3":
      ?> class="cls-4" points="315.28 488.86 314.35 507.62 321.84 508.02 322.77 489.21 315.28 488.86"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='322.77 489.21 321.84 508.02 329.39 508.37 330.32 489.61 322.77 489.21'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28524,7 +28524,7 @@ case "3":
      ?> class="cls-4" points="322.77 489.21 321.84 508.02 329.39 508.37 330.32 489.61 322.77 489.21"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='330.32 489.61 329.39 508.37 336.88 508.78 337.81 489.96 330.32 489.61'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28548,7 +28548,7 @@ case "3":
      ?> class="cls-4" points="330.32 489.61 329.39 508.37 336.88 508.78 337.81 489.96 330.32 489.61"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='337.81 489.96 336.88 508.78 344.37 509.13 345.36 490.37 337.81 489.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28572,7 +28572,7 @@ case "3":
      ?> class="cls-4" points="337.81 489.96 336.88 508.78 344.37 509.13 345.36 490.37 337.81 489.96"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='345.36 490.37 344.43 509.13 351.92 509.53 352.85 490.72 345.36 490.37'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28596,7 +28596,7 @@ case "3":
      ?> class="cls-4" points="345.36 490.37 344.43 509.13 351.92 509.53 352.85 490.72 345.36 490.37"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='352.85 490.72 351.92 509.53 359.47 509.88 360.4 491.12 352.85 490.72'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28620,7 +28620,7 @@ case "3":
      ?> class="cls-4" points="352.85 490.72 351.92 509.53 359.47 509.88 360.4 491.12 352.85 490.72"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='360.4 491.12 359.47 509.88 366.96 510.29 367.89 491.47 360.4 491.12'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28644,7 +28644,7 @@ case "3":
      ?> class="cls-4" points="360.4 491.12 359.47 509.88 366.96 510.29 367.89 491.47 360.4 491.12"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='375.44 491.88 374.51 510.63 382 511.04 382.93 492.23 375.44 491.88'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28668,7 +28668,7 @@ case "3":
      ?> class="cls-4" points="375.44 491.88 374.51 510.63 382 511.04 382.93 492.23 375.44 491.88"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='367.89 491.47 366.96 510.29 374.45 510.63 375.44 491.88 367.89 491.47'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28692,7 +28692,7 @@ case "3":
      ?> class="cls-4" points="367.89 491.47 366.96 510.29 374.45 510.63 375.44 491.88 367.89 491.47"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='382.93 492.23 382 511.04 389.55 511.39 390.48 492.63 382.93 492.23'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28716,7 +28716,7 @@ case "3":
      ?> class="cls-4" points="382.93 492.23 382 511.04 389.55 511.39 390.48 492.63 382.93 492.23"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='390.48 492.63 389.55 511.39 397.04 511.8 398.03 492.98 390.48 492.63'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28740,7 +28740,7 @@ case "3":
      ?> class="cls-4" points="390.48 492.63 389.55 511.39 397.04 511.8 398.03 492.98 390.48 492.63"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='398.03 492.98 397.1 511.8 404.59 512.14 405.52 493.39 398.03 492.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28765,7 +28765,7 @@ case "3":
         <path class="cls-4" d="M308.72,469.64,295.53,469s-4.94-.46-6,5.34l-.06,3.83,18.82.93Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='289.44 478.17 288.97 487.52 307.73 488.45 308.19 479.1 289.44 478.17'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28789,7 +28789,7 @@ case "3":
      ?> class="cls-4" points="289.44 478.17 288.97 487.52 307.73 488.45 308.19 479.1 289.44 478.17"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='307.73 488.45 307.26 497.86 288.51 496.93 288.97 487.52 307.73 488.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28815,7 +28815,7 @@ case "3":
         <path class="cls-4" d="M406.51,474.57l12.08.64s7.2.64,6.27,9.41v.29L406,484Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='405.99 483.98 405.52 493.39 424.34 494.32 424.8 484.91 405.99 483.98'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28839,7 +28839,7 @@ case "3":
      ?> class="cls-4" points="405.99 483.98 405.52 493.39 424.34 494.32 424.8 484.91 405.99 483.98"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='405.52 493.39 405.06 502.85 423.87 503.72 424.34 494.32 405.52 493.39'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28975,7 +28975,7 @@ case "3":
         <path class="cls-3" d="M299.83,556.78l-8.88-.58s-6.85-.81-7.61,7.55l-1.39,26.83s-.87,6.21,5.69,6.91l127.18,6.33s5.4-.06,5.69-6.33l1.39-26.65s1-8-7.67-8.48Z"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='304.01 559.04 303.09 577.86 310.58 578.26 311.51 559.45 304.01 559.04'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -28999,7 +28999,7 @@ case "3":
      ?> class="cls-4" points="304.01 559.04 303.09 577.86 310.58 578.26 311.51 559.45 304.01 559.04"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='311.51 559.45 310.58 578.26 318.07 578.61 319.06 559.8 311.51 559.45'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29023,7 +29023,7 @@ case "3":
      ?> class="cls-4" points="311.51 559.45 310.58 578.26 318.07 578.61 319.06 559.8 311.51 559.45"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='319.06 559.8 318.13 578.61 325.62 579.02 326.55 560.2 319.06 559.8'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29047,7 +29047,7 @@ case "3":
      ?> class="cls-4" points="319.06 559.8 318.13 578.61 325.62 579.02 326.55 560.2 319.06 559.8"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='326.55 560.2 325.62 579.02 333.17 579.37 334.1 560.55 326.55 560.2'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29071,7 +29071,7 @@ case "3":
      ?> class="cls-4" points="326.55 560.2 325.62 579.02 333.17 579.37 334.1 560.55 326.55 560.2"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='334.1 560.55 333.17 579.37 340.66 579.77 341.59 560.96 334.1 560.55'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29095,7 +29095,7 @@ case "3":
      ?> class="cls-4" points="334.1 560.55 333.17 579.37 340.66 579.77 341.59 560.96 334.1 560.55"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='341.59 560.96 340.66 579.77 348.21 580.12 349.14 561.31 341.59 560.96'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29119,7 +29119,7 @@ case "3":
      ?> class="cls-4" points="341.59 560.96 340.66 579.77 348.21 580.12 349.14 561.31 341.59 560.96"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='349.14 561.31 348.21 580.12 355.7 580.53 356.63 561.71 349.14 561.31'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
@@ -29143,7 +29143,7 @@ case "3":
      ?> class="cls-4" points="349.14 561.31 348.21 580.12 355.7 580.53 356.63 561.71 349.14 561.31"/>
         <polygon <?php 
       foreach ($tablalote as $key => $value) {
-      if($value->point==''){
+      if($value->point=='356.63 561.71 355.7 580.53 363.25 580.88 364.18 562.06 356.63 561.71'){
                   if($value->estado==0 && !is_null($value->estado)){
                           echo 'style="fill:#f49e25; cursor: pointer" data-status=0  '; 
                       }
